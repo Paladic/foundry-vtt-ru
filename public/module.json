@@ -1063,6 +1063,11 @@
       "module": "yze-combat",
       "path": "i18n/modules/yze-combat.json",
       "lang": "ru"
+    },
+    {
+      "module": "bbmm",
+      "path": "i18n/modules/bbmm.json",
+      "lang": "ru"
     }
   ],
   "media": [
