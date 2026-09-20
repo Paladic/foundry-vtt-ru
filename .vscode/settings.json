@@ -17,5 +17,8 @@
   "[css]": {
     "editor.defaultFormatter": "oxc.oxc-vscode"
   },
-  "editor.formatOnSaveMode": "file"
+  "editor.formatOnSaveMode": "file",
+  "editor.unicodeHighlight.allowedLocales": {
+    "ru": true
+}
 }
