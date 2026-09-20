@@ -1078,6 +1078,11 @@
       "module": "auraeffects",
       "path": "i18n/modules/auraeffects.json",
       "lang": "ru"
+    },
+    {
+      "module": "autoanimations",
+      "path": "i18n/modules/autoanimations.json",
+      "lang": "ru"
     }
   ],
   "media": [
