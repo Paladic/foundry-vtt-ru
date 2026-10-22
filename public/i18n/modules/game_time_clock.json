@@ -1,0 +1,34 @@
+{
+  "gametime.GMWithPlayer": "Время в игре мастера и игроков",
+  "gametime.GM": "Время в игре мастера",
+  "gametime.Combat": "Общее время в бою",
+
+  "GMTimeClock.moduleSettingsPaused.name": "Останавливать таймер при паузе",
+  "GMTimeClock.moduleSettingsPaused.hint": "Если включено, таймер не будет учитывать время, пока игра находится на паузе.",
+
+  "GMTimeClock.forceFalseDebugMode.name": "Отключить режим отладки",
+  "GMTimeClock.forceFalseDebugMode.hint": "Режим отладки выводит отладочную информацию каждую секунду.",
+
+  "GMTimeClock.resetDialog.title": "Сброс таймеров игрового времени",
+  "GMTimeClock.resetDialog.step1Label": "Выберите таймер, который требуется сбросить. Это действие нельзя отменить.",
+  "GMTimeClock.resetDialog.optionGM": "Сбросить время мастера",
+  "GMTimeClock.resetDialog.optionGMWithPlayer": "Сбросить время мастера и игроков",
+  "GMTimeClock.resetDialog.optionCombat": "Сбросить время в бою",
+  "GMTimeClock.resetDialog.optionAll": "Сбросить все таймеры",
+  "GMTimeClock.resetDialog.cancel": "Отмена",
+  "GMTimeClock.resetDialog.step1Confirm": "Далее",
+  "GMTimeClock.resetDialog.step2Title": "Подтверждение сброса",
+  "GMTimeClock.resetDialog.step2Warning": "Выбранные таймеры будут сброшены. Это действие нельзя отменить.",
+  "GMTimeClock.resetDialog.step2Choice": "Выбрано: {choice}",
+  "GMTimeClock.resetDialog.step2Confirm": "Да, сбросить",
+  "GMTimeClock.resetDialog.step2Back": "Назад",
+  "GMTimeClock.resetDialog.onlyGM": "Сбрасывать таймеры игрового времени может только мастер.",
+
+  "GMTimeClock.resetMenu.title": "Сброс таймеров игрового времени",
+  "GMTimeClock.resetMenu.name": "Сбросить таймеры",
+  "GMTimeClock.resetMenu.label": "Сброс таймеров игрового времени",
+  "GMTimeClock.resetMenu.hint": "Открывает окно сброса времени мастера, мастера и игроков либо времени в бою. Это действие нельзя отменить.",
+  "GMTimeClock.resetMenu.description": "Нажмите кнопку ниже, чтобы открыть окно сброса таймеров модуля Game Time Clock.",
+  "GMTimeClock.resetMenu.openButton": "Открыть окно сброса",
+  "GMTimeClock.resetMenu.note": "Сброс таймеров необратим. Перед выполнением потребуется двухэтапное подтверждение."
+}

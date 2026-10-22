@@ -1088,6 +1088,11 @@
       "module": "downtime-dnd5e",
       "path": "i18n/modules/downtime-dnd5e.json",
       "lang": "ru"
+    },
+    {
+      "module": "game_time_clock",
+      "path": "i18n/modules/game_time_clock.json",
+      "lang": "ru"
     }
   ],
   "media": [
