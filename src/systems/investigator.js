@@ -1,4 +1,4 @@
-import { createLookupConverter, registerCompendiumTranslations } from "../babele-helpers.js";
+import { createLookupConverter, registerCompendiumTranslations } from "#helpers";
 
 export function registerBabeleTranslations(babele) {
   registerCompendiumTranslations(babele, "investigator");
