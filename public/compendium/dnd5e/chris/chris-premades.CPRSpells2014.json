@@ -1,5 +1,17 @@
 {
   "label": "CPR Заклинания",
+  "folders": {
+    "Level 4": "4й круг",
+    "Level 9": "9й круг",
+    "Cantrip": "Фокусы",
+    "Level 5": "5й круг",
+    "Level 3": "3й круг",
+    "Level 8": "8й круг",
+    "Level 6": "6й круг",
+    "Level 1": "1й круг",
+    "Level 2": "2й круг",
+    "Level 7": "7й круг"
+  },
   "entries": {
     "Destructive Wave": {
       "name": "Волна разрушения / Destructive Wave"
@@ -459,6 +471,12 @@
     },
     "Absorb Elements": {
       "name": "Поглощение стихий / Absorb Elements"
+    },
+    "Animate Objects": {
+      "name": "Оживление предметов / Animate Objects"
+    },
+    "Acid Arrow": {
+      "name": "Кислотная стрела Мелфа / Melf's Acid Arrow"
     }
   }
 }

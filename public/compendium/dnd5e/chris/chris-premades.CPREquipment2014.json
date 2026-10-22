@@ -1,6 +1,7 @@
 {
   "label": "CPR Предметы",
   "folders": {
+    "Items": "Предметы",
     "Potion": "Зелья",
     "Martial Melee": "Военное ближнее",
     "Armor": "Броня",
@@ -225,6 +226,15 @@
     },
     "Dragon's Wrath Weapon (Slumbering)": {
       "name": "Спящее оружие драконьего гнева / Slumbering Dragon's Wrath Weapon"
+    },
+    "Arcane Grimoire +3": {
+      "name": "Магический гримуар +3 / +3 Arcane Grimoire"
+    },
+    "Arcane Grimoire +2": {
+      "name": "Магический гримуар +2 / +2 Arcane Grimoire"
+    },
+    "Arcane Grimoire +1": {
+      "name": "Магический гримуар +1 / +1 Arcane Grimoire"
     }
   }
 }
