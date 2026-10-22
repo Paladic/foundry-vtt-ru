@@ -1083,6 +1083,11 @@
       "module": "autoanimations",
       "path": "i18n/modules/autoanimations.json",
       "lang": "ru"
+    },
+    {
+      "module": "downtime-dnd5e",
+      "path": "i18n/modules/downtime-dnd5e.json",
+      "lang": "ru"
     }
   ],
   "media": [

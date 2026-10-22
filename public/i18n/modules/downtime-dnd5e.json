@@ -1,0 +1,211 @@
+{
+  "downtime-dnd5e.ChangeLog": "Журнал изменений",
+
+  "downtime-dnd5e.CreateEditCategoryAppTitle": "Создание / изменение категории",
+  "downtime-dnd5e.UnnamedCategory": "Безымянная категория",
+
+  "downtime-dnd5e.InvalidNumberWarning": "Недопустимое значение. Введите число.",
+  "downtime-dnd5e.InvalidItemWarning": "Недопустимый элемент. Элемент не найден.",
+
+  "downtime-dnd5e.Skipping": "МИГРАЦИЯ ПЕРСОНАЖА ПРОПУЩЕНА",
+  "downtime-dnd5e.BackingUpDataFor": "СОЗДАНИЕ РЕЗЕРВНОЙ КОПИИ ДАННЫХ ПЕРСОНАЖА",
+  "downtime-dnd5e.UpdatingDataFor": "ОБНОВЛЕНИЕ ДАННЫХ ПЕРСОНАЖА",
+  "downtime-dnd5e.ProblemUpdatingDataFor": "ОШИБКА ПРИ ОБНОВЛЕНИИ ДАННЫХ ПЕРСОНАЖА",
+  "downtime-dnd5e.SuccessUpdatingDataFor": "ДАННЫЕ ПЕРСОНАЖА УСПЕШНО ОБНОВЛЕНЫ",
+
+  "downtime-dnd5e.ActorNotFoundWarning": "Персонаж не найден.",
+  "downtime-dnd5e.ItemNotFoundWarning": "Не удалось найти отслеживаемый элемент с названием",
+  "downtime-dnd5e.ProgressValueIsNanWarning": "Значение прогресса должно быть числом",
+  "downtime-dnd5e.LogActionMacro": "Макрос / внешний код",
+
+  "downtime-dnd5e.NewCategory": "Новая категория",
+  "downtime-dnd5e.DeleteCategory": "Удалить категорию",
+  "downtime-dnd5e.Cancel": "Отмена",
+  "downtime-dnd5e.DeleteItem": "Удалить элемент",
+  "downtime-dnd5e.AdjustProgressValue": "Изменить прогресс",
+  "downtime-dnd5e.Roll": "Бросок",
+  "downtime-dnd5e.ToolNotFoundWarning": "Выбранный инструмент не найден. Измените элемент и выберите другой инструмент.",
+
+  "downtime-dnd5e.MacroNotFoundWarning": "Не удалось найти макрос по указанной ссылке",
+
+  "downtime-dnd5e.CompletedATrackedItem": "завершает отслеживаемую активность.",
+
+  "downtime-dnd5e.Disadvantage": "Помеха",
+  "downtime-dnd5e.Advantage": "Преимущество",
+  "downtime-dnd5e.Normal": "Обычный бросок",
+
+  "downtime-dnd5e.InvalidTool": "Инструмент не найден",
+  "downtime-dnd5e.ProgressionStyleMacro": "Макрос",
+  "downtime-dnd5e.DC": "Сл",
+  "downtime-dnd5e.RollItem": "Совершить бросок",
+  "downtime-dnd5e.RollItemDisabled": "Бросок недоступен: активность уже завершена.",
+
+  "downtime-dnd5e.SettingGmOnlyMode": "Режим «Только мастер»",
+  "downtime-dnd5e.SettingGmOnlyModeHint": "Если включено, модуль работает в режиме «Только мастер». Вкладка не отображается в листах обычных игроков, сообщения о завершении отправляются мастеру приватно вместо публикации в общем чате, а в окнах бросков по умолчанию выбирается режим приватного броска мастеру.",
+  "downtime-dnd5e.SettingGmOnlyEditMode": "Редактирование только мастером",
+  "downtime-dnd5e.SettingGmOnlyEditModeHint": "Если включено, только мастер может добавлять и изменять категории и отслеживаемые активности. Игроки смогут только совершать броски.",
+  "downtime-dnd5e.SettingShowDowntimeTabPc": "Показывать вкладку отслеживания (ИП)",
+  "downtime-dnd5e.SettingShowDowntimeTabPcHint": "Показывает вкладку отслеживания во всех листах игровых персонажей. Чтобы изменение вступило в силу, закройте и снова откройте листы.",
+  "downtime-dnd5e.SettingShowDowntimeTabNpc": "Показывать вкладку отслеживания (НИП)",
+  "downtime-dnd5e.SettingShowDowntimeTabNpcHint": "Показывает вкладку отслеживания во всех листах неигровых персонажей. Чтобы изменение вступило в силу, закройте и снова откройте листы.",
+  "downtime-dnd5e.SettingDowntimeTabName": "Название вкладки отслеживания",
+  "downtime-dnd5e.SettingDowntimeTabNameHint": "Задаёт название вкладки активностей. По умолчанию используется «Downtime», но вы можете выбрать другое название в зависимости от назначения модуля.",
+  "downtime-dnd5e.SettingExtraSheetWidth": "Дополнительная ширина листа персонажа",
+  "downtime-dnd5e.SettingExtraSheetWidthHint": "(Клиент) Указанное здесь значение изменяет стандартную ширину листа персонажа на заданное количество пикселей. Это может понадобиться, чтобы все вкладки листа помещались в одну строку. Значение по умолчанию — 50; оно рассчитано на стандартный лист dnd5e и стандартное название вкладки.",
+  "downtime-dnd5e.SettingDefaultCompletionTarget": "Цель прогресса по умолчанию",
+  "downtime-dnd5e.SettingDefaultCompletionTargetHint": "Задаёт значение прогресса, необходимое для достижения 100% у активностей, основанных на проверках. В среднем за одну проверку персонаж может прибавить около 10 пунктов прогресса. Значение по умолчанию — 300 (примерно 30 дней при одной тренировке в день).",
+  "downtime-dnd5e.SettingAnnounceCompletionFor": "Сообщать о завершении для:",
+  "downtime-dnd5e.SettingAnnounceCompletionForHint": "Выберите типы персонажей, при завершении отслеживаемой активности которых в чат будет отправляться сообщение.",
+  "downtime-dnd5e.SettingShowImportButton": "Показывать кнопку импорта",
+  "downtime-dnd5e.SettingShowImportButtonHint": "Показывает кнопку импорта на вкладке отслеживания. Эта функция предназначена для устранения неполадок и восстановления данных. Проверка импортируемых данных не выполняется, поэтому импорт некорректных данных может нарушить работу модуля для данного персонажа. Используйте эту функцию на свой страх и риск. Разработчик может помочь восстановить работу при возникновении проблемы, но не гарантирует успешное восстановление.",
+
+  "downtime-dnd5e.SettingTabName": "Название вкладки",
+  "downtime-dnd5e.SettingTabNameHint": "Задаёт название вкладки. По умолчанию используется «Tracking», но вы можете выбрать другое название в зависимости от назначения модуля.",
+  "downtime-dnd5e.SettingAnnounceActivityCompletionFor": "Сообщать о завершении для:",
+  "downtime-dnd5e.SettingAnnounceActivityCompletionForHint": "При завершении отслеживаемой активности персонажами выбранных типов в чат будет отправляться сообщение.",
+
+  "downtime-dnd5e.SettingReset.name": "Сбросить настройки",
+  "downtime-dnd5e.SettingReset.hint": "Сбрасывает все настройки модуля до значений по умолчанию для текущей игровой системы.",
+  "downtime-dnd5e.SettingReset.dialogs.title": "Сброс настроек модуля",
+  "downtime-dnd5e.SettingReset.dialogs.content": "Сбросить все настройки модуля до значений по умолчанию для текущей игровой системы? <strong>ЭТО ДЕЙСТВИЕ НЕЛЬЗЯ ОТМЕНИТЬ!</strong>",
+  "downtime-dnd5e.SettingReset.dialogs.confirm": "Сбросить настройки",
+  "downtime-dnd5e.SettingReset.dialogs.cancel": "Отмена",
+
+  "downtime-dnd5e.SettingDebug.title": "Включить отладку",
+  "downtime-dnd5e.SettingDebug.label": "Выводить отладочные сообщения в консоль",
+  "downtime-dnd5e.SettingDebug.hint": " ",
+
+  "downtime-dnd5e.NpcsOnly": "Только НИП",
+  "downtime-dnd5e.PcsAndNpcs": "ИП и НИП",
+  "downtime-dnd5e.PcsOnly": "Только ИП",
+
+  "downtime-dnd5e.CreateEditItemAppTitle": "Создание / изменение отслеживаемой активности",
+
+  "downtime-dnd5e.NewItem": "Новая активность",
+
+  "downtime-dnd5e.InputErrorName": "Введите допустимое название активности.",
+  "downtime-dnd5e.InputErrorMacroName": "Введите допустимое название, ID или UUID макроса.",
+  "downtime-dnd5e.InputErrorFixedIncrease": "Введите допустимое значение увеличения прогресса.",
+  "downtime-dnd5e.InputErrorCompletionAt": "Введите допустимое значение цели прогресса.",
+  "downtime-dnd5e.InputErrorProgress": "Введите допустимое значение прогресса.",
+
+  "downtime-dnd5e.UnnamedMacro": "Безымянный макрос",
+  "downtime-dnd5e.SelectAnAbility": "Характеристика",
+  "downtime-dnd5e.CheckDC": "Сл проверки (необязательно)",
+  "downtime-dnd5e.CompletionTarget": "Цель прогресса",
+  "downtime-dnd5e.SelectIncreaseAmount": "Увеличение прогресса",
+  "downtime-dnd5e.MacroName": "Название / ID / UUID макроса",
+  "downtime-dnd5e.SelectASkill": "Навык",
+  "downtime-dnd5e.SelectATool": "Инструмент",
+
+  "downtime-dnd5e.CompletionTargetInputHelpText": "Суммарное значение всех проверок, необходимое для завершения активности. Должно быть больше нуля.",
+  "downtime-dnd5e.SuccessesRequiredInputHelpText": "Количество успешных проверок, необходимое для завершения активности. Должно быть больше нуля.",
+  "downtime-dnd5e.FixedIncreaseInputHelpText": "Значение, на которое увеличивается прогресс активности при каждом броске. Должно быть больше нуля.",
+  "downtime-dnd5e.MacroNameInputHelpText": "Название, ID или UUID макроса, который будет запускаться при броске для этой активности. Значение должно совпадать точно.",
+  "downtime-dnd5e.ToolInputHelpText": "Список формируется из инструментов в инвентаре этого персонажа. Если список пуст, добавьте инструмент в инвентарь и попробуйте снова.",
+  "downtime-dnd5e.ProgressInputHelpText": "Текущее значение прогресса активности. Должно находиться между нулём и целью прогресса (если Сл не задана) либо требуемым количеством успехов (если Сл задана).",
+
+  "downtime-dnd5e.Time": "Время (UTC)",
+  "downtime-dnd5e.User": "Пользователь",
+  "downtime-dnd5e.Item": "Элемент / активность",
+  "downtime-dnd5e.Action": "Действие",
+  "downtime-dnd5e.ProgressChange": "Изменение прогресса",
+  "downtime-dnd5e.ChangeLogDeleteNote": "Примечание: удаление записи из журнала НЕ отменяет внесённые изменения. Чтобы отменить показанные здесь изменения, необходимо изменить прогресс вручную. Журнал можно использовать для определения того, какие значения требуется восстановить.",
+  "downtime-dnd5e.ChangeLogInstructionsGm": "Здесь отображаются все изменения прогресса отслеживаемых активностей этого персонажа. После проверки записи можно удалить из журнала: отметьте их в столбце удаления и нажмите кнопку в нижней части окна. После этого записи больше не будут доступны ни вам, ни игроку.",
+  "downtime-dnd5e.ChangeLogInstructionsPlayer": "Здесь отображаются изменения прогресса ваших отслеживаемых активностей, которые мастер ещё не проверил. После проверки мастером соответствующие записи перестанут отображаться.",
+  "downtime-dnd5e.Dismiss": "Убрать",
+  "downtime-dnd5e.DismissSelected": "Убрать выбранные",
+
+  "downtime-dnd5e.CategoryCreationInstructions": "Категории позволяют упорядочивать активности на этой вкладке.",
+  "downtime-dnd5e.Name": "Название",
+  "downtime-dnd5e.Description": "Описание",
+  "downtime-dnd5e.SaveCategory": "Сохранить категорию",
+
+  "downtime-dnd5e.TrackedItemComplete": "Активность завершена",
+  "downtime-dnd5e.Completed": "завершено",
+
+  "downtime-dnd5e.DeleteCategoryConfirmation": "Удалить эту категорию? Все находящиеся в ней активности будут перемещены в раздел «Без категории».",
+  "downtime-dnd5e.DeleteItemConfirmation": "Удалить эту активность?",
+
+  "downtime-dnd5e.GeneralInformationHeader": "Основная информация",
+  "downtime-dnd5e.ItemId": "ID элемента",
+  "downtime-dnd5e.Image": "Изображение",
+  "downtime-dnd5e.Hidden": "Скрыть от игроков?",
+  "downtime-dnd5e.Category": "Категория",
+  "downtime-dnd5e.ProgressionType": "Способ прогресса",
+  "downtime-dnd5e.CurrentProgress": "Текущий прогресс",
+  "downtime-dnd5e.ProgressionStyleFixed": "Фиксированное значение",
+  "downtime-dnd5e.ProgressionStyleAbilityCheck": "Проверка характеристики",
+  "downtime-dnd5e.ProgressionStyleSkillCheck": "Проверка навыка",
+  "downtime-dnd5e.ProgressionStyleToolCheck": "Проверка инструмента",
+
+  "downtime-dnd5e.ProgressionStyleFixedHeader": "Параметры — фиксированное значение",
+  "downtime-dnd5e.ProgressionStyleAbilityCheckHeader": "Параметры — проверка характеристики",
+  "downtime-dnd5e.ProgressionStyleSkillCheckHeader": "Параметры — проверка навыка",
+  "downtime-dnd5e.ProgressionStyleToolCheckHeader": "Параметры — проверка инструмента",
+  "downtime-dnd5e.ProgressionStyleMacroHeader": "Параметры — макрос",
+
+  "downtime-dnd5e.ProgressionStyleFixedHelp": "При каждом броске прогресс активности увеличивается на заданное фиксированное значение.",
+  "downtime-dnd5e.ProgressionStyleAbilityCheckHelp": "При каждом броске выполняется выбранная проверка характеристики. Если Сл не задана, прогресс увеличивается на результат проверки. Если Сл задана, успешная проверка увеличивает прогресс на 1.",
+  "downtime-dnd5e.ProgressionStyleSkillCheckHelp": "При каждом броске выполняется выбранная проверка навыка. Если Сл не задана, прогресс увеличивается на результат проверки. Если Сл задана, успешная проверка увеличивает прогресс на 1.",
+  "downtime-dnd5e.ProgressionStyleToolCheckHelp": "При каждом броске выполняется выбранная проверка инструмента. Если Сл не задана, прогресс увеличивается на результат проверки. Если Сл задана, успешная проверка увеличивает прогресс на 1.",
+  "downtime-dnd5e.ProgressionStyleMacroHelp": "При каждом броске запускается указанный макрос. Чтобы изменить прогресс активности, макрос должен обратиться к API этого модуля. Примеры макросов и документацию API можно найти в репозитории модуля на GitHub.",
+
+  "downtime-dnd5e.SaveTrackedItem": "Сохранить активность",
+
+  "downtime-dnd5e.AddCategory": "Добавить категорию",
+  "downtime-dnd5e.AddWorldCategory": "Добавить категорию мира",
+  "downtime-dnd5e.AddActorCategory": "Добавить категорию персонажа",
+  "downtime-dnd5e.AddItem": "Добавить активность",
+  "downtime-dnd5e.AddWorldItem": "Добавить мировую активность",
+  "downtime-dnd5e.CreateNewCategory": "Добавить новую категорию",
+  "downtime-dnd5e.CreateNewWorldCategory": "Добавить новую категорию мира",
+  "downtime-dnd5e.CreateNewItem": "Добавить активность",
+  "downtime-dnd5e.CreateNewWorldItem": "Добавить мировую активность",
+  "downtime-dnd5e.ReviewChanges": "Просмотреть изменения",
+
+  "downtime-dnd5e.Uncategorized": "Без категории",
+  "downtime-dnd5e.CheckTypeColumnHeader": "Тип",
+  "downtime-dnd5e.ProgressColumnHeader": "Прогресс",
+  "downtime-dnd5e.ToggleInfo": "Показать / скрыть информацию",
+
+  "downtime-dnd5e.EditItem": "Изменить активность",
+  "downtime-dnd5e.EditCategory": "Изменить категорию",
+
+  "downtime-dnd5e.None": "Нет",
+  "downtime-dnd5e.Delete": "Удалить",
+  "downtime-dnd5e.RollItemProgress": "Совершить бросок для увеличения прогресса",
+
+  "downtime-dnd5e.MigrationPromptTitle": "Требуется миграция данных",
+  "downtime-dnd5e.MigrationPromptBackupWarning": "Создайте резервную копию данных",
+  "downtime-dnd5e.MigrationPromptText1": "Последнее обновление модуля изменило структуру его данных. Персонажей, использующих старую структуру данных для отслеживаемых активностей, необходимо перенести на новую структуру, прежде чем эти активности снова можно будет использовать.",
+  "downtime-dnd5e.MigrationPromptText2": "При миграции возможна потеря или повреждение данных. Модуль создаёт резервную копию собственных данных перед миграцией, однако настоятельно рекомендуется дополнительно создать резервную копию всех данных мира.",
+  "downtime-dnd5e.MigrationPromptText3": "У вас есть персонажи, требующие обновления: {num}. Выполнить миграцию сейчас?",
+  "downtime-dnd5e.MigrationPromptYes": "Выполнить миграцию",
+  "downtime-dnd5e.MigrationPromptNo": "Отложить",
+
+  "downtime-dnd5e.ExportTrackedItems": "Экспорт",
+  "downtime-dnd5e.ImportTrackedItems": "Импорт",
+  "downtime-dnd5e.ExportTrackedItemsTooltip": "Экспортировать отслеживаемые активности в файл",
+  "downtime-dnd5e.ImportTrackedItemsTooltip": "Импортировать отслеживаемые активности из файла",
+
+  "downtime-dnd5e.ExportNoTrackedItems": "Нет активностей или категорий для экспорта. Экспорт отменён.",
+  "downtime-dnd5e.ImportNoTrackedItems": "Нет активностей или категорий для импорта. Импорт отменён.",
+  "downtime-dnd5e.ImportNoFile": "Файл не выбран. Импорт отменён.",
+
+  "downtime-dnd5e.ImportTypeSelectionTitle": "Способ импорта",
+  "downtime-dnd5e.ImportTypeSelectionTextOverwrite": "Безвозвратно удаляет все текущие отслеживаемые активности и заменяет их импортируемыми.",
+  "downtime-dnd5e.ImportTypeSelectionTextCombine": "Объединяет существующие отслеживаемые активности с импортируемыми, сохраняя и те и другие.",
+  "downtime-dnd5e.ImportTypeSelectionOverwrite": "Заменить",
+  "downtime-dnd5e.ImportTypeSelectionCombine": "Объединить",
+
+  "downtime-dnd5e.ImportOldWarningTitle": "Не удалось импортировать категории",
+  "downtime-dnd5e.ImportOldWarningText": "Импортированные данные были созданы в старой версии модуля, которая не поддерживала экспорт категорий вместе с активностями. Активности были импортированы, но все они помещены в категорию «Без категории».",
+  "downtime-dnd5e.ImportOldWarningConfirm": "Понятно",
+
+  "downtime-dnd5e.ImportComplete": "Импорт завершён",
+
+  "downtime-dnd5e.NoIdWarning": "ID элемента не найден. Скорее всего, элемент был создан в более ранней версии модуля. Обычно проблему можно решить, обновив страницу и согласившись выполнить миграцию данных при появлении соответствующего запроса. Если запрос миграции не появляется, обратитесь к разработчику: экспортируйте отслеживаемые активности этого персонажа и приложите файл к сообщению об ошибке на GitHub или Discord.",
+
+  "downtime-dnd5e.SuccessesRequired": "Требуемое количество успехов"
+}
