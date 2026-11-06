@@ -1101,6 +1101,11 @@
       "module": "game_time_clock",
       "path": "i18n/modules/game_time_clock.json",
       "lang": "ru"
+    },
+    {
+      "module": "wm5e",
+      "path": "i18n/modules/wm5e.json",
+      "lang": "ru"
     }
   ],
   "media": [
