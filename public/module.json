@@ -1106,6 +1106,11 @@
       "module": "wm5e",
       "path": "i18n/modules/wm5e.json",
       "lang": "ru"
+    },
+    {
+      "module": "automated-conditions-5e",
+      "path": "i18n/modules/automated-conditions-5e.json",
+      "lang": "ru"
     }
   ],
   "media": [
