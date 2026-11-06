@@ -9,7 +9,7 @@
       "url": "https://discord.gg/Z2CXFy35WF"
     }
   ],
-  "version": "14.369.2.1",
+  "version": "14.370.4",
   "compatibility": {
     "minimum": "14",
     "verified": "14",
@@ -26,7 +26,10 @@
       },
       {
         "id": "babele",
-        "type": "module"
+        "type": "module",
+        "compatibility": {
+          "minimum": "2.8.0"
+        }
       }
     ]
   },
@@ -323,6 +326,11 @@
       "lang": "ru",
       "path": "i18n/systems/vtm5e.json",
       "system": "vtm5e"
+    },
+    {
+      "lang": "ru",
+      "path": "i18n/systems/weirdwizard.json",
+      "system": "weirdwizard"
     },
     {
       "lang": "ru",
@@ -1160,8 +1168,10 @@
       "swade",
       "tor2e",
       "vtm5e",
+      "weirdwizard",
       "wfrp4e",
       "whtow",
+      "witcher-ttrpg-death-march",
       "worldofdarkness",
       "yzecoriolis"
     ]
