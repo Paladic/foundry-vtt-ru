@@ -1136,6 +1136,11 @@
       "module": "monks-enhanced-journal",
       "path": "i18n/modules/monks-enhanced-journal.json",
       "lang": "ru"
+    },
+    {
+      "module": "local-media-optimizer",
+      "path": "i18n/modules/local-media-optimizer.json",
+      "lang": "ru"
     }
   ],
   "media": [
