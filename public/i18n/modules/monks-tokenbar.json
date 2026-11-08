@@ -5,20 +5,16 @@
   "MonksTokenBar.PrivateMessage": "Личное сообщение",
   "MonksTokenBar.ExcludeFromTokenBar": "Исключение токена",
   "MonksTokenBar.DisablePanning": "Отключить наведение камеры",
-
   "MonksTokenBar.easy": "Лёгкая",
   "MonksTokenBar.average": "Умеренная",
   "MonksTokenBar.challenging": "Сложная",
   "MonksTokenBar.hard": "Очень сложная",
   "MonksTokenBar.epic": "Невыполнимая",
-
   "MonksTokenBar.FreeMovement": "Свободное перемещение",
   "MonksTokenBar.NoMovement": "Запрет перемещения",
   "MonksTokenBar.CombatTurn": "Ход боя",
   "MonksTokenBar.Ignore": "Игнорировать",
-
   "MonksTokenBar.MovementChanged": "Перемещение изменено на ",
-
   "MonksTokenBar.RequestRoll": "Запрос проверки",
   "MonksTokenBar.RequestRollGM": "Запрос проверки, только для GM",
   "MonksTokenBar.ContestedRoll": "Встречная проверка",
@@ -26,7 +22,6 @@
   "MonksTokenBar.Lootables": "Распределение таблиц добычи",
   "MonksTokenBar.HideNPCName": "Скрывать имена NPC",
   "MonksTokenBar.Inspiration": "Вдохновение",
-
   "MonksTokenBar.Attribute": "Аттрибут",
   "MonksTokenBar.Ability": "Характеристика",
   "MonksTokenBar.AbilityCheck": "Проверка",
@@ -53,7 +48,6 @@
   "MonksTokenBar.Unknown": "Неизвестно",
   "MonksTokenBar.Level": "Уровень",
   "MonksTokenBar.RecalculateXP": "Пересчитать ПО",
-
   "MonksTokenBar.UnknownError": "Неизвестная ошибка",
   "MonksTokenBar.CombatTurnMovementLimited": "Перемещение в режиме 'Ход боя', а сейчас не твой ход",
   "MonksTokenBar.NormalMovementLimited": "Перемещение сейчас запрещено",
@@ -67,14 +61,12 @@
   "MonksTokenBar.ActorNoSkill": ": Не имеет этого навыка",
   "MonksTokenBar.UnknownSystem": "Вы используете систему, не поддерживаемую Monk's Tokenbar.",
   "MonksTokenBar.ActorNotCombatant": "Актёр не участвует в бою для проверки инициативы",
-
   "MonksTokenBar.TokenbarSettings": "Настройки Tokenbar",
   "MonksTokenBar.IconSettings": "Настройки иконок",
   "MonksTokenBar.MovementSettings": "Настройки перемещения",
   "MonksTokenBar.AfterCombatSettings": "Настройки после боя",
   "MonksTokenBar.LootableSettings": "Добыча",
   "MonksTokenBar.RequestRollSettings": "Настройки запроса проверок",
-
   "MonksTokenBar.notify-on-change.name": "Оповещение о режиме перемещения",
   "MonksTokenBar.notify-on-change.hint": "Уведомлять игроков, если GM изменил режим перемещения",
   "MonksTokenBar.show-xp-dialog.name": "Окно ПО",
@@ -193,10 +185,8 @@
   "MonksTokenBar.free-vehicle-combat.hint": "Разрешить перемещение транспорта в бою",
   "MonksTokenBar.use-token-scaling.name": "Использовать масштаб токена",
   "MonksTokenBar.use-token-scaling.hint": "Использовать масштаб токена для определения размера.",
-
   "MonksTokenBar.orientation.vertical": "Вертикально",
   "MonksTokenBar.orientation.horizontal": "Горизонтально",
-
   "MonksTokenBar.XP": "ПО",
   "MonksTokenBar.Actors": "Актёры",
   "MonksTokenBar.Experience": "Пункты опыта",
@@ -274,9 +264,23 @@
   "MonksTokenBar.MacroCopied": "Макрос скопирован",
   "MonksTokenBar.SelectCriticalSaved": "Проверка с критическим успехом",
   "MonksTokenBar.SelectCriticalFailed": "Проверка с критическим провалом",
-
   "MonksTokenBar.None": "Никто",
   "MonksTokenBar.GMOnly": "Только GM",
   "MonksTokenBar.PlayersOnly": "Игроки",
-  "MonksTokenBar.Everyone": "Все"
+  "MonksTokenBar.Everyone": "Все",
+  "MonksTokenBar.CombatNotStarted": "Нельзя включить перемещение в бою: активного боя нет.",
+  "MonksTokenBar.token-pictures.tokenonly": "Только изображение токена",
+  "MonksTokenBar.allow-fade.name": "Разрешить плавное исчезновение",
+  "MonksTokenBar.allow-fade.hint": "Разрешить панели токенов использовать эффект плавного исчезновения интерфейса.",
+  "MonksTokenBar.DefaultTheme": "Тема по умолчанию",
+  "MonksTokenBar.Dice": "Кости",
+  "MonksTokenBar.THEME": {
+    "savingthrow": "Спасбросок",
+    "assignxp": "Распределение опыта",
+    "lootables": "Добыча"
+  },
+  "MonksTokenBar.ASSIGNXP.TABS": {
+    "monsters": "Монстры",
+    "players": "Игроки"
+  }
 }
