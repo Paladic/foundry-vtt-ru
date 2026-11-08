@@ -928,150 +928,150 @@
   },
   "midi-qol.TriggeredActivityTargetOptions": {
     "self": "Владелец предмета",
-    "targets": "Same targets",
-    "hitTargets": "Hit targets",
-    "missedTargets": "Missed targets",
-    "failedSaves": "Target failed saves",
-    "saveTargets": "Target successful saves",
-    "retarget": "Generate new targets"
+    "targets": "Те же цели",
+    "hitTargets": "Цели с попаданием",
+    "missedTargets": "Цели с промахом",
+    "failedSaves": "Цели, провалившие спасбросок",
+    "saveTargets": "Цели с успешным спасброском",
+    "retarget": "Выбрать новые цели"
   },
   "midi-qol.TriggeredActivityRollAsOptions": {
-    "self": "Item Owner",
-    "firstTarget": "First target",
-    "firstHitTarget": "First hit target",
-    "firstMissedTarget": "First missed target",
-    "firstSaveTarget": "First saved target",
-    "firstFailedSaveTarget": "First failed save target"
+    "self": "Владелец предмета",
+    "firstTarget": "Первая цель",
+    "firstHitTarget": "Первая цель с попаданием",
+    "firstMissedTarget": "Первая цель с промахом",
+    "firstSaveTarget": "Первая цель с успешным спасброском",
+    "firstFailedSaveTarget": "Первая цель с проваленным спасброском"
   },
-  "midi-qol.ActivationAutomation.Name": "Activation Cost Automation",
-  "midi-qol.ActivationAutomation.Hint": "Automatically activate activities with short/long rest or encounter start or turn start/end activation costs.",
+  "midi-qol.ActivationAutomation.Name": "Автоматизация затрат активации",
+  "midi-qol.ActivationAutomation.Hint": "Автоматически активировать активности, требующие короткого или продолжительного отдыха, начала столкновения либо начала или окончания хода.",
   "midi-qol.ActivationAutomationOptions": {
-    "none": "No Automation/No Chat",
-    "chat": "Default dnd5e behavior",
-    "auto": "Auto trigger self targeted activities"
+    "none": "Без автоматизации и сообщений в чате",
+    "chat": "Стандартное поведение D&D 5e",
+    "auto": "Автоматически запускать активности, направленные на себя"
   },
-  "midi-qol.dummyCards.Name": "Always display attack/damage cards for hidden merge cards",
+  "midi-qol.dummyCards.Name": "Всегда показывать карточки атаки и урона при скрытых объединённых карточках",
   "midi-qol.dummyCards.Hint": "(Experimental) For GM rolls (self, private, blind) display an attack/damage roll card which will trigger a 'gm rollsed some dice' card on the players chats. Only for the case that you want the players to know you rolled something, but not what it was",
   "midi-qol.dnd5eConcentrationTrackingDisabled": "<br><strong><center>DND5E Concentration Tracking Disabled</strong><br></center><br><center>Concentration Tracking is disabled in the dnd5e system settings.</center><center>Enable in DND5E settings to enable midi concentration settings</center><br>",
   "midi-qol.ItemSheetMidiTab": "Midi QoL",
-  "midi-qol.AddOnUseMacro": "Add On-Use Macro",
-  "midi-qol.CustomMacro": "Custom Macro",
+  "midi-qol.AddOnUseMacro": "Добавить макрос использования",
+  "midi-qol.CustomMacro": "Пользовательский макрос",
   "midi-qol.SHARED": {
     "use-condition": {
-      "header": "Midi Conditions"
+      "header": "Условия Midi"
     },
     "ignore": {
-      "header": "Ignore Damage Traits"
+      "header": "Игнорирование особенностей урона"
     },
     "FIELDS": {
       "useConditionText": {
-        "label": "Use Condition",
-        "hint": "Condition which must be true to allow the activity use to proceed"
+        "label": "Условие использования",
+        "hint": "Условие, которое должно быть истинным, чтобы разрешить использование активности."
       },
       "useConditionReason": {
-        "label": "Use Condition Reason",
-        "hint": "Message to display if the use condition is false"
+        "label": "Причина запрета использования",
+        "hint": "Сообщение при ложном условии использования."
       },
       "effectConditionText": {
-        "label": "Active Effect Condition",
-        "hint": "Condition to apply active effects"
+        "label": "Условие активного эффекта",
+        "hint": "Условие применения активных эффектов."
       },
       "otherActivityId": {
-        "label": "Use Other Activity",
-        "hint": "Extra activity to preform 'other' damage"
+        "label": "Использовать другую активность",
+        "hint": "Дополнительная активность для нанесения прочего урона."
       },
       "otherActivityAsParentType": {
-        "label": "Override action type",
-        "hint": "Replace other damage properties activity type with this activity (mwak, rwak etc)"
+        "label": "Переопределить тип действия",
+        "hint": "Заменить тип действия дополнительного урона типом текущей активности (mwak, rwak и т. д.)."
       },
       "midiProperties": {
         "rollMode": {
-          "label": "Roll Mode",
-          "hint": "Roll mode to use for the activity"
+          "label": "Режим броска",
+          "hint": "Режим броска для активности."
         },
         "removeChatButtons": {
-          "label": "Remove Chat Buttons",
-          "hint": "Remove buttons from the activity chat card"
+          "label": "Убрать кнопки из чата",
+          "hint": "Убирает кнопки с карточки активности в чате."
         },
         "ignoreFullCover": {
-          "label": "Ignore Full Cover",
-          "hint": "Ignore full cover when applying damage/saves"
+          "label": "Игнорировать полное укрытие",
+          "hint": "Не учитывать полное укрытие при применении урона и спасбросков."
         },
         "chooseEffects": {
-          "label": "Choose Effects",
-          "hint": "Choose effects to apply"
+          "label": "Выбирать эффекты",
+          "hint": "Выбрать, какие эффекты применить."
         },
         "forceDialog": {
-          "label": "Force Configuration Dialog (Deprecated)",
-          "hint": "Force Configuration Dialog when activity used"
+          "label": "Принудительно открывать окно настроек (устарело)",
+          "hint": "Открывать окно настроек при использовании активности."
         },
         "forceAttackDialog": {
-          "label": "Force Attack Config",
-          "hint": "Force Attack Configuration Dialog when activity used"
+          "label": "Принудительно настраивать атаку",
+          "hint": "Открывать окно настроек атаки при использовании активности."
         },
         "forceDamageDialog": {
-          "label": "Force Damage Config",
-          "hint": "Force Damage Configuration Dialog when activity used"
+          "label": "Принудительно настраивать урон",
+          "hint": "Открывать окно настроек урона при использовании активности."
         },
         "confirmTargets": {
           "label": "Подтверждение цели",
-          "hint": "Confirm targets before rolling"
+          "hint": "Подтверждать цели перед броском."
         },
         "autoTargetType": {
-          "label": "AoE Target Type",
-          "hint": "Midi will only target tokens of the specified type when using AoE templates"
+          "label": "Тип целей площадного воздействия",
+          "hint": "При использовании шаблонов площадного воздействия Midi выбирает только токены заданного типа."
         },
         "autoTargetAction": {
-          "label": "Target on template draw",
-          "hint": "When placing a template (e.g. spell) target tokens inside the template. If 'Center + Levels' is set in ranged targeting Levels Volumetric Templates will be used (if installed)"
+          "label": "Выбирать цели при размещении шаблона",
+          "hint": "При размещении шаблона (например, заклинания) выбирать токены внутри него. Для режима «Центр + Levels» используется Levels Volumetric Templates, если модуль установлен."
         },
         "automationOnly": {
-          "label": "Automation Only",
-          "hint": "The activity is only intended for midi automation and not for manual use"
+          "label": "Только автоматизация",
+          "hint": "Активность предназначена исключительно для автоматизации Midi, а не для ручного использования."
         },
         "displayActivityName": {
-          "label": "Display Activity Name",
-          "hint": "Display the activity name in the chat card"
+          "label": "Показывать название активности",
+          "hint": "Показывать название активности в карточке чата."
         },
         "identifier": {
-          "label": "Identifier",
-          "hint": "An identifier for the activity"
+          "label": "Идентификатор",
+          "hint": "Идентификатор активности."
         },
         "triggeredActivityId": {
-          "label": "Trigger Activity",
-          "hint": "Activity to execute"
+          "label": "Запускаемая активность",
+          "hint": "Активность, которую нужно выполнить."
         },
         "triggeredActivityConditionText": {
-          "label": "Trigger Condition",
-          "hint": "Condition to activate the trigger activity"
+          "label": "Условие запуска",
+          "hint": "Условие активации запускаемой активности."
         },
         "triggeredActivityTargets": {
-          "label": "Trigger Targets",
-          "hint": "Which targets to select for the triggered activity"
+          "label": "Цели запускаемой активности",
+          "hint": "Цели, выбираемые для запускаемой активности."
         },
         "triggeredActivityRollAs": {
-          "label": "Roll as",
-          "hint": "Roll the activity as if owned by..."
+          "label": "Выполнить бросок от имени",
+          "hint": "Выполнить бросок активности от имени выбранного владельца."
         },
         "otherActivityCompatible": {
-          "label": "Other Activity Compatible",
-          "hint": "Can be used as an other activity"
+          "label": "Совместима с дополнительной активностью",
+          "hint": "Может использоваться как дополнительная активность."
         },
         "toggleEffect": {
-          "label": "Toggle Effect",
-          "hint": "Disabling an effect will toggle it rather than removing it"
+          "label": "Переключать эффект",
+          "hint": "Вместо удаления эффекта переключать его состояние."
         },
         "magicEffect": {
-          "label": "Magic Effect",
-          "hint": "Saves against this activity are treated as saves against magic"
+          "label": "Магический эффект",
+          "hint": "Спасброски против этой активности считаются спасбросками против магии."
         },
         "magicDamage": {
-          "label": "Magic Damage",
-          "hint": "Damage from this activity is treated as magic damage"
+          "label": "Магический урон",
+          "hint": "Урон от активности считается магическим."
         },
         "noConcentrationCheck": {
-          "label": "No Concentration Save",
-          "hint": "The activity's damage does not trigger a concentration save"
+          "label": "Без спасброска концентрации",
+          "hint": "Урон активности не требует спасброска концентрации."
         },
         "ignoreTraits": {
           "idi": {
@@ -1087,12 +1087,12 @@
             "hint": "Игнорировать уязвимости при нанесении урона"
           },
           "ida": {
-            "label": "Absorption",
-            "hint": "Ignore damage absorption when applying damage"
+            "label": "Поглощение урона",
+            "hint": "Игнорировать поглощение при применении урона."
           },
           "idm": {
-            "label": "Modification",
-            "hint": "Ignore damage modification when applying damage"
+            "label": "Изменение урона",
+            "hint": "Игнорировать модификацию при применении урона."
           }
         },
         "autoCEEffects": {
@@ -1101,40 +1101,40 @@
         }
       },
       "friendlySummon": {
-        "label": "Friendly Summons",
-        "hint": "The summoned token has the same disposition as the caster"
+        "label": "Дружественные призванные существа",
+        "hint": "Призванный токен имеет ту же сторону, что и заклинатель."
       },
       "isOverTimeFlag": {
-        "label": "Is Over Time",
-        "hint": "The activity can be an over time activity"
+        "label": "Периодическое действие",
+        "hint": "Активность может срабатывать с течением времени."
       },
       "overTimeProperties": {
         "turnChoice": {
-          "label": "Turn Choice",
-          "hint": "Start or end of turn",
-          "start": "Start of Turn",
-          "end": "End of Turn"
+          "label": "Момент хода",
+          "hint": "Начало или конец хода.",
+          "start": "Начало хода",
+          "end": "Конец хода"
         },
         "saveRemoves": {
-          "label": "Save Removes",
-          "hint": "Save removes effect"
+          "label": "Спасбросок снимает эффект",
+          "hint": "Успешный спасбросок снимает эффект."
         },
         "preRemoveConditionText": {
-          "label": "Pre activity remove condition",
-          "hint": "Tested prior to rolling activity, effect removed if true"
+          "label": "Условие снятия перед активностью",
+          "hint": "Проверяется перед броском активности. Если истинно, эффект снимается."
         },
         "postRemoveConditionText": {
-          "label": "Post activity remove condition",
-          "hint": "Tested after rolling activity, effect removed if true"
+          "label": "Условие снятия после активности",
+          "hint": "Проверяется после броска активности. Если истинно, эффект снимается."
         }
       },
       "ActivityMacro": {
-        "label": "Activity Macro",
-        "hint": "Macro which can be run when activity used"
+        "label": "Макрос активности",
+        "hint": "Макрос, выполняемый при использовании активности."
       },
       "useSystemActivity": {
-        "label": "Use System Activity",
-        "hint": "Use the dnd5e system activity rather than the midi one"
+        "label": "Использовать системную активность",
+        "hint": "Использовать активность D&D 5e вместо версии Midi."
       },
       "ignoreTraits": {
         "idi": {
@@ -1142,11 +1142,11 @@
           "hint": "Игнорировать невосприимчивость при нанесении урона"
         },
         "idr": {
-          "label": "Ignore Resistance",
-          "hint": "Ignore damage resistance when applying damage"
+          "label": "Игнорировать сопротивление",
+          "hint": "Не учитывать сопротивление при применении урона."
         },
         "idv": {
-          "label": "Ignore Vulnerability",
+          "label": "Игнорировать уязвимость",
           "hint": "Ignore damage vulnerability when applying damage"
         },
         "ida": {
