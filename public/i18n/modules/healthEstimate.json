@@ -92,7 +92,7 @@
         "hint": "Способ отображения скрытого имени существа. {warning}",
         "default": "Неизвестное существо",
         "warningCUB": "Если вы используете функция скрытых имен CUB, то она будет иметь приоритет над этой настройкой.",
-        "warningPF2eWorkbench": "If you are using PF2e Workbench's feature to mystify names, it will take priority over this setting."
+        "warningPF2eWorkbench": "При использовании функции скрытия имён PF2e Workbench она имеет приоритет перед этой настройкой."
       },
       "alwaysShow": {
         "name": "Всегда отображать оценку",
@@ -144,7 +144,7 @@
         "hint": "Временные ПЗ будут суммированы с обычными при оценке общего здоровья."
       },
       "breakOnZeroMaxHP": {
-        "name": "Hide Estimates on Tokens with 0 Max HP",
+        "name": "Скрывать оценку здоровья токенов с максимумом 0 ОЗ",
         "hint": "Полезно для объектов с токенами."
       },
       "menuSettings": {
@@ -181,15 +181,15 @@
           "brighten": "Ярче"
         },
         "position": {
-          "name": "Height",
-          "hint": "The height is set relative to the token's frame. Negative values push it higher; positive, lower.",
+          "name": "Высота",
+          "hint": "Высота относительно рамки токена. Отрицательные значения поднимают надпись, положительные — опускают.",
           "top": "Сверху",
           "middle": "Посередине",
           "bottom": "Снизу"
         },
         "position2": {
-          "name": "Position",
-          "hint": "The position relative to the token's frame."
+          "name": "Положение",
+          "hint": "Положение относительно рамки токена."
         },
         "positionAdjustment": {
           "name": "Настройка отступа",
@@ -212,20 +212,20 @@
     },
     "cyberpunk-red-core": {
       "unorganics": {
-        "4": "Intact",
-        "3": "Operational",
-        "2": "Malfunctioning",
-        "0": "Disabled"
+        "0": "Отключён",
+        "2": "Неисправен",
+        "3": "Работает",
+        "4": "Цел"
       }
     },
     "cyphersystem": {
       "impaired": {
-        "name": "Health level for Impaired PCs",
-        "hint": "Sets the maximum health level (current / maximum, fraction 0.0 - 1.0) that can be reported for a PC that is Impaired on the Death Track"
+        "name": "Уровень здоровья ослабленных персонажей",
+        "hint": "Максимальная отображаемая доля здоровья (текущее / максимальное, от 0,0 до 1,0) для ослабленного персонажа на шкале смерти."
       },
       "debilitated": {
-        "name": "Health level for Debilitated PCs",
-        "hint": "Sets the maximum health level (current / maximum, fraction 0.0 - 1.0) that can be reported for a PC that is Debilitated on the Death Track"
+        "name": "Уровень здоровья обессиленных персонажей",
+        "hint": "Максимальная отображаемая доля здоровья (текущее / максимальное, от 0,0 до 1,0) для обессиленного персонажа на шкале смерти."
       }
     },
     "PF1": {
@@ -273,7 +273,7 @@
     "starfinder": {
       "useThreshold": {
         "name": "Использовать порог транспорта",
-        "hint": "Defines which estimation table will be used when calculating a Vehicle's estimatives."
+        "hint": "Определяет таблицу оценки состояния транспорта."
       },
       "addStamina": {
         "name": "Учитывать Живучесть",
@@ -288,8 +288,8 @@
     },
     "swade": {
       "defaultWildCardMaxWounds": {
-        "name": "Default Wild Card's Max Wounds",
-        "hint": "This is used to calculate the max wounds a Wild Card NPC should have by default for estimations."
+        "name": "Максимум ран дикого персонажа по умолчанию",
+        "hint": "Число ран по умолчанию для NPC-дикого персонажа, используемое при оценке состояния."
       },
       "showIncap": {
         "name": "Эффект статуса {incap}",
