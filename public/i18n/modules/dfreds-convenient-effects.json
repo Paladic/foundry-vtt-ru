@@ -681,6 +681,96 @@
         "name": "Ранение",
         "description": "Нет активных эффектов"
       }
-    }
+    },
+    "Setting": {
+      "Player": "Игрок",
+      "TrustedPlayer": "Доверенный игрок",
+      "AssistantGM": "Помощник мастера",
+      "GameMaster": "Мастер",
+      "None": "Нет",
+      "AppControlsPermissionName": "Права на управление эффектами",
+      "AppControlsPermissionHint": "Минимальная роль пользователя, которая позволяет открыть Convenient Effects с панели управления токенами и применять эффекты. «Нет» полностью скрывает кнопку.",
+      "CreateFoldersPermissionName": "Право создавать папки эффектов",
+      "CreateFoldersPermissionHint": "Минимальная роль, которая позволяет создавать папки в Convenient Effects. «Нет» полностью скрывает кнопку создания. Пользователь также должен иметь системное разрешение Foundry на создание предметов.",
+      "ApplyEffectsPermissionName": "Право применять эффекты",
+      "ApplyEffectsPermissionHint": "Минимальная роль, которая позволяет добавлять или снимать Convenient Effects с любого актёра через интерфейс, макрос или другой модуль. Мастера всегда могут применять эффекты."
+    },
+    "Keybinding": {
+      "ToggleAppName": "Открыть или закрыть Convenient Effects",
+      "ToggleAppHint": "Показать приложение Convenient Effects на боковой панели.",
+      "ToggleAppPopoutName": "Открыть или закрыть отдельное окно Convenient Effects",
+      "ToggleAppPopoutHint": "Открыть Convenient Effects в отдельном окне, если оно закрыто, или закрыть уже открытое окно."
+    },
+    "Triggers": {
+      "EffectNameLabel": "Название эффекта",
+      "EffectNameHint": "Название эффекта в точности как в Convenient Effects.",
+      "TargetUuidLabel": "Применить к",
+      "TargetUuidHint": "Оставьте поле пустым, чтобы использовать актёра, связанного с триггером. Перетащите сюда другого актёра, чтобы всегда выбирать его.",
+      "OverlayLabel": "Показывать на всём токене",
+      "OverlayHint": "Показывать значок эффекта поверх всего токена, а не в углу.",
+      "AddEffect": {
+        "Label": "Добавить эффект Convenient Effects",
+        "Description": "Накладывает выбранный эффект Convenient Effects на актёра."
+      },
+      "RemoveEffect": {
+        "Label": "Снять эффект Convenient Effects",
+        "Description": "Снимает выбранный эффект Convenient Effects с актёра."
+      },
+      "ToggleEffect": {
+        "Label": "Переключить эффект Convenient Effects",
+        "Description": "Накладывает эффект на актёра, если его нет, или снимает уже наложенный эффект."
+      }
+    },
+    "SearchEffects": "Поиск эффектов",
+    "ShowChildEffects": "Показать вложенные эффекты",
+    "AddEffect": "Добавить эффект",
+    "RemoveEffect": "Снять эффект",
+    "Increment": "Увеличить",
+    "Decrement": "Уменьшить",
+    "ToggleConvenientEffect": "Переключить эффект Convenient Effects",
+    "ApplyEffectsNotAllowed": "У вас нет прав на применение Convenient Effects.",
+    "NoTokensToToggle": "Выберите токен или назначьте его целью, чтобы переключить эффект.",
+    "NoTokensToAdd": "Выберите токен или назначьте его целью, чтобы добавить эффект.",
+    "NoTokensToRemove": "Выберите токен или назначьте его целью, чтобы снять эффект.",
+    "InitializeFailed": "При инициализации Convenient Effects произошла ошибка.",
+    "ChosenEffect": "Выбранный эффект",
+    "BackupsUpdated": "Встроенные резервные копии Convenient Effects обновлены до версии {version}. Откройте список резервных копий, чтобы увидеть изменения.",
+    "EffectsVersionLabel": "Версия",
+    "EffectsVersionTooltip": "Текущая версия описаний эффектов Convenient Effects.",
+    "BackupEffectsVersionTooltip": "Текущая версия встроенных резервных копий эффектов Convenient Effects.",
+    "SelectEffect": "Выбрать эффект",
+    "NoPermissionToRemoveEffect": "Нет прав на удаление эффекта {effectName} из папки {originalFolderName}. Копия эффекта создана в папке {newFolderName}.",
+    "NoPermissionToAddEffect": "Нет прав на добавление эффекта {effectName} в папку {newFolderName}.",
+    "Incrementable": "Последовательный эффект (нажмите для увеличения уровня, Shift + нажатие для уменьшения)",
+    "IsIncrementEffect": "Это последовательный эффект",
+    "StackableDae": "Складываемый эффект DAE",
+    "Config": {
+      "Title": "Настройки Convenient Effects",
+      "FoundryEffectIdLabel": "ID эффекта Foundry",
+      "FoundryEffectIdHint": "ID эффекта Foundry, используемый для его поиска, наложения или снятия.",
+      "ConvenientEffectIdLabel": "ID эффекта Convenient Effects",
+      "ConvenientEffectIdHint": "ID эффекта Convenient Effects, используемый для его поиска, наложения или снятия.",
+      "TemporaryLabel": "Временный",
+      "TemporaryHint": "Всегда помечать эффект как временный, даже если у него нет длительности или связанного состояния.",
+      "ViewableLabel": "Видимый",
+      "ViewableHint": "Всегда показывать эффект в приложении.",
+      "DynamicLabel": "Динамический",
+      "DynamicHint": "Применять динамические изменения на основании данных актёра. Используется для особых случаев и не может быть изменено.",
+      "NestedEffectsLabel": "Вложенные эффекты",
+      "NestedEffectsHint": "Вложенные эффекты, предлагаемые при добавлении или снятии этого эффекта.",
+      "SubEffectsLabel": "Подчинённые эффекты",
+      "SubEffectsHint": "Связанные эффекты, накладываемые вместе с этим эффектом. При его снятии они также автоматически снимаются.",
+      "OtherEffectsLabel": "Другие эффекты",
+      "OtherEffectsHint": "Дополнительные связанные эффекты. При снятии основного эффекта они автоматически не удаляются.",
+      "IncrementEffectsLabel": "Уровни последовательного эффекта",
+      "IncrementEffectsHint": "Упорядоченный список дочерних эффектов, образующих последовательность. Нажатие на основной эффект переключает уровни по порядку (Shift + нажатие — назад), а на дочерний — сразу выбирает его уровень. Для изменения порядка используйте стрелки.",
+      "IncrementMoveUp": "Переместить выше",
+      "IncrementMoveDown": "Переместить ниже",
+      "IDsTab": "Идентификаторы",
+      "FlagsTab": "Флаги",
+      "DependentEffectsTab": "Зависимые эффекты"
+    },
+    "Initializing": "Инициализация Convenient Effects…",
+    "FinishedInitializing": "Инициализация Convenient Effects завершена"
   }
 }
