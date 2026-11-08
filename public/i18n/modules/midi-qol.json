@@ -31,7 +31,7 @@
   "midi-qol.ItemRollButtons.Name": "Добавить кнопки атаки/урона к предмету в инвентаре",
   "midi-qol.ItemRollButtons.Hint": "Добавить кнопки бросков в описание предмета — эти кнопки поддерживают Ctrl/Alt/Shift для пропуска диалогового окна.",
   "midi-qol.AddChatDamageButtons.Name": "Добавить кнопки урона в сообщение чата",
-  "midi-qol.AddChatDamageButtons.Hint": "Enable the dnd5e damage tray on chat messages.",
+  "midi-qol.AddChatDamageButtons.Hint": "Включает панель урона D&D 5e в сообщениях чата.",
   "midi-qol.AddChatDamageButtonsOptions": {
     "none": "Нет",
     "gm": "Только для Мастера",
@@ -44,8 +44,8 @@
   "midi-qol.AutoCheckSaves.Hint": "Автоматически проверять испытание, когда оно требуется. Если выключено, то будет предполагаться, что все цели провалили испытание.",
   "midi-qol.DisplaySaveDC.Name": "Отображать СЛ испытания",
   "midi-qol.DisplaySaveDC.Hint": "Если выключено, то СЛ испытания будет скрыта от игроков (только для объединённой карточки).",
-  "midi-qol.AutoRemoveTargets.Name": "Un-target at end of turn",
-  "midi-qol.AutoRemoveTargets.Hint": "At the end of you turn choose which targets to automatically un-target",
+  "midi-qol.AutoRemoveTargets.Name": "Снимать выбор целей в конце хода",
+  "midi-qol.AutoRemoveTargets.Hint": "Выберите, с каких целей автоматически снимать выделение в конце вашего хода.",
   "midi-qol.buttons.roll": "Обычный бросок",
   "midi-qol.buttons.attack": "Атака",
   "midi-qol.buttons.damage": "Урон",
@@ -72,14 +72,14 @@
   "midi-qol.HideNPCNames.Hint": "Скрывать имена токенов в сообщениях чата для попаданий/испытаний",
   "midi-qol.noTemplateSeen": "Шаблон не был размещён",
   "midi-qol.AutoTarget.Name": "Автовыбор целей при размещении шаблона",
-  "midi-qol.AutoTarget.Hint": "When placing a template (e.g. spell) auto target tokens inside the template. If 'Center + Levels' is set in ranged targeting Levels Volumetric Templates will be used (if installed)",
+  "midi-qol.AutoTarget.Hint": "При размещении шаблона (например, заклинания) автоматически выбирать токены внутри него. Если для дальнобойных целей выбран режим «Центр + Levels», используется Levels Volumetric Templates при наличии модуля.",
   "midi-qol.undoDamageFrom": "Отменить нанесенный урон от",
   "midi-qol.noGM": "Мастер не в игре и без него нельзя применять эффекты или изменять ПЗ",
   "midi-qol.noSelection": "Не выбран токен/актёр",
   "midi-qol.showGM.Name": "Мастер видит все сообщения шепотом",
   "midi-qol.showGM.Hint": "Сообщения, отправленные шепотом, будут видны Мастеру даже если такая настройка отключена в Foundry",
-  "midi-qol.PreferredGM.Name": "Preferred GM",
-  "midi-qol.PreferredGM.Hint": "Preferred GM for socket calls. If 'none' the first gm on the current scene will be used.",
+  "midi-qol.PreferredGM.Name": "Предпочтительный мастер",
+  "midi-qol.PreferredGM.Hint": "Мастер, к которому направляются вызовы через сокеты. Если выбран вариант «Нет», используется первый мастер на текущей сцене.",
   "midi-qol.ColoredBorders.Name": "Сообщения с цветными рамками",
   "midi-qol.ColoredBorders.Hint": "Каждое сообщение чата имеет рамку в цвете персонажей игрока.",
   "midi-qol.AutoEffects.Name": "Автоприменение эффектов предмета к целям",
@@ -109,7 +109,7 @@
   "midi-qol.UseTokenNames.Name": "Карточки чата используют имя токена",
   "midi-qol.UseTokenNames.Hint": "В названиях карточек чата и названиях целей используют имя токена, а не имя актёра.",
   "midi-qol.CriticalDamage.Name": "Выбор критического урона для игроков",
-  "midi-qol.CriticalDamage.Hint": "DND5e Settings Only - standard dnd5e critical roll, Max Normal Damage - base weapon dice only (no critical dice) but all maximised, Max Critical Dice - critical dice maximised, Max All Dice - item + critical dice maximised, double dice value - result of dice x2, Explode Critical Dice - roll normal critical exploding any critical dice, Only Item Extra Critical - the only bonus damage for critical is from the item extra critical field, Max Base Roll Crit - use maximum base damage then roll critical dice as usual",
+  "midi-qol.CriticalDamage.Hint": "Только D&D 5e. Стандартный критический бросок — правила системы; «Максимальный обычный урон» — максимум основных костей оружия без критических; «Максимум критических костей» — максимум дополнительных костей крита; «Максимум всех костей» — максимум обычных и критических; «Удвоить результат» — умножить сумму на два; «Взрывающиеся критические кости» — перебрасывать максимальные значения критических костей; «Только дополнительный критический урон предмета» — брать дополнительный урон только из поля предмета; «Максимум базового броска» — максимизировать базовый урон, а критические кости бросить как обычно.",
   "midi-qol.CriticalDamageGM.Name": "Выбор критического урона для Мастера",
   "midi-qol.CriticalDamageGM.Hint": "",
   "midi-qol.CriticalDamageChoices": {
@@ -131,8 +131,8 @@
   "midi-qol.MergeCard.Hint": "Объединить атаку, попадание, урон и испытания в одну карточку чата.",
   "midi-qol.MergeCardCondensed.Name": "Сжимать броски атаки/урона",
   "midi-qol.MergeCardCondensed.Hint": "Сэкономить немного места в журнале чата, сделав броски атаки и урона меньше.",
-  "midi-qol.DisplayItemProperties.Name": "Display Item Properties",
-  "midi-qol.DisplayItemProperties.Hint": "Display item properties in the chat card. Disabling saves some chat card space.",
+  "midi-qol.DisplayItemProperties.Name": "Показывать свойства предметов",
+  "midi-qol.DisplayItemProperties.Hint": "Показывать свойства предмета в карточке чата. Отключение экономит место.",
   "midi-qol.ConfigTitle": "Настройки MidiQOL",
   "midi-qol.WorkflowSettings": "Настройки рабочего процесса",
   "midi-qol.CheckSaveText.Name": "Проверять описание предмета",
@@ -202,8 +202,8 @@
     "allNoRoll": "Испытание — все видят только результат",
     "all": "Испытание — все видят результат и общее значение",
     "allShow": "Испытание — все видят результат и броски",
-    "whisper": "Save - only GM sees results + rolls",
-    "gmOnly": "Save - only GM sees anything"
+    "whisper": "Спасбросок: только мастер видит результаты и броски",
+    "gmOnly": "Спасбросок: всё видно только мастеру"
   },
   "midi-qol.rangeTargetOptions": {
     "none": "Нет",
@@ -262,11 +262,11 @@
     "rer": "Rippers Epic Rolls"
   },
   "midi-qol.playerRollSavesOptions": {
-    "none": "None (private roll)",
-    "nonePublic": "None (public roll)",
-    "noneDialogPublic": "Auto roll and show roll dialog (public roll)",
-    "noneDialogPrivate": "Auto roll and show roll dialog (private roll)",
-    "noneDialogBlind": "Auto roll and show roll dialog (blind roll)",
+    "none": "Нет (приватный бросок)",
+    "nonePublic": "Нет (публичный бросок)",
+    "noneDialogPublic": "Автобросок с окном броска (публичный)",
+    "noneDialogPrivate": "Автобросок с окном броска (приватный)",
+    "noneDialogBlind": "Автобросок с окном броска (слепой)",
     "chat": "Сообщение чата",
     "mtb": "Monk's TokenBar",
     "rer": "Rippers Epic Rolls"
@@ -277,9 +277,9 @@
   },
   "midi-qol.AutoRemoveTargetsOptions": {
     "none": "Никогда",
-    "dead": "Un-target dead after roll",
-    "allGM": "Un-target dead and all GM",
-    "all": "Un-target all at end of turn"
+    "dead": "Снимать выбор мёртвых целей после броска",
+    "allGM": "Снимать выбор мёртвых целей и всех целей мастера",
+    "all": "Снимать выбор всех целей в конце хода"
   },
   "midi-qol.ColoredBordersOptions": {
     "none": "Нет",
@@ -334,7 +334,7 @@
     "preItemRoll": "Вызывается перед броском предмета (*)",
     "templatePlaced": "Вызывается только при размещении шаблона",
     "preAttackRoll": "Перед броском атаки",
-    "preAttackRollConfig": "Before Attack Configuration",
+    "preAttackRollConfig": "Перед настройкой атаки",
     "preCheckHits": "Перед проверкой попадания",
     "postAttackRoll": "После броска атаки",
     "preDamageRoll": "Перед броском урона",
@@ -346,16 +346,16 @@
     "preDamageApplication": "Перед нанесением урона",
     "preActiveEffects": "Перед активными эффектами",
     "postActiveEffects": "После активных эффектов",
-    "isTargeted": "Target is targeted but before item is rolled",
-    "isPreAttacked": "Target is about to be attacked, before reactions",
-    "isAttacked": "Target is attacked",
-    "isHit": "Target of a hit",
-    "preTargetSave": "Target is about to roll a saving throw",
-    "isSave": "Target rolled a save",
-    "isSaveSuccess": "Target rolled a successful save",
-    "isSaveFailure": "target failed a saving throw",
+    "isTargeted": "Цель выбрана до броска предмета",
+    "isPreAttacked": "Цель будет атакована до реакций",
+    "isAttacked": "Цель атакована",
+    "isHit": "Цель получила попадание",
+    "preTargetSave": "Цель собирается выполнить спасбросок",
+    "isSave": "Цель выполнила спасбросок",
+    "isSaveSuccess": "Цель успешно выполнила спасбросок",
+    "isSaveFailure": "Цель провалила спасбросок",
     "preTargetDamageApplication": "Цель получит урон от предмета",
-    "postTargetEffectApplication": "Target has an effect applied by a rolled item",
+    "postTargetEffectApplication": "К цели применён эффект использованного предмета",
     "isDamaged": "Цель получила урон от атаки",
     "all": "Всё"
   },
@@ -395,14 +395,14 @@
   "midi-qol.Config": {
     "Tabs": {
       "gm": "GM",
-      "player": "Player",
-      "workflow": "Workflow",
-      "concentration": "Concentration",
-      "reactions": "Reactions",
+      "player": "Игрок",
+      "workflow": "Последовательность действий",
+      "concentration": "Концентрация",
+      "reactions": "Реакции",
       "misc": "Misc",
-      "mechanics": "Mechanics",
-      "rules": "Rules",
-      "quick": "Quick Settings"
+      "mechanics": "Механика",
+      "rules": "Правила",
+      "quick": "Быстрые настройки"
     }
   },
   "midi-qol.SoundSettings.Tab": "Звуки",
@@ -425,20 +425,20 @@
   "midi-qol.DAEMidiQOL": "Особое для DAE/MidiQOL",
   "midi-qol.OptionalRules.Name": "Опциональные варианты правил",
   "midi-qol.OptionalRules.Hint": "Поддержка вариантов правил D&D5e, которые вы, возможно, используете.",
-  "midi-qol.InvisAdvantage.Name": "Unseen/Invisible attackers have advantage/disadvantage on attacks",
+  "midi-qol.InvisAdvantage.Name": "Невидимые или незамеченные атакующие получают преимущество либо помеху к атакам",
   "midi-qol.InvisAdvantage.Hint": "<strong>Rules as written</strong> Invisible attackers have advantage on attacks. Disadvantage if the target is invisible",
   "midi-qol.InvisAdvantageOptions": {
-    "none": "Do not apply",
-    "RAW": "Rules as written",
-    "vision": "Use Token Vision"
+    "none": "Не применять",
+    "RAW": "Правила как написано (RAW)",
+    "vision": "Учитывать зрение токенов"
   },
-  "midi-qol.InvisVision.Name": "Force vision when checking",
+  "midi-qol.InvisVision.Name": "Принудительно проверять зрение",
   "midi-qol.InvisVision.Hint": "<strong>Checked</strong> behaves as if all tokens have vision enabled.<br><strong>Unchecked</strong> tokens without vision can see everything",
-  "midi-qol.HiddenAdvantage.Name": "Hidden attackers have adv/disadv on attacks",
-  "midi-qol.HiddenAdvantage.Hint": "Hidden attackers have advantage on attacks. Disadvantage if the target is hidden",
+  "midi-qol.HiddenAdvantage.Name": "Скрытые атакующие получают преимущество либо помеху к атакам",
+  "midi-qol.HiddenAdvantage.Hint": "Скрытый атакующий получает преимущество, а если скрыта цель — помеху.",
   "midi-qol.HiddenAdvantageOptions": {
-    "none": "Do not apply",
-    "effect": "Check 'Hidden' Status",
+    "none": "Не применять",
+    "effect": "Проверять состояние «Скрыт»",
     "perceptive": "Perceptive"
   },
   "midi-qol.CantSeeAdvantage.Hint": "<strong>Use Token Vision</strong> Invisible attackers have advantage on targets who can't see them. Disadvantage if they can't see the target",
@@ -457,40 +457,40 @@
   "midi-qol.WallsBlockRange.Hint5": "Alternative Token Visibility = Use Alternative Token Visibility to test and block for full cover",
   "midi-qol.WallsBlockRangeOptionsNew": {
     "none": "No",
-    "center": "Center Check",
-    "centerLevels": "Center + Levels",
+    "center": "Проверка от центра",
+    "centerLevels": "Центр + Levels",
     "levelsautocover": "Levels Auto Cover",
     "simbuls-cover-calculator": "Simbul's Cover Calculator",
     "tokencover": "Alternative Token Cover",
-    "tokenvisibility": "Alternative Token Visibility - deprecated"
+    "tokenvisibility": "Alternative Token Visibility (устарело)"
   },
   "midi-qol.NearbyAllyRanged.Name": "(House Rule) Ranged Attacks at foes near allies have disadvantage",
   "midi-qol.WallsBlockRangeOptions": {
     "none": "Нет",
     "center": "Проверка по центру",
-    "centerLevels": "Center + Levels"
+    "centerLevels": "Центр + Levels"
   },
-  "midi-qol.CoverCalculation.Name": "Calculate Cover",
-  "midi-qol.CoverCalculation.Hint": "Calculate AC bonus for targets in cover - settings taken from the selected module",
+  "midi-qol.CoverCalculation.Name": "Вычислять укрытие",
+  "midi-qol.CoverCalculation.Hint": "Вычислять бонус КД целей в укрытии. Настройки берутся из выбранного модуля.",
   "midi-qol.CoverCalculationOptions": {
     "none": "Нет",
     "simbuls-cover-calculator": "Simbul's Cover Calculator",
     "levelsautocover": "Levels Auto Cover",
     "tokencover": "Alternative Token Cover",
-    "tokenvisibility": "Alternative Token Visibility - deprecated"
+    "tokenvisibility": "Alternative Token Visibility (устарело)"
   },
   "midi-qol.NearbyAllyRanged.Hint": "Дистанционные атаки союзников, находящихся рядом (5 футов) с целью, совершаются с помехой для целей меньшего, чем этот размер: ш*в (значение 0 выключает это)",
-  "midi-qol.Incapacitated.Name": "When an Incapacitated actor takes an action, MidiQOL should",
+  "midi-qol.Incapacitated.Name": "Если недееспособный актёр пытается выполнить действие, Midi-QOL должен:",
   "midi-qol.IncapacitatedOptions": {
-    "nothing": "Do nothing",
-    "enforce": "Enforce no actions",
-    "warn": "Post a warning only"
+    "nothing": "Ничего не делать",
+    "enforce": "Запретить действия",
+    "warn": "Только предупреждать"
   },
-  "midi-qol.RemoveHiddenInvis.Name": "Attacking removes hidden (use CE/CV/CUB/core foundry specialStatus )",
+  "midi-qol.RemoveHiddenInvis.Name": "Атака снимает состояние скрытности (через CE/CV/CUB/специальное состояние Foundry)",
   "midi-qol.CriticalSaves.Name": "(Домашнее правило) Критические броски испытаний всегда приводят к успеху/провалу",
   "midi-qol.MaxDRValue.Name": "(Домашнее правило) При включении будет применяться только самое эффективное уменьшение урона, в ином случае уменьшение урона сможет складываться",
   "midi-qol.DRAllPerDamageDetail.Name": "(House Rule) DRALL (DR.rwak/...) is deducted from BOTH attack damage and Other damage",
-  "midi-qol.DRAllPerDamageDetail.Hint": "Unchecked means DRALL applies just once to the total damage",
+  "midi-qol.DRAllPerDamageDetail.Hint": "Если отключено, общее снижение урона DRALL применяется один раз к итоговому урону.",
   "midi-qol.invisible": "Невидимость",
   "midi-qol.hidden": "Скрытность",
   "midi-qol.nevertarget": "Не выбирать целью",
@@ -518,16 +518,16 @@
   "midi-qol.RequireMagical.Name": "Требуется свойство 'Магическое'",
   "midi-qol.RequireMagical.Hint": "Magical Property is either the dnd5e property <strong>Magical</strong> or the <strong>midi-qol Magic Damage</strong> property. If set the item does magical damage. <br><strong>Off</strong> non-weapons do magical damage by default, weapons do magical damage if the item's magical property set.<br><strong>Non Spell</strong> means only spells do magical damage by default.<br><strong>All</strong> no item does magical damage by default",
   "midi-qol.RequireMagicalOptions": {
-    "off": "Off: Non-weapons do magical damage",
-    "nonspell": "Non spells do non-magical damage",
-    "allitems": "All Items do non-magical damage"
+    "off": "Выключено: предметы без типа оружия наносят магический урон",
+    "nonspell": "Все атаки, кроме заклинаний, наносят немагический урон",
+    "allitems": "Все предметы наносят немагический урон"
   },
-  "midi-qol.DoConcentrationCheck.Name": "Force a concentration save when damage taken",
+  "midi-qol.DoConcentrationCheck.Name": "Требовать спасбросок концентрации при получении урона",
   "midi-qol.DoConcentrationCheckOptions": {
-    "none": "Never",
-    "chatOnly": "Chat Message Only (dnd5e default behaviour)",
-    "chat": "Chat Message + Auto Roll",
-    "item": "Roll Concentration Item"
+    "none": "Никогда",
+    "chatOnly": "Только сообщение в чате (стандарт D&D 5e)",
+    "chat": "Сообщение в чате и автоматический бросок",
+    "item": "Бросить проверку концентрации через предмет"
   },
   "midi-qol.DoConcentrationCheck.Hint": "<strong>Chat Message Only</strong> display a chat message with a button (dnd5e default behaviour and required dnd5e concentration)<br><strong>Chat message + Auto Roll</strong> display a chat message and auto roll the save (requires dnd5e concentration)<br><strong>Roll Concentration Item</strong> roll a concentration item check (midi standard behaviour)",
   "midi-qol.RemoveConcentration.Name": "Снимать концентрацию при провале проверки концентрации",
@@ -553,10 +553,10 @@
   "midi-qol.NoChangelogs": "MidiQOL поддерживает и рекомендует модули ChangeLogs и Module Manager+ для отображения списка изменений с последнего обновления.",
   "midi-qol.ActiveDefenceString": "Активная защита",
   "midi-qol.ActiveDefence.Name": "Активная защита",
-  "midi-qol.ActiveDefenceModifier.Name": "Active Defence Modifier",
+  "midi-qol.ActiveDefenceModifier.Name": "Модификатор активной защиты",
   "midi-qol.ActiveDefenceModifier.Hint": "The active defence DC will be attack bonus + (22 - this modifier) and the active defence roll will be AC - modifier + 1d20. <br>The value does not matter just choose what makes the rolls look good to you. <br> Suggested values are <strong>12</strong>, 10 or 0",
-  "midi-qol.ActiveDefence.Hint": "Instead of GM rolling 'To Hit', players make a defence roll.",
-  "midi-qol.ActiveDefenceDC.Name": "Show Active Defence DC",
+  "midi-qol.ActiveDefence.Hint": "Вместо броска мастера на попадание игроки выполняют бросок защиты.",
+  "midi-qol.ActiveDefenceDC.Name": "Показывать Сл активной защиты",
   "midi-qol.ActiveDefenceDC.Hint": "If set the active defence DC will be shown in the chat card",
   "midi-qol.ActiveDefenceShow.Name": "Default display for active defence rolls",
   "midi-qol.ActiveDefenceShow.Hint": "If set to 'Self Roll' the roll will be hidden from the GM regardless of other settings",
