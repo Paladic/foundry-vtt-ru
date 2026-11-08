@@ -750,7 +750,7 @@
     "ActorHeaderBackground.title": "Фон заголовка актёра",
     "ItemSidebarBackground.title": "Фон боковой панели предмета",
     "PortraitShape": {
-      "title": "{type} Portrait Shape",
+      "title": "Форма портрета: {type}",
       "option.round": "Круглый",
       "option.transparent": "Прозрачный",
       "option.square": "Квадратный",
@@ -847,7 +847,7 @@
     "Defenders.Label": "Защитники",
     "Creatures.Label": "Существа",
     "RosterMember.Label": "{actorName} - {facilityName}",
-    "ContextMenuActionRemove": "Remove from {facilityName}",
+    "ContextMenuActionRemove": "Убрать из {facilityName}",
     "Progress.OrderAndCraftLabel": "{orderName} - {craftingItemName}"
   },
   "TIDY5E.LocalizationTestKey": "Тестовый ключ локализации",
@@ -877,7 +877,7 @@
   "TIDY5E.HitDice.Current.Label": "Текущие КЗ",
   "TIDY5E.HitDice.Max.Label": "Макс. КЗ",
   "TIDY5E.CharacterTraits.Title": "Свойства персонажа",
-  "TIDY5E.UseSpecificDefaultValue.Label": "Use Default ({value})",
+  "TIDY5E.UseSpecificDefaultValue.Label": "Использовать значение по умолчанию ({value})",
   "TIDY5E.Notifications.FirstTimeWelcome1": "Спасибо за использование Tidy 5e Sheets! Для начала вы должны изменить {sheetLinkStart}бланк{sheetLinkEnd} (или {allSheetsLinkStart}все ваши бланки{allSheetsLinkEnd}!) на Tidy версии. Вы можете узнать больше о модуле на {wikiLinkStart}странице wiki{wikiLinkEnd}.",
   "TIDY5E.AggregateSkill.HighMeasure": "High",
   "TIDY5E.AggregateSkill.LowMeasure": "Low",

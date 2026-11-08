@@ -558,7 +558,7 @@
     },
     "system.abilities.cha.proficient": {
       "name": "Владение спасброском (Харизма)",
-      "description": "0: Not Proficient. 1: Proficient. 2: Expertise. 0.5: Half Proficient."
+      "description": "0: Нет владения. 1: Владение. 2: Экспертность. 0.5: Половинное владение."
     },
     "system.abilities.cha.save": {
       "name": "Модификатор спасброска (Харизма)",
@@ -590,7 +590,7 @@
     },
     "system.abilities.con.proficient": {
       "name": "Владение спасброском (Телосложение)",
-      "description": "0: Not Proficient. 1: Proficient. 2: Expertise. 0.5: Half Proficient."
+      "description": "0: Нет владения. 1: Владение. 2: Экспертность. 0.5: Половинное владение."
     },
     "system.abilities.con.save": {
       "name": "Модификатор спасброска (Телосложение)",
@@ -622,7 +622,7 @@
     },
     "system.abilities.dex.proficient": {
       "name": "Владение спасброском (Ловкость)",
-      "description": "0: Not Proficient. 1: Proficient. 2: Expertise. 0.5: Half Proficient."
+      "description": "0: Нет владения. 1: Владение. 2: Экспертность. 0.5: Половинное владение."
     },
     "system.abilities.dex.save": {
       "name": "Модификатор спасброска (Ловкость)",
@@ -654,7 +654,7 @@
     },
     "system.abilities.int.proficient": {
       "name": "Владение спасброском (Интеллект)",
-      "description": "0: Not Proficient. 1: Proficient. 2: Expertise. 0.5: Half Proficient."
+      "description": "0: Нет владения. 1: Владение. 2: Экспертность. 0.5: Половинное владение."
     },
     "system.abilities.int.save": {
       "name": "Модификатор спасброска (Интеллект)",
@@ -686,7 +686,7 @@
     },
     "system.abilities.str.proficient": {
       "name": "Владение спасброском (Сила)",
-      "description": "0: Not Proficient. 1: Proficient. 2: Expertise. 0.5: Half Proficient."
+      "description": "0: Нет владения. 1: Владение. 2: Экспертность. 0.5: Половинное владение."
     },
     "system.abilities.str.save": {
       "name": "Модификатор спасброска (Сила)",
@@ -718,7 +718,7 @@
     },
     "system.abilities.wis.proficient": {
       "name": "Владение спасброском (Мудрость)",
-      "description": "0: Not Proficient. 1: Proficient. 2: Expertise. 0.5: Half Proficient."
+      "description": "0: Нет владения. 1: Владение. 2: Экспертность. 0.5: Половинное владение."
     },
     "system.abilities.wis.save": {
       "name": "Модификатор спасброска (Мудрость)",

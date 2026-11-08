@@ -9,10 +9,75 @@ const dir = join(root, "i18n", "modules");
 const errors = [];
 const fail = (message) => errors.push(message);
 
+// JSON.parse silently overwrites duplicate object keys.
+function findDuplicateKeys(source) {
+  let position = 0;
+  const duplicates = [];
+
+  function skipWhitespace() {
+    while (position < source.length && /\s/.test(source[position])) position++;
+  }
+
+  function readString() {
+    const start = position++;
+    while (position < source.length) {
+      const char = source[position++];
+      if (char === "\\") position++;
+      else if (char === '"') break;
+    }
+    return JSON.parse(source.slice(start, position));
+  }
+
+  function readValue(path) {
+    skipWhitespace();
+    if (source[position] === "{") {
+      position++;
+      skipWhitespace();
+      const seen = new Set();
+      while (source[position] !== "}") {
+        const key = readString();
+        const keyPath = path ? path + "." + key : key;
+        if (seen.has(key)) duplicates.push(keyPath);
+        seen.add(key);
+        skipWhitespace();
+        position++; // ':', already validated by JSON.parse
+        readValue(keyPath);
+        skipWhitespace();
+        if (source[position] !== ",") break;
+        position++;
+        skipWhitespace();
+      }
+      position++; // '}'
+    } else if (source[position] === "[") {
+      position++;
+      skipWhitespace();
+      let index = 0;
+      while (source[position] !== "]") {
+        readValue(path + "[" + index++ + "]");
+        skipWhitespace();
+        if (source[position] !== ",") break;
+        position++;
+        skipWhitespace();
+      }
+      position++; // ']'
+    } else if (source[position] === '"') {
+      readString();
+    } else {
+      while (position < source.length && !/[\s,\]}]/.test(source[position])) position++;
+    }
+  }
+
+  readValue("");
+  return duplicates;
+}
+
 async function readJson(file) {
   const content = await readFile(file, "utf8");
   try {
     const json = JSON.parse(content.replace(/^\uFEFF/, ""));
+    for (const duplicate of findDuplicateKeys(content)) {
+      fail(`${file}: duplicate JSON key '${duplicate}'`);
+    }
     if (!json || typeof json !== "object" || Array.isArray(json)) {
       fail(`${file}: expected a JSON object at the root`);
     }
