@@ -1,3 +1,4 @@
+import { localizePsfxSettings } from "./compatibility/psfx.js";
 import { applySceneLabelFont, registerFonts } from "./fonts.js";
 import { initSystem, registerSystemBabele } from "./systems.js";
 import { loadSystemStyles } from "./styles.js";
@@ -29,3 +30,6 @@ Hooks.once("init", () => {
     registerSystemBabele(pendingBabele);
   }
 });
+
+// PSFX does not provide localization keys for its module settings.
+Hooks.once("ready", localizePsfxSettings);
