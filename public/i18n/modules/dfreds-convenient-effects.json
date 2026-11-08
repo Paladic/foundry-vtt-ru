@@ -43,7 +43,7 @@
     "ConfigLabel": "Convenient",
     "ConfigFoundryEffectIdLabel": "ID Эффекта Foundry",
     "ConfigFoundryEffectIdHint": "Это ID эффекта Foundry и может быть использован для поиска, добавления или удаления эффекта.",
-    "ConfigConvenientEffectIdLabel": "ID Convenient Effects",
+    "ConfigConvenientEffectIdLabel": "ID эффекта Convenient Effects",
     "ConfigConvenientEffectIdHint": "Это ID Convenient Effects и может быть использован для поиска, добавления или удаления эффекта.",
     "ConfigTemporaryLabel": "Временный",
     "ConfigTemporaryHint": "Если отмечено, этот эффект всегда будет помечен как временный, даже если у него нет продолжительности или статуса.",
@@ -386,7 +386,7 @@
         "description": "Удваивает скорость, даёт +2 к КД и преимущество к испытаниям Ловкости на 1 минуту"
       },
       "HeavilyEncumbered": {
-        "name": "Heavily Encumbered",
+        "name": "Сильно перегружен",
         "description": "Снижает скорость передвижения на 20 футов, даёт помеху к броскам атаки и помеху к испытаниям Силы, Ловкости и Телосложения"
       },
       "HeroesFeast": {
@@ -398,7 +398,7 @@
         "description": "Иммунитет к испугу на 1 минуту"
       },
       "HideousLaughter": {
-        "name": "Hideous Laughter",
+        "name": "Отвратительный смех",
         "description": "Накладывает состояния «Лежащий ничком» и «Недееспособен» на 1 минуту"
       },
       "HoldMonster": {
@@ -526,7 +526,7 @@
         "description": "Даёт сопротивление к огненному урону на 1 час"
       },
       "ProtectionFromLightning": {
-        "name": "Protection from Lightning",
+        "name": "Защита от электричества",
         "description": "Даёт сопротивление к электрическому урону на 1 час"
       },
       "ProtectionFromPoison": {
@@ -534,7 +534,7 @@
         "description": "Даёт сопротивление к яду на 1 час (не даёт автоматического преимущества к испытаниям от яда)"
       },
       "ProtectionFromThunder": {
-        "name": "Protection from Thunder",
+        "name": "Защита от звука",
         "description": "Даёт сопротивление к урону громом на 1 час"
       },
       "Rage": {
@@ -630,7 +630,7 @@
         "description": "Нет активных эффектов, длится 10 минут"
       },
       "SpiritualWeapon": {
-        "name": "Spiritual Weapon",
+        "name": "Духовное оружие",
         "description": "Нет активных эффектов, длится 1 минуту"
       },
       "Stoneskin": {
