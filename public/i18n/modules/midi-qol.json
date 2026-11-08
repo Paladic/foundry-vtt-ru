@@ -1147,71 +1147,71 @@
         },
         "idv": {
           "label": "Игнорировать уязвимость",
-          "hint": "Ignore damage vulnerability when applying damage"
+          "hint": "Не учитывать уязвимость при применении урона."
         },
         "ida": {
-          "label": "Ignore Absorption",
-          "hint": "Ignore damage absorption when applying damage"
+          "label": "Игнорировать поглощение",
+          "hint": "Не учитывать поглощение при применении урона."
         }
       }
     }
   },
   "midi-qol.ATTACK": {
     "Title": {
-      "one": "Midi Attack",
-      "other": "Midi Attacks"
+      "one": "Атака Midi",
+      "other": "Атаки Midi"
     },
     "extras": {
-      "header": "Midi Attack Fields"
+      "header": "Поля атаки Midi"
     },
     "FIELDS": {
       "attackMode": {
-        "label": "Attack Mode",
-        "hint": "Default attack mode"
+        "label": "Режим атаки",
+        "hint": "Режим атаки по умолчанию."
       },
       "ammunition": {
         "label": "Боеприпасы",
         "hint": "Боеприпасы по умолчанию"
       },
       "attackRollPerTarget": {
-        "label": "Attack Roll Per Target",
-        "hint": "Roll a separate attack roll for each target. Creates a chat card for each target."
+        "label": "Отдельный бросок для каждой цели",
+        "hint": "Бросать отдельную атаку для каждой цели, создавая для неё отдельную карточку чата."
       },
       "fumbleThreshold": {
-        "label": "Fumble Threshold",
-        "hint": "If the attack roll is less than or equal to this value it is a fumble"
+        "label": "Порог критического провала",
+        "hint": "Если результат броска атаки меньше или равен этому значению, происходит критический провал."
       }
     }
   },
   "midi-qol.CAST": {
     "Title": {
-      "one": "Midi Cast",
-      "other": "Midi Casts"
+      "one": "Сотворение заклинания Midi",
+      "other": "Сотворение заклинаний Midi"
     }
   },
   "midi-qol.CHECK": {
     "Title": {
-      "one": "Midi Check",
-      "other": "Midi Checks"
+      "one": "Проверка Midi",
+      "other": "Проверки Midi"
     }
   },
   "midi-qol.DAMAGE": {
     "Title": {
-      "one": "Midi Damage",
-      "other": "Midi Damage"
+      "one": "Урон Midi",
+      "other": "Урон Midi"
     },
     "FIELDS": {
       "damage": {
-        "label": "Damage",
+        "label": "Урон",
         "critical": {
-          "label": "Critical Damage",
+          "label": "Критический урон",
           "allow": {
-            "label": "Allow Critical Damage",
-            "hint": "Allow critical damage to be applied"
+            "label": "Разрешить критический урон",
+            "hint": "Разрешает применение критического урона."
           },
           "bonus": {
-            "label": "Bonus Critical Damage",
-            "hint": "Bonus critical damage to be applied if critical damage is allowed"
+            "label": "Дополнительный критический урон",
+            "hint": "Дополнительный урон при критическом попадании, если критический урон разрешён."
           }
         }
       }
@@ -1219,160 +1219,160 @@
   },
   "midi-qol.ENCHANT": {
     "Title": {
-      "one": "Midi Enchant",
-      "other": "Midi Enchants"
+      "one": "Зачарование Midi",
+      "other": "Зачарования Midi"
     }
   },
   "midi-qol.FORWARD": {
     "Title": {
-      "one": "Midi Forward",
-      "other": "Midi Forwards"
+      "one": "Перенаправление Midi",
+      "other": "Перенаправления Midi"
     }
   },
   "midi-qol.HEAL": {
     "Title": {
-      "one": "Midi Heal",
-      "other": "Midi Heal"
+      "one": "Лечение Midi",
+      "other": "Лечение Midi"
     }
   },
   "midi-qol.OVERTIME": {
     "Title": {
-      "one": "Midi Overtime",
-      "other": "Midi Overtime"
+      "one": "Периодический эффект Midi",
+      "other": "Периодические эффекты Midi"
     },
     "extras": {
-      "header": "Midi Overtime Settings"
+      "header": "Настройки периодического эффекта Midi"
     },
     "FIELDS": {
       "turnChoice": {
-        "label": "Turn Choice",
-        "hint": "Start or end of turn",
-        "start": "Start of Turn",
-        "end": "End of Turn"
+        "label": "Момент хода",
+        "hint": "Начало или окончание хода.",
+        "start": "Начало хода",
+        "end": "Конец хода"
       },
       "saveRemoves": {
-        "label": "Save Removes",
-        "hint": "Save removes effect"
+        "label": "Спасбросок снимает эффект",
+        "hint": "Успешный спасбросок снимает эффект."
       },
       "removeConditionBeforeActivity": {
-        "label": "Remove effect before rolling",
-        "hint": "It the Remove Condition is met the effect is removed before the activity is rolled"
+        "label": "Снимать эффект до броска",
+        "hint": "Если условие снятия выполнено, эффект удаляется до броска активности."
       },
       "removeConditionText": {
-        "label": "Remove Condition",
-        "hint": "Condition to remove effect"
+        "label": "Условие снятия",
+        "hint": "Условие, при выполнении которого снимается эффект."
       }
     }
   },
   "midi-qol.SAVE": {
     "Title": {
-      "one": "Midi Save",
-      "other": "Midi Saves"
+      "one": "Спасбросок Midi",
+      "other": "Спасброски Midi"
     },
     "extras": {
-      "header": "Midi Save Fields"
+      "header": "Поля спасброска Midi"
     },
     "FriendlySave": {
-      "Default": "Roll save",
-      "FriendlySuccess": "Friends Succeed",
-      "FriendlyFail": "Friends Fail"
+      "Default": "Бросить спасбросок",
+      "FriendlySuccess": "Союзники автоматически преуспевают",
+      "FriendlyFail": "Союзники автоматически проваливают"
     },
     "FIELDS": {
       "friendlySave": {
-        "label": "Friendly Save",
-        "hint": "If enabled allow allies to succeed or fail rather than rolling a save"
+        "label": "Спасброски союзников",
+        "hint": "Разрешить союзникам автоматически преуспевать или проваливать спасброски без броска."
       }
     }
   },
   "midi-qol.UTILITY": {
     "Title": {
-      "one": "Midi Use",
-      "other": "Midi Use"
+      "one": "Использование Midi",
+      "other": "Использование Midi"
     }
   },
   "midi-qol.SUMMON": {
     "Title": {
-      "one": "Midi Summon",
-      "other": "Midi Summons"
+      "one": "Призыв Midi",
+      "other": "Призывы Midi"
     }
   },
   "midi-qol.fields": {
-    "use-condition-header": "Midi Activity Allow Use Condition",
-    "attack-extras": "Midi Attack Fields",
-    "effects-conditon": "Midi Effect application condition",
-    "force-dialog": "Force Configuration Dialog",
-    "midi-automation-only": "Only use in midi automation"
+    "use-condition-header": "Условие использования активности Midi",
+    "attack-extras": "Поля атаки Midi",
+    "effects-conditon": "Условие применения эффектов Midi",
+    "force-dialog": "Принудительно открывать окно настроек",
+    "midi-automation-only": "Использовать только для автоматизации Midi"
   },
-  "midi-qol.BaseDamageFlavor": "Damage",
-  "midi-qol.BaseHealingFlavor": "Healing",
-  "midi-qol.OtherDamageFlavor": "Other",
-  "midi-qol.OtherHealingFlavor": "Other Healing",
-  "midi-qol.RequireAmmunition.Name": "Require ammunition available to roll attack",
-  "midi-qol.CheckTwoHanded.Name": "Require no shield equipped for two-handed/off-hand attacks",
+  "midi-qol.BaseDamageFlavor": "Урон",
+  "midi-qol.BaseHealingFlavor": "Лечение",
+  "midi-qol.OtherDamageFlavor": "Прочий урон",
+  "midi-qol.OtherHealingFlavor": "Дополнительное лечение",
+  "midi-qol.RequireAmmunition.Name": "Требовать боеприпасы для атаки",
+  "midi-qol.CheckTwoHanded.Name": "Запрещать атаки двуручным оружием или второй рукой при надетом щите",
   "midi-qol.NoAmmunition": "There are 0 {name} in your inventory",
-  "midi-qol.NoAmmunitionAvailable": "There is no ammunition in your inventory.",
-  "midi-qol.NoAmmunitionSelected": "You must select the ammunition to use.",
-  "midi-qol.TwoHandedShieldWarning": "Cannot use two-handed or off-hand attack with a shield equipped",
+  "midi-qol.NoAmmunitionAvailable": "В инвентаре нет боеприпасов.",
+  "midi-qol.NoAmmunitionSelected": "Необходимо выбрать используемые боеприпасы.",
+  "midi-qol.TwoHandedShieldWarning": "Нельзя атаковать двуручным оружием или второй рукой при экипированном щите.",
   "dae.MidiQOL.fieldData": {
     "flags.midi-qol.absorption.acid": {
-      "name": "Absorption Acid",
-      "description": "Converts Acid Damage taken to healing."
+      "name": "Поглощение урона кислотой",
+      "description": "Преобразует полученный урон кислотой в лечение."
     },
     "flags.midi-qol.absorption.bludgeoning": {
-      "name": "Absorption Bludgeoning",
-      "description": "Converts Bludgeoning Damage taken to healing."
+      "name": "Поглощение урона дробящим уроном",
+      "description": "Преобразует полученный урон дробящим уроном в лечение."
     },
     "flags.midi-qol.absorption.cold": {
-      "name": "Absorption Cold",
-      "description": "Converts Cold Damage taken to healing."
+      "name": "Поглощение урона холодом",
+      "description": "Преобразует полученный урон холодом в лечение."
     },
     "flags.midi-qol.absorption.fire": {
-      "name": "Absorption Fire",
-      "description": "Converts Fire Damage taken to healing."
+      "name": "Поглощение урона огнём",
+      "description": "Преобразует полученный урон огнём в лечение."
     },
     "flags.midi-qol.absorption.force": {
-      "name": "Absorption Force",
-      "description": "Converts Force Damage taken to healing."
+      "name": "Поглощение урона силовым уроном",
+      "description": "Преобразует полученный урон силовым уроном в лечение."
     },
     "flags.midi-qol.absorption.lightning": {
-      "name": "Absorption Lightning",
-      "description": "Converts Lightning Damage taken to healing."
+      "name": "Поглощение урона электричеством",
+      "description": "Преобразует полученный урон электричеством в лечение."
     },
     "flags.midi-qol.absorption.midi-none": {
-      "name": "Absorption None",
+      "name": "Поглощение: нет",
       "description": ""
     },
     "flags.midi-qol.absorption.necrotic": {
-      "name": "Absorption Necrotic",
-      "description": "Converts Necrotic Damage taken to healing."
+      "name": "Поглощение урона некротическим уроном",
+      "description": "Преобразует полученный урон некротическим уроном в лечение."
     },
     "flags.midi-qol.absorption.none": {
-      "name": "No Absorption",
+      "name": "Без поглощения",
       "description": ""
     },
     "flags.midi-qol.absorption.piercing": {
-      "name": "Absorption Piercing",
-      "description": "Converts Piercing Damage taken to healing."
+      "name": "Поглощение урона колющим уроном",
+      "description": "Преобразует полученный урон колющим уроном в лечение."
     },
     "flags.midi-qol.absorption.poison": {
-      "name": "Absorption Poison",
-      "description": "Converts Poison Damage taken to healing."
+      "name": "Поглощение урона ядом",
+      "description": "Преобразует полученный урон ядом в лечение."
     },
     "flags.midi-qol.absorption.psychic": {
-      "name": "Absorption Psychic",
-      "description": "Converts Psychic Damage taken to healing."
+      "name": "Поглощение урона психическим уроном",
+      "description": "Преобразует полученный урон психическим уроном в лечение."
     },
     "flags.midi-qol.absorption.radiant": {
-      "name": "Absorption Radiant",
-      "description": "Converts Radiant Damage taken to healing."
+      "name": "Поглощение урона излучением",
+      "description": "Преобразует полученный урон излучением в лечение."
     },
     "flags.midi-qol.absorption.slashing": {
-      "name": "Absorption Slashing",
-      "description": "Converts Slashing Damage taken to healing."
+      "name": "Поглощение урона рубящим уроном",
+      "description": "Преобразует полученный урон рубящим уроном в лечение."
     },
     "flags.midi-qol.absorption.thunder": {
-      "name": "Absorption Thunder",
-      "description": "Converts Thunder Damage taken to healing."
+      "name": "Поглощение урона звуком",
+      "description": "Преобразует полученный урон звуком в лечение."
     },
     "flags.midi-qol.advantage.ability.all": {
       "name": "Advantage All Ability",
