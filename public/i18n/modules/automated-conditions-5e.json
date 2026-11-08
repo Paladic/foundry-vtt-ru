@@ -1,12 +1,264 @@
-
 {
+  "AC5E.ShowTooltipsName": "Показывать всплывающие подсказки AC5e:",
+  "AC5E.ShowTooltipsHint": "Если включено - AC5e при наведении курсора на кнопки ''Преимущество/Помеха'' при броске кубика или на соответствующее сообщение чата, или и то, и другое, покажет полезную всплывающую подсказку с описанием этого предложения.",
+  "AC5E.ShowToolTipsChoicesBoth": "При бросках кубика и в чате",
+  "AC5E.ShowToolTipsChoicesDialog": "При бросках кубика",
+  "AC5E.ShowToolTipsChoicesChat": "В сообщении чата",
+  "AC5E.ShowToolTipsChoicesNone": "Не показывать",
+  "AC5E.ShowModuleNameInTooltipsName": "Показывать имя модуля в подсказках:",
+  "AC5E.ExpandedConditionsName": "Дополнительные состояния:",
+  "AC5E.ExpandedConditionsHint": "Если включено – добавит дополнительные состояния, такие как ‘’Уклонение’’ и ‘’Спрятаться’’.",
+  "AC5E.ActivityUse": {
+    "Name": "Заклинания и доспехи:",
+    "Hint": "Выключено: Не делать ничего, Ограничить: Если актер неумел в  экипированной броней, использование заклинаний не разрешается и отменяется, Предупреждать: Если актер не умел во владении экипированной броней, при использование заклинаний будет выходить предупреждение.",
+    "Choices": {
+      "Off": "Выключено",
+      "Enforce": "Ограничить",
+      "Warn": "Предупреждать"
+    },
+    "Type": {
+      "Armor": {
+        "Enforce": " Вы неумелы в экипированной броне и не можете произносить заклинания. Заклинания отменены!",
+        "Warn": " Вы неумелы в экипированной броне и не можете произносить заклинания!"
+      },
+      "Incapacitated": {
+        "Enforce": "is incapacitated and cannot use any actions. Action cancelled!",
+        "Warn": "is incapacitated and cannot use any actions."
+      },
+      "Raging": {
+        "Enforce": "is raging and cannot cast spells. Spell cancelled!",
+        "Warn": "is raging and cannot cast spells."
+      },
+      "Silenced": {
+        "Enforce": "is silenced and cannot cast spells with verbal components. Spell cancelled!",
+        "Warn": "is silenced and cannot cast spells with verbal components."
+      }
+    }
+  },
+  "AC5E.AutoExhaustionName": "Правила Истощения:",
+  "AC5E.AutoExhaustionHint": "Если включено -  AC5e будет автоматически обрабатывать обычные правила условий истощения 5e. Отключите, если вам нужна совместимость с другими модулями истощения или вашими собственными правилами (правила dnd-1 будут добавлены в будущем обновлении).",
+  "AC5E.AutoEncumbranceName": "Правила Нагруженности:",
+  "AC5E.AutoEncumbranceHint": " Если включено -  AC5e автоматически обработает вариант правил 5e Нагрузка. ГМ также должен выбрать в настройках системы Dnd5e опцию ‘’Вариант Нагрузка’’, иначе это не будет иметь никакого эффекта.",
+  "AC5E.DebuggingName": "AC5E отладка:",
+  "AC5E.DebuggingHint": " Просто некоторые полезные журналы для отладки во время разработки. Вероятно, пользователям нет смысла включать это :)",
+  "AC5E.OptinDescription.Roll.Attack": "attack rolls",
+  "AC5E.OptinDescription.Roll.Damage": "damage rolls",
+  "AC5E.OptinDescription.Roll.Check": "checks",
+  "AC5E.OptinDescription.Roll.Save": "saving throws",
+  "AC5E.OptinDescription.Roll.Generic": "rolls",
+  "AC5E.OptinDescription.GrantsAdvantage": "Grants advantage on {roll}",
+  "AC5E.OptinDescription.ImposesDisadvantage": "Imposes disadvantage on {roll}",
+  "AC5E.OptinDescription.RemovesAdvantage": "Removes advantage on {roll}",
+  "AC5E.OptinDescription.RemovesDisadvantage": "Removes disadvantage on {roll}",
+  "AC5E.OptinDescription.ForcesCritical": "Forces a critical hit",
+  "AC5E.OptinDescription.PreventsCritical": "Prevents critical hits",
+  "AC5E.OptinDescription.ForcesFailure": "Forces automatic failure on {roll}",
+  "AC5E.OptinDescription.ForcesFumble": "Forces a fumble",
+  "AC5E.OptinDescription.ForcesSuccess": "Forces automatic success on {roll}",
+  "AC5E.OptinDescription.SetsRollBonus": "Sets {roll} bonus to {value}",
+  "AC5E.OptinDescription.AppliesRollBonus": "Applies {value} to {roll}",
+  "AC5E.OptinDescription.ModifiesRollBonus": "Modifies {roll} bonus",
+  "AC5E.OptinDescription.SetsTargetAC": "Sets target AC to {value}",
+  "AC5E.OptinDescription.ModifiesTargetACBy": "Modifies target AC by {value}",
+  "AC5E.OptinDescription.ModifiesTargetAC": "Modifies target AC",
+  "AC5E.OptinDescription.SetsMinimumD20": "Sets minimum d20 result to {value}",
+  "AC5E.OptinDescription.SetsMaximumD20": "Sets maximum d20 result to {value}",
+  "AC5E.OptinDescription.AppliesRollModifier": "Applies roll modifier",
+  "AC5E.OptinDescription.AppliesRollModifierWithValue": "Applies roll modifier ({value})",
+  "AC5E.OptinDescription.SetsCriticalThreshold": "Sets critical threshold to {value}",
+  "AC5E.OptinDescription.ModifiesCriticalThreshold": "Modifies critical threshold",
+  "AC5E.OptinDescription.SetsFumbleThreshold": "Sets fumble threshold to {value}",
+  "AC5E.OptinDescription.ModifiesFumbleThreshold": "Modifies fumble threshold",
+  "AC5E.OptinDescription.AddsExtraDamageDice": "Adds extra damage dice",
+  "AC5E.OptinDescription.AddsExtraDamageDiceWithValue": "Adds extra damage dice ({value})",
+  "AC5E.OptinDescription.UpgradesDamageDice": "Upgrades damage dice",
+  "AC5E.OptinDescription.UpgradesDamageDiceWithValue": "Upgrades damage dice ({value})",
+  "AC5E.OptinDescription.DowngradesDamageDice": "Downgrades damage dice",
+  "AC5E.OptinDescription.DowngradesDamageDiceWithValue": "Downgrades damage dice ({value})",
+  "AC5E.OptinDescription.ModifiesAttackRange": "Modifies attack range behavior",
+  "AC5E.OptinDescription.FinalStandDropsTo": "Final stand (drops to {value})",
+  "AC5E.Chance.Triggered": "is triggered",
+  "AC5E.Chance.TriggeredWithRoll": "is triggered (rolled {roll})",
+  "AC5E.OptinCadence.OncePerTurn": "(1/turn)",
+  "AC5E.OptinCadence.OncePerRound": "(1/round)",
+  "AC5E.OptinCadence.OncePerCombat": "(1/combat)",
+  "AC5E.OptinLegend.Optional": "AC5E",
+  "AC5E.OptinLegend.FromOtherSources": "AC5E From other sources (ask for permission)",
+  "AC5E.WarCaster": "Боевой Маг",
+  "AC5E.Fail": "Провал",
+  "AC5E.OutOfRange": "За пределами макс. дистанции",
+  "AC5E.Item": "Предмет",
+  "AC5E.Equipment": "Экипировка",
+  "AC5E.AutomateStatuses": {
+    "Name": "Automate D&D5E Statuses",
+    "Hint": "When enabled, AC5E will automate dis/advantage and roll mode modifiers based on system statuses."
+  },
+  "AC5E.ShowTooltipChatVisibility.Name": "Show chat tooltips for",
+  "AC5E.ShowTooltipChatVisibility.Hint": "'All' - all actor rolls, 'None' - no rolls, 'Owned' - owned actors rolls, 'Players' -  player actors rolls; (the GM sees all)",
+  "AC5E.ShowTooltipChatVisibility.All": "All",
+  "AC5E.ShowTooltipChatVisibility.None": "None",
+  "AC5E.ShowTooltipChatVisibility.Owned": "Owned",
+  "AC5E.ShowTooltipChatVisibility.Players": "Players",
+  "AC5E.AutoRangeChecks": {
+    "Name": "Проверка дальности оружия:",
+    "Hint": " Если включено - AC5e будет автоматически обрабатывать Помеху/Провал дистанционной атаки, основываясь на расстоянии до цели и значениях дальности оружия, используемого при атаке.",
+    "MeleeDiagonals": "Melee diagonal reach",
+    "MeleeOutOfRange": "Melee out of range",
+    "RangedNearbyFoes": "Помеха - враг вплотную:",
+    "RangedLongDisadvantage": "Ranged long disadvantage",
+    "RangedOutOfRange": "Ranged out of range"
+  },
+  "AC5E.Targeting": {
+    "Name": "Настройки нацеливания:",
+    "Hint": "When no or multiple targets are selected for an Attack, choose how AC5e should respond",
+    "Choices": {
+      "Source": "Только от источника",
+      "Enforce": "Обеспечить нацеливание",
+      "Warn": "Cancel roll with warning"
+    },
+    "MultipleTargetsAttack": {
+      "Source": " AC5e: Вы атакуете несколько целей, а это не поддерживается. Результаты броска могут быть неверны.",
+      "Enforce": "AC5e: Multiple targets selected. Roll cancelled!"
+    },
+    "NoTargetsAttack": {
+      "Source": " AC5e: Вы не выбрали цели. Пожалуйста, всегда выбирайте цель, если хотите, чтобы AC5e правильно обрабатывал броски атаки.",
+      "Enforce": "AC5e: No targets selected. Roll cancelled!"
+    }
+  },
+  "AC5E.TokenlessActorWarning": {
+    "Hint": "The module doesn't affect currently rolls from actors without a token on the scene!",
+    "Name": "Show tokenless actor warning",
+    "Text": "AC5E warning: The actor you are rolling for, doesn't have a token on the scene. The results can be skewed"
+  },
+  "AC5E.ModifyAC": "Modified AC",
+  "AC5E.ModifyDC": "Modified DC",
+  "AC5E.Alert": "Alert",
+  "AC5E.FailLowerCase": "fail",
+  "AC5E.Fumble": "Fumble",
+  "AC5E.Rage": "Rage",
+  "AC5E.Raging": "Raging",
+  "AC5E.SubtleSpell": "Subtle Spell",
+  "AC5E.Feats": {
+    "CrossbowExpert": "Crossbow Expert",
+    "Sharpshooter": "Sharpshooter",
+    "SpellSniper": "Spell Sniper"
+  },
+  "AC5E.NearbyFoe": "Nearby Foe",
+  "AC5E.ButtonColorPicker": {
+    "Enabled": {
+      "Name": "Colorful buttons",
+      "Hint": "Make your roll dialog buttons stand out. Default colors: #288bcc (background), white (text/border). Input user to use game.user.color (best for background). Input false/none/null/0 to turn off any of the available color pickers. Delete any field to fallback to defaults."
+    },
+    "Background": {
+      "Name": "🎨 Button background color",
+      "Hint": "Delete any string from the input to default to the game.user.color"
+    },
+    "Border": {
+      "Name": "🖍️ Button border color",
+      "Hint": "Delete any string from the input to default to white"
+    },
+    "Text": {
+      "Name": "🔤 Button text color",
+      "Hint": "Delete any string from the input to default to white"
+    }
+  },
+  "AC5E.AdvantageKeypress": "Advantage keypress",
+  "AC5E.CriticalKeypress": "Critical keypress",
+  "AC5E.DisadvantageKeypress": "Disadvantage keypress",
+  "AC5E.NoCriticalKeypress": "Normal keypress",
+  "AC5E.OverrideAdvantage": "Override advantage keypress",
+  "AC5E.OverrideCritical": "Override critical keypress",
+  "AC5E.OverrideDisadvantage": "Override disadvantage keypress",
+  "AC5E.OverrideNoCritical": "Override normal keypress",
+  "AC5E.ForcedAdvantage": "System forced advantage",
+  "AC5E.ForcedDisadvantage": "System forced disadvantage",
+  "AC5E.NoAdvantage": "Suppressed advantage",
+  "AC5E.NoCritical": "Suppressed criticals",
+  "AC5E.NoDisadvantage": "Suppressed disadvantage",
+  "AC5E.TargetGrantsNoAdvantage": "Granted no advantage",
+  "AC5E.TargetGrantsNoCritical": "Granted no criticals",
+  "AC5E.TargetGrantsNoDisadvantage": "Granted no disadvantage",
+  "AC5E.Bonus": "Bonus",
+  "AC5E.ExtraDice": "Extra dice",
+  "AC5E.Success": "Success",
+  "AC5E.AbbreviationAdvantage": "adv",
+  "AC5E.AbbreviationDisadvantage": "dis",
+  "AC5E.AbbreviationCritical": "crit",
+  "AC5E.Grants": "grants",
+  "AC5E.Attacker": "Attacker",
+  "AC5E.Flags": "flags",
+  "AC5E.FlagsInitiativeAdv": "System advantage on Initiative",
+  "AC5E.FlagsInitiativeDisadv": "System disadvantage on Initiative",
+  "AC5E.TargetGrantsAdvantageAbbreviated": "Granted adv",
+  "AC5E.TargetGrantsDisadvantageAbbreviated": "Granted dis",
+  "AC5E.TargetGrantsCriticalAbbreviated": "Granted crit",
+  "AC5E.TargetGrantsFail": "Granted fail",
+  "AC5E.TargetGrantsFumble": "Granted fumble",
+  "AC5E.TargetGrantsSuccess": "Granted success",
+  "AC5E.TargetGrantsBonus": "Granted bonus",
+  "AC5E.TargetGrantsModifier": "Granted modifier",
+  "AC5E.TargetGrantsExtraDice": "Granted extra dice",
+  "AC5E.NoChanges": "No changes",
+  "AC5E.SystemMode": "System mode",
+  "AC5E.EnvironmentalHazards": {
+    "SettingsName": "Environmental Hazards (2024)",
+    "SettingsHint": "Automate Burning and Suffocation conditions, based on the 2024 D&D 5e ruleset",
+    "BurningHazard": "Burning Hazard",
+    "SuffocatingHazard": "Suffocating"
+  },
+  "dae.fieldData.fieldCategories.AC5E": "AC5E",
+  "dae.AC5E.fieldData": {
+    "flags": {
+      "automated-conditions-5e": {
+        "damage": {
+          "typeOverride": {
+            "name": "Переопределить тип урона основных бросков урона",
+            "description": "Используйте override=fire для одного типа или override=fire,lightning,thunder для выбора из нескольких типов. Для обратной совместимости также поддерживается set=.... Параметры addTo=base, addTo=bonus, addTo=all, addTo=types(fire,cold), addTo=!types(poison,acid) или их сочетания, например addTo=base;!types(force), определяют, на какие части урона действует изменение."
+          }
+        }
+      }
+    },
+    "grants": {
+      "abilityOverride": {
+        "name": "Предоставлять переопределение характеристики для расчёта Сл",
+        "description": "Переопределяет характеристику, по которой рассчитывается Сл спасбросков или проверок затронутого персонажа. Используйте override=cha. Пример: override=(opponentActor?.details?.type?.value==='fiend' ? cha : wis). Параметры abilityOverride=... и set=... также поддерживаются."
+      }
+    },
+    "aura": {
+      "abilityOverride": {
+        "name": "Аура, переопределяющая характеристику для расчёта Сл",
+        "description": "Переопределяет характеристику для расчёта Сл спасбросков или проверок токенов, находящихся под действием ауры. Укажите радиус и override=cha. Пример: radius=30;allies;includeSelf;override=wis. Параметры abilityOverride=... и set=... также поддерживаются."
+      }
+    },
+    "abilityOverride": {
+      "name": "Переопределение характеристики для расчёта Сл спасброска или проверки",
+      "description": "Переопределяет характеристику, используемую для расчёта Сл спасбросков или проверок активности. Используйте override=cha. Пример: override=(item.type==='spell' ? spellcastingAbility : wis). Параметры abilityOverride=... и set=... также поддерживаются."
+    },
+    "allowEffectApplication": {
+      "name": "Разрешить применение эффекта",
+      "description": "Проверяется при создании эффекта. Если выражение возвращает false, AC5E блокирует применение эффекта. При ошибке вычисления применяется стандартное поведение игровой системы."
+    }
+  },
+  "AC5E.Info": "Info",
+  "AC5E.OptinDescription.AppliesNonRollEffect": "Applies a non-roll effect on {roll}",
+  "AC5E.advantageBehaviorOverride": {
+    "Name": "Override system advantage handling",
+    "Hint": "If enabled, AC5E suppresses native advantage/disadvantage rolling and converts transient advantage/disadvantage into the formulas below."
+  },
+  "AC5E.advantageBehaviorAdvantageFormula": {
+    "Name": "Advantage bonus formula",
+    "Hint": "Applied when transient advantage is present and the override is enabled. Example: 3d6kh1 or 2."
+  },
+  "AC5E.advantageBehaviorDisadvantageFormula": {
+    "Name": "Disadvantage penalty formula",
+    "Hint": "Applied when transient disadvantage is present and the override is enabled. Example: -3d6kh1 or -2."
+  },
   "AC5E.RegistryImport.InvalidSnapshot": "AC5E: Этот файл не является поддерживаемым JSON-экспортом реестра.",
   "AC5E.RegistryImport.InvalidEntry": "AC5E: Запись {index} недопустима либо содержит повторяющийся ключ или ID. Ничего не импортировано.",
   "AC5E.RegistryImport.NoActiveGM": "AC5E: Для импорта изменений постоянных записей требуется присутствие активного мастера.",
   "AC5E.RegistryImport.SaveFailed": "AC5E: Не удалось сохранить импортированные записи. Восстановлено предыдущее состояние реестра.",
   "AC5E.RegistryExport.Skipped": "AC5E: При экспорте JSON пропущено записей: {count}. Они содержат функции обратного вызова или другие значения, которые нельзя сохранить в JSON. Список пропущенных записей приведён ниже.",
   "AC5E.StatusEffectsOverrides.ConditionError": "AC5E: Переопределение состояния «{name}» (ID: {id}) пропущено для {status}/{hook}/{type}. Условие: {condition}. Ошибка: {error}. Исправьте условие через ac5e.statusEffectsOverrides.register с тем же ID или удалите через ac5e.statusEffectsOverrides.remove({removeId}). Доступ к идентификаторам game/canvas запрещён; используйте поля изолированного окружения. Эти слова разрешены внутри строковых литералов.",
-
   "AC5E.Ui": {
     "Name": "Отключить интерфейс AC5E",
     "Hint": "Скрывает кнопку с волшебной палочкой AC5E, открывающую редактор значений активных эффектов."
@@ -23,7 +275,6 @@
   "AC5E.ActiveEffect.ChangeTypes.AC5E": "AC5E",
   "AC5E.ActiveEffect.ChangeTypes.AutomatedConditions5e": "Automated Conditions 5e",
   "AC5E.HeavyWeapon": "Тяжёлое оружие",
-
   "AC5E.AdditionalAutomations": {
     "Name": "Дополнительные автоматизируемые правила",
     "Hint": "Выберите дополнительные правила для автоматизации: Уклонение, Скрытность, ограничения на сотворение заклинаний в Ярости, Подводный бой и свойство оружия «Тяжёлое».",
@@ -56,7 +307,6 @@
   "AC5E.TargetCharmedByYouDescription": "Даёт преимущество на эту проверку. Снимите отметку, если это не социальное взаимодействие с очарованной целью.",
   "AC5E.TargetIsYourCharmer": "Цель — существо, очаровавшее вас. Запретить действие?",
   "AC5E.TargetGrantsAbilityOverride": "Переопределение характеристики, предоставляемое целью",
-
   "AC5E.OptinDescription.DCLabel.Save": "Сл спасброска",
   "AC5E.OptinDescription.DCLabel.Check": "Сл проверки",
   "AC5E.OptinDescription.SetsTargetSpecificDC": "Устанавливает {dcLabel} равной {value}",
@@ -70,7 +320,6 @@
   "AC5E.OptinDescription.OverridesDamageTypeWithValue": "Переопределяет тип урона ({value})",
   "AC5E.OptinDescription.OverridesDcAbility": "Переопределяет характеристику для расчёта Сл спасброска или проверки ({value})",
   "AC5E.OptinDescription.OverridesDcAbilityGeneric": "Переопределяет характеристику для расчёта Сл спасброска или проверки",
-
   "AC5E.Keybinding.AllowEffectApplicationBypassModifier": {
     "Name": "Обход ограничений применения эффектов",
     "Hint": "Только для мастера. Удерживайте эту клавишу при нажатии «Применить эффект», чтобы игнорировать проверки allowEffectApplication."
@@ -84,56 +333,6 @@
     "Cost": "(расходует 1 ячейку)",
     "Hint": "Расходует одну ячейку из выбранного запаса. optinScale и bonusScale используют её уровень. Для выбора доступны только ячейки в пределах заданных ограничений."
   },
-
-  "dae.AC5E.fieldData": {
-    "flags": {
-      "automated-conditions-5e": {
-        "damage": {
-          "typeOverride": {
-            "name": "Переопределить тип урона основных бросков урона",
-            "description": "Используйте override=fire для одного типа или override=fire,lightning,thunder для выбора из нескольких типов. Для обратной совместимости также поддерживается set=.... Параметры addTo=base, addTo=bonus, addTo=all, addTo=types(fire,cold), addTo=!types(poison,acid) или их сочетания, например addTo=base;!types(force), определяют, на какие части урона действует изменение."
-          }
-        }
-      }
-    },
-    "grants": {
-      "damage": {
-        "typeOverride": {
-          "name": "Предоставлять противнику переопределение типа основного урона",
-          "description": "Используйте override=fire для одного типа или override=fire,lightning,thunder для выбора из нескольких типов. Для обратной совместимости также поддерживается set=.... Параметры addTo=base, addTo=bonus, addTo=all, addTo=types(fire,cold), addTo=!types(poison,acid) или их сочетания, например addTo=base;!types(force), определяют, на какие части урона действует изменение."
-        }
-      }
-    },
-    "aura": {
-      "damage": {
-        "typeOverride": {
-          "name": "Аура, переопределяющая тип основного урона в пределах радиуса",
-          "description": "Используйте radius=10;override=fire или radius=10;override=fire,lightning,thunder. Для обратной совместимости поддерживается set=.... Параметры addTo=base, addTo=bonus, addTo=all, addTo=types(fire,cold), addTo=!types(poison,acid) или сочетания вроде addTo=base;!types(force) определяют, на какие части урона действует изменение."
-        }
-      }
-    },
-    "abilityOverride": {
-      "name": "Переопределение характеристики для расчёта Сл спасброска или проверки",
-      "description": "Переопределяет характеристику, используемую для расчёта Сл спасбросков или проверок активности. Используйте override=cha. Пример: override=(item.type==='spell' ? spellcastingAbility : wis). Параметры abilityOverride=... и set=... также поддерживаются."
-    },
-    "grants": {
-      "abilityOverride": {
-        "name": "Предоставлять переопределение характеристики для расчёта Сл",
-        "description": "Переопределяет характеристику, по которой рассчитывается Сл спасбросков или проверок затронутого персонажа. Используйте override=cha. Пример: override=(opponentActor?.details?.type?.value==='fiend' ? cha : wis). Параметры abilityOverride=... и set=... также поддерживаются."
-      }
-    },
-    "aura": {
-      "abilityOverride": {
-        "name": "Аура, переопределяющая характеристику для расчёта Сл",
-        "description": "Переопределяет характеристику для расчёта Сл спасбросков или проверок токенов, находящихся под действием ауры. Укажите радиус и override=cha. Пример: radius=30;allies;includeSelf;override=wis. Параметры abilityOverride=... и set=... также поддерживаются."
-      }
-    },
-    "allowEffectApplication": {
-      "name": "Разрешить применение эффекта",
-      "description": "Проверяется при создании эффекта. Если выражение возвращает false, AC5E блокирует применение эффекта. При ошибке вычисления применяется стандартное поведение игровой системы."
-    }
-  },
-
   "AC5E.EffectValueEditor": {
     "WindowTitle": "AC5E — редактор значений эффектов",
     "ChangeHeader": "{effect} (индекс изменения: {index})",
@@ -295,5 +494,18 @@
     "Exhaustion": "Истощение",
     "ExhaustionLevel": "уровень",
     "ExhaustionLevels": "уровни"
-  }
+  },
+  "AC5E.FlagPicker.Title": "Выбор флага AC5e",
+  "AC5E.FlagPicker.Search": "Введите или выберите флаг",
+  "AC5E.FlagPicker.scope": "Источник / Предоставляет / Аура",
+  "AC5E.FlagPicker.action": "Тип действия",
+  "AC5E.FlagPicker.mode": "Режим",
+  "AC5E.FlagPicker.Generic": "Общие флаги",
+  "AC5E.FlagPicker.NoAction": "Без типа действия",
+  "AC5E.FlagPicker.Unavailable": "Недоступно при текущем выборе. Нажмите выбранную кнопку, чтобы отменить выбор.",
+  "AC5E.FlagPicker.Continue": "Перейти к редактору",
+  "AC5E.FlagPicker.Change": "Изменить флаг",
+  "AC5E.FlagPicker.SettingName": "Способ выбора флагов AC5e",
+  "AC5E.FlagPicker.SettingHint": "Выберите способ выбора флагов для всех пользователей мира. По умолчанию используется окно AC5e (ввод и кнопки); прежнее автодополнение ключей атрибутов также доступно. После изменения перезагрузите страницу.",
+  "AC5E.FlagPicker.Legacy": "Автодополнение ключей атрибутов (устаревший способ)"
 }
