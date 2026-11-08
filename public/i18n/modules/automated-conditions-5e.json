@@ -320,19 +320,6 @@
   "AC5E.OptinDescription.OverridesDamageTypeWithValue": "Переопределяет тип урона ({value})",
   "AC5E.OptinDescription.OverridesDcAbility": "Переопределяет характеристику для расчёта Сл спасброска или проверки ({value})",
   "AC5E.OptinDescription.OverridesDcAbilityGeneric": "Переопределяет характеристику для расчёта Сл спасброска или проверки",
-  "AC5E.Keybinding.AllowEffectApplicationBypassModifier": {
-    "Name": "Обход ограничений применения эффектов",
-    "Hint": "Только для мастера. Удерживайте эту клавишу при нажатии «Применить эффект», чтобы игнорировать проверки allowEffectApplication."
-  },
-  "AC5E.OptinSpellSlot": {
-    "EditorHint": "Используйте spell[slot,pact], spell[slot] или spell[pact] вместе с optin. Доступные запасы ячеек персонажа отображаются в раскрывающемся списке. Всегда расходуется одна ячейка. Включите масштабирование, чтобы ограничить уровни ячеек параметрами Min и Max. Эти ограничения действуют и на ячейки магии договора.",
-    "Unavailable": "AC5E: У персонажа «{actor}» больше нет доступной ячейки {slot} выбранного уровня. Расходование ячейки пропущено.",
-    "Choice": "Расходуемая ячейка заклинания",
-    "Spell": "Ячейка заклинания {level}-го уровня (доступно: {available})",
-    "Pact": "Ячейка магии договора {level}-го уровня (доступно: {available})",
-    "Cost": "(расходует 1 ячейку)",
-    "Hint": "Расходует одну ячейку из выбранного запаса. optinScale и bonusScale используют её уровень. Для выбора доступны только ячейки в пределах заданных ограничений."
-  },
   "AC5E.EffectValueEditor": {
     "WindowTitle": "AC5E — редактор значений эффектов",
     "ChangeHeader": "{effect} (индекс изменения: {index})",
@@ -507,5 +494,16 @@
   "AC5E.FlagPicker.Change": "Изменить флаг",
   "AC5E.FlagPicker.SettingName": "Способ выбора флагов AC5e",
   "AC5E.FlagPicker.SettingHint": "Выберите способ выбора флагов для всех пользователей мира. По умолчанию используется окно AC5e (ввод и кнопки); прежнее автодополнение ключей атрибутов также доступно. После изменения перезагрузите страницу.",
-  "AC5E.FlagPicker.Legacy": "Автодополнение ключей атрибутов (устаревший способ)"
+  "AC5E.FlagPicker.Legacy": "Автодополнение ключей атрибутов (устаревший способ)",
+  "AC5E.Keybinding.AllowEffectApplicationBypassModifier.Name": "Обход ограничений применения эффектов",
+  "AC5E.Keybinding.AllowEffectApplicationBypassModifier.Hint": "Только для мастера. Удерживайте эту клавишу при нажатии «Применить эффект», чтобы игнорировать проверки allowEffectApplication.",
+  "AC5E.OptinSpellSlot.EditorHint": "Используйте spell[slot,pact], spell[slot] или spell[pact] вместе с optin. Доступные запасы ячеек персонажа отображаются в раскрывающемся списке. Всегда расходуется одна ячейка. Включите масштабирование, чтобы ограничить уровни ячеек параметрами Min и Max. Эти ограничения действуют и на ячейки магии договора.",
+  "AC5E.OptinSpellSlot.Unavailable": "AC5E: У персонажа «{actor}» больше нет доступной ячейки {slot} выбранного уровня. Расходование ячейки пропущено.",
+  "AC5E.OptinSpellSlot.Choice": "Расходуемая ячейка заклинания",
+  "AC5E.OptinSpellSlot.Spell": "Ячейка заклинания {level}-го уровня (доступно: {available})",
+  "AC5E.OptinSpellSlot.Pact": "Ячейка магии договора {level}-го уровня (доступно: {available})",
+  "AC5E.OptinSpellSlot.Cost": "(расходует 1 ячейку)",
+  "AC5E.OptinSpellSlot.Hint": "Расходует одну ячейку из выбранного запаса. optinScale и bonusScale используют её уровень. Для выбора доступны только ячейки в пределах заданных ограничений.",
+  "AC5E.HitDie": "Кости хитов",
+  "AC5E.OptinDescription.Roll.HitDie": "Броски костей хитов"
 }
