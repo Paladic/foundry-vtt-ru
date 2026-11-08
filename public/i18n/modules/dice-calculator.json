@@ -59,5 +59,9 @@
   "DICE_TRAY.SETTINGS.PF2E.flatCheck.name": "Добавить кнопки простых проверок",
   "DICE_TRAY.SETTINGS.PF2E.flatCheck.hint": "Заменяет кнопки удачи/неудачи кнопками простых проверок со Сл 5 и 11.",
   "DICE_TRAY.SETTINGS.SWADE.wildDieBehavior.name": "Использовать пул костей для кнопки «Дикая кость»",
-  "DICE_TRAY.SETTINGS.SWADE.wildDieBehavior.hint": "При повторном нажатии той же кости с активной «Дикой костью» добавляет кости в пул вместо увеличения количества текущих костей."
+  "DICE_TRAY.SETTINGS.SWADE.wildDieBehavior.hint": "При повторном нажатии той же кости с активной «Дикой костью» добавляет кости в пул вместо увеличения количества текущих костей.",
+  "DICE_TRAY.DiceCreator.Alternative.name": "Альтернативное отображение",
+  "DICE_TRAY.DiceCreator.Alternative.hint": "Включите, если изображение не загружается.",
+  "DICE_TRAY.DiceRows.Preview": "Предпросмотр",
+  "DICE_TRAY.DiceRows.Pool": "Пул костей"
 }
