@@ -11,7 +11,7 @@
       },
       "formHeaders": {
         "imageOptions": "Настройки изображения метки",
-        "onDeckImageOptions": "On Deck Marker Image Options",
+        "onDeckImageOptions": "Настройки маркера следующего участника",
         "turnAnnounce": "Объявление ходов",
         "startMarker": "Начальная метка",
         "save": "Сохранить настройки"
@@ -35,29 +35,29 @@
         "name": "Изображение метки"
       },
       "onDeckMarkerEnabled": {
-        "name": "Enable On Deck Marker"
+        "name": "Включить маркер следующего участника"
       },
       "deckImage": {
-        "name": "On Deck Marker Image"
+        "name": "Изображение маркера следующего участника"
       },
       "customDeckImage": {
-        "name": "Custom On Deck Image Path",
-        "hint": "Use a custom image instead (leave blank to use a built in image)"
+        "name": "Путь к изображению маркера",
+        "hint": "Использовать своё изображение вместо стандартного (оставьте поле пустым для стандартного)."
       },
       "customDeckImagePreview": {
-        "name": "On Deck Marker Preview"
+        "name": "Предпросмотр маркера следующего участника"
       },
       "deckRatio": {
-        "name": "On Deck Image Ratio",
-        "hint": "As compared to the token size."
+        "name": "Масштаб изображения маркера",
+        "hint": "Относительно размера токена."
       },
       "deckAnimate": {
-        "name": "Animate Deck Marker?",
-        "hint": "Use rotation animation on Deck marker. (changes may not be visible until a new combat is started)"
+        "name": "Анимировать маркер следующего участника?",
+        "hint": "Вращать маркер следующего участника. Изменение может вступить в силу только после начала нового боя."
       },
       "deckPlayersOnly": {
-        "name": "Only use on deck marker for players?",
-        "hint": "Skips npc for on deck marker if enabled"
+        "name": "Показывать маркер только игрокам?",
+        "hint": "Если включено, маркер не показывается для NPC."
       },
       "announcedActors": {
         "name": "Объявлять актёров",
