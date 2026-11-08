@@ -15,8 +15,13 @@
     "verified": "14",
     "maximum": "14"
   },
-  "esmodules": ["esm/index.js"],
-  "styles": ["styles/_main.css", "styles/_fonts.css"],
+  "esmodules": [
+    "esm/index.js"
+  ],
+  "styles": [
+    "styles/_main.css",
+    "styles/_fonts.css"
+  ],
   "coreTranslation": true,
   "relationships": {
     "recommends": [
@@ -1111,6 +1116,16 @@
       "module": "automated-conditions-5e",
       "path": "i18n/modules/automated-conditions-5e.json",
       "lang": "ru"
+    },
+    {
+      "module": "one-journal-handouts",
+      "path": "i18n/modules/one-journal-handouts.json",
+      "lang": "ru"
+    },
+    {
+      "module": "tokenprofile",
+      "path": "i18n/modules/tokenprofile.json",
+      "lang": "ru"
     }
   ],
   "media": [
@@ -1135,8 +1150,14 @@
   "flags": {
     "hotReload": {
       "enabled": true,
-      "extensions": ["json", "css"],
-      "paths": ["i18n/**/*.json", "styles/*.css"]
+      "extensions": [
+        "json",
+        "css"
+      ],
+      "paths": [
+        "i18n/**/*.json",
+        "styles/*.css"
+      ]
     },
     "styles": [
       "age-of-sigmar-soulbound",
