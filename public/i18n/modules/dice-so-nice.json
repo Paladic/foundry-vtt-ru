@@ -97,7 +97,7 @@
   "DICESONICE.persistentDiceCapReached": "Dice So Nice: достигнут лимит постоянных костей. Удалите несколько постоянных костей перед созданием новых.",
   "DICESONICE.saveMessage": "Настройки 3D костей сохранены",
   "DICESONICE.loadMessage": "Загружен профиль костей \"{name}\"",
-  "DICESONICE.migrateMessage": "'Dice So Nice' settings were successfully migrated to version {version}!",
+  "DICESONICE.migrateMessage": "Настройки Dice So Nice успешно перенесены в версию {version}!",
   "DICESONICE.migrateMessageNeedGM": "Требуется обновить настройки 'Dice So Nice' до версии 4.0. Зайдите как GM.",
   "DICESONICE.diceCanBeFlipped": "Кость может быть перевёрнута",
   "DICESONICE.diceCanBeFlippedHint": "Когда кость перестала вращаться, она может быть перевёрнута другой костью (на результат это не влияет)",

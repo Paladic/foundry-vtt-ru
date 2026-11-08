@@ -54,7 +54,10 @@
         "ignoreColor": {
           "name": "Игнорирование цвета",
           "hint": "Игнорировать цвета из этой таблицы и использовать цвета из следующей допустимой таблицы для токена. Это предназначено для состояний, которые должны иметь приоритет выше оценки, но при этом используют цвет этой оценки."
-        }
+        },
+        "newTable": "Новая таблица",
+        "actorTypes": "Типы актёров",
+        "statusEffects": "Эффекты состояний"
       },
       "keybinds": {
         "markDead": {
@@ -91,7 +94,7 @@
         "name": "Имя неизвестного существа",
         "hint": "Способ отображения скрытого имени существа. {warning}",
         "default": "Неизвестное существо",
-        "warningCUB": "Если вы используете функция скрытых имен CUB, то она будет иметь приоритет над этой настройкой.",
+        "warningCUB": "Если вы используете функцию скрытия имён CUB, она будет иметь приоритет над этой настройкой.",
         "warningPF2eWorkbench": "При использовании функции скрытия имён PF2e Workbench она имеет приоритет перед этой настройкой."
       },
       "alwaysShow": {
@@ -119,8 +122,8 @@
       },
       "deathState": {
         "name": "Смерть при состоянии",
-        "hint1": "Show token as defined on the {setting} setting when it has been affected by any condition that uses the icon set on the {setting2} setting.",
-        "hint2": "Show token as defined on the {setting} setting when it has been marked as defeated on combat."
+        "hint1": "Показывать токен в состоянии, выбранном в настройке {setting}, если на него наложено состояние со значком из настройки {setting2}.",
+        "hint2": "Показывать токен в состоянии, выбранном в настройке {setting}, если он отмечен побеждённым в бою."
       },
       "deathStateName": {
         "name": "Название состояния смерти",
@@ -133,7 +136,7 @@
       },
       "NPCsJustDie": {
         "name": "NPC мгновенно умирают",
-        "hint": "Последняя стадия для токенов, чьи актёры не выбраны (закреплены за) игроками, заменяется настройкой '{setting}'."
+        "hint": "NPC считаются мёртвыми, когда достигают последней стадии здоровья."
       },
       "outputChat": {
         "name": "Выводить оценку в чат",
@@ -144,8 +147,14 @@
         "hint": "Временные ПЗ будут суммированы с обычными при оценке общего здоровья."
       },
       "breakOnZeroMaxHP": {
-        "name": "Скрывать оценку здоровья токенов с максимумом 0 ОЗ",
-        "hint": "Полезно для объектов с токенами."
+        "name": "Скрывать оценку здоровья для токенов",
+        "hint": "Полезно для объектов с токенами.",
+        "options": {
+          "none": "Не скрывать оценки",
+          "zero": "С максимумом 0 ОЗ",
+          "one": "С максимумом 1 ОЗ",
+          "zeroOrOne": "С максимумом 0 или 1 ОЗ"
+        }
       },
       "menuSettings": {
         "behaviorSettings": {
@@ -197,7 +206,29 @@
         },
         "scaleToZoom": {
           "name": "Масштабировать оценку при приближении",
-          "hint": "Scales the estimate based on the zoom distance. This will cause a drop in performance when used along {setting3}."
+          "hint": "Изменяет масштаб оценки здоровья в зависимости от приближения."
+        },
+        "scaleToGridSize": {
+          "name": "Масштабировать оценки по размеру сетки",
+          "hint": "Изменяет масштаб оценок в зависимости от размера клетки сетки."
+        },
+        "gridSize": {
+          "name": "Базовый размер клетки сетки",
+          "hint": "Исходный размер клетки для расчёта масштаба. Полезно, если карты используют клетки разного размера."
+        },
+        "scaleToTokenSize": {
+          "name": "Масштабировать по размеру токена",
+          "hint": "Изменяет масштаб оценок в зависимости от ширины токена."
+        }
+      },
+      "sample": "Образец",
+      "tooltipPosition": {
+        "name": "Положение подсказки высоты",
+        "hint": "Сдвигает подсказку высоты, чтобы она не перекрывала оценку здоровья над токеном.",
+        "options": {
+          "left": "Слева",
+          "default": "По умолчанию (без изменений)",
+          "right": "Справа"
         }
       }
     },
@@ -260,8 +291,8 @@
         "hint": "Скрывает оценку для транспорта."
       },
       "workbenchMystifier": {
-        "name": "(EXPERIMENTAL) PF2e Workbench's Mystifier Support",
-        "hint": "If the NPC Mystification settings are enabled, Chat Outputs will ignore the {setting} setting's name and use the token's name if it is different from its actor's Prototype Token's name."
+        "name": "(Экспериментально) Поддержка Mystifier из PF2e Workbench",
+        "hint": "Если включены настройки сокрытия NPC, вывод в чат игнорирует имя из настройки {setting} и использует имя токена, если оно отличается от имени прототипа токена актёра."
       }
     },
     "numenera": {
@@ -293,8 +324,43 @@
       },
       "showIncap": {
         "name": "Эффект статуса {incap}",
-        "hint": "Tokens with the {incap} Status Effect will be shown as {incap} instead of their current estimates. Doesn't work for tokens that are vehicles or dead."
+        "hint": "Токены с эффектом состояния {incap} показываются как {incap} вместо текущей оценки здоровья. Не применяется к транспорту и мёртвым токенам."
       }
+    },
+    "SETTINGS": {
+      "display": {
+        "name": "Отображение оценки здоровья",
+        "hint": "",
+        "options": {
+          "default": "При наведении мыши",
+          "always": "Всегда",
+          "nameplate": "Окрашивать имена",
+          "disabled": "Никогда"
+        }
+      }
+    },
+    "notifications": {
+      "terms": {
+        "shown": {
+          "singular": "видна",
+          "plural": "видна"
+        },
+        "hidden": {
+          "singular": "скрыта",
+          "plural": "скрыта"
+        }
+      },
+      "toggleEstimate": "Оценка здоровья токена «{tokenName}» теперь {term} для игроков."
+    },
+    "draw-steel": {
+      "hideObjectHP": {
+        "name": "Скрывать оценку здоровья объектов",
+        "hint": "Не показывать оценку здоровья объектов."
+      }
+    },
+    "DND5E": {
+      "creatureTypes": "Типы существ",
+      "customCreatureTypes": "Пользовательские типы существ"
     }
   }
 }
