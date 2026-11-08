@@ -28,7 +28,6 @@
   "tokenActionHud.token": "Токен",
   "tokenActionHud.unlockHud": "Разблокировка HUD",
   "tokenActionHud.utility": "Вспомогательное",
-
   "tokenActionHud.dialog.button.yes": "Да",
   "tokenActionHud.dialog.button.no": "Нет",
   "tokenActionHud.dialog.resetActions.title": "Сброс действий",
@@ -37,7 +36,6 @@
   "tokenActionHud.dialog.resetLayout.content": "Это приведёт к сбросу HUD на макет по умолчанию. Продолжить?",
   "tokenActionHud.dialog.resetAllLayouts.title": "Token Action HUD | Сброс всех макетов",
   "tokenActionHud.dialog.resetAllLayouts.content": "Это приведёт к сбросу всех HUD на макет по умолчанию. Продолжить?",
-
   "tokenActionHud.form.hud.availableItems": "Доступные предметы",
   "tokenActionHud.form.hud.groupDetail": "Щёлкайте доступные элементы, чтобы выбрать их, перетаскивайте выбранные элементы, чтобы изменить их порядок, и нажимайте <strong>X</strong> на выбранных элементах, чтобы отменить выбор. Щёлкните пустую область поля <strong>Выбранные элементы</strong> и начните вводить текст для фильтрации доступных элементов.",
   "tokenActionHud.form.hud.groupTitle": "Настроить группу",
@@ -49,7 +47,6 @@
   "tokenActionHud.form.hud.selectedItems": "Выбранные элементы",
   "tokenActionHud.form.hud.tagPlaceholder": "Варианты (разделённые точкой с запятой)",
   "tokenActionHud.form.hud.unselectAll": "Отменить выбор всех",
-
   "tokenActionHud.form.group.characterCount.hint": "Ограничить количество символов в слове для действий",
   "tokenActionHud.form.group.characterCount.label": "Символов в слове",
   "tokenActionHud.form.group.collapse.hint": "Свернуть эту группу",
@@ -69,14 +66,11 @@
   "tokenActionHud.form.group.style.choice.tab": "Вкладка",
   "tokenActionHud.form.group.style.hint": "Стиль этой группы",
   "tokenActionHud.form.group.style.label": "Стиль",
-
   "tokenActionHud.form.group.topLevel.customWidth.hint": "Пользовательская ширина для всех групп в этой группе",
   "tokenActionHud.form.group.topLevel.showTitle.hint": "Показывать заголовок этой кнопки",
   "tokenActionHud.form.group.topLevel.showTitle.label": "Показывать заголовок",
-
   "tokenActionHud.keybinding.toggleHud.disabled": "HUD отключён. Чтобы включить, нажмите {binding}",
   "tokenActionHud.keybinding.toggleHud.enabled": "HUD включён. Чтобы отключить, нажмите {binding}",
-
   "tokenActionHud.settings.activeCssAsText.hint": "Активные действия будут отмечены звёздочкой",
   "tokenActionHud.settings.activeCssAsText.name": "Отметка активных действий",
   "tokenActionHud.settings.allow.choice.1": "Игрок",
@@ -191,5 +185,29 @@
   "tokenActionHud.settings.tooltipDelay.hint": "Настройте время (в миллисекундах), необходимое для появления начальной подсказки",
   "tokenActionHud.settings.tooltipDelay.name": "Задержка подсказки",
   "tokenActionHud.settings.userCustomLayout.hint": "Выберите макет для использования по умолчанию. Оставьте пустым, чтобы использовать системный макет",
-  "tokenActionHud.settings.userCustomLayout.name": "Пользовательский макет по умолчанию"
+  "tokenActionHud.settings.userCustomLayout.name": "Пользовательский макет по умолчанию",
+  "tokenActionHud.addAction.label": "Добавить действие",
+  "tokenActionHud.addGroup.label": "Добавить группу",
+  "tokenActionHud.addSubgroup.createCustom": "Создать пользовательскую:",
+  "tokenActionHud.addSubgroup.label": "Добавить подгруппу",
+  "tokenActionHud.addSubgroup.noResults": "Подходящие подгруппы не найдены.",
+  "tokenActionHud.addSubgroup.placeholder": "Поиск…",
+  "tokenActionHud.contextMenu.collapse": "Свернуть",
+  "tokenActionHud.contextMenu.delete": "Удалить",
+  "tokenActionHud.contextMenu.edit": "Редактировать",
+  "tokenActionHud.contextMenu.expand": "Развернуть",
+  "tokenActionHud.delete.confirm.content": "Удалить <strong>{name}</strong>?",
+  "tokenActionHud.delete.confirm.title": "Удаление группы",
+  "tokenActionHud.dragHud": "Переместить панель действий",
+  "tokenActionHud.form.group.characterCount.placeholder": "Без ограничений",
+  "tokenActionHud.form.group.content.label": "Содержимое группы",
+  "tokenActionHud.form.group.customWidth.placeholder": "Автоматически",
+  "tokenActionHud.form.group.group.label": "Группа",
+  "tokenActionHud.form.group.name.hint": "Название группы.",
+  "tokenActionHud.form.group.name.label": "Название",
+  "tokenActionHud.form.hud.grid.hint": "Выравнивать все действия панели по сетке.",
+  "tokenActionHud.form.hud.grid.label": "Размещение по сетке",
+  "tokenActionHud.form.hud.resetActions.hint": "Сбросить действия во всех группах этого актёра к системным значениям по умолчанию. Пользовательские группы и общий макет панели сохраняются.",
+  "tokenActionHud.form.newGroup.title": "Добавить новую группу",
+  "tokenActionHud.reset": "Сбросить"
 }
