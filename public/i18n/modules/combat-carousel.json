@@ -65,5 +65,18 @@
   "COMBAT_CAROUSEL.WORDS.Property": "Свойства",
   "COMBAT_CAROUSEL.WORDS.Name": "Имя",
   "COMBAT_CAROUSEL.WORDS.Value": "Значение",
-  "COMBAT_CAROUSEL.WORDS.BrowseFiles": "Просмотр Файлов"
+  "COMBAT_CAROUSEL.WORDS.BrowseFiles": "Просмотр Файлов",
+  "COMBAT_CAROUSEL.SETTINGS.EnableModuleN": "Включить боевую карусель",
+  "COMBAT_CAROUSEL.SETTINGS.EnableModuleH": "Включает работу модуля.",
+  "COMBAT_CAROUSEL.SETTINGS.ShowEffectsN": "Показывать эффекты",
+  "COMBAT_CAROUSEL.SETTINGS.ShowEffectsH": "Показывает активные эффекты в карусели. «Все» — показывать все; «Нет» — не показывать; «Активные» — только активные; «Активные и пассивные» — показывать активные и пассивные эффекты, исключая неактивные.",
+  "COMBAT_CAROUSEL.SETTINGS.ControlActiveCombatantTokenN": "Выбирать токен текущего участника боя",
+  "COMBAT_CAROUSEL.SETTINGS.ControlActiveCombatantTokenH": "Автоматически выбирает токен участника, чей ход сейчас активен.",
+  "COMBAT_CAROUSEL.SETTINGS.PanOnClickN": "Перемещать камеру при нажатии на карточку",
+  "COMBAT_CAROUSEL.SETTINGS.PanOnClickH": "При нажатии на карточку перемещает камеру к соответствующему токену (он должен быть виден текущему пользователю).",
+  "COMBAT_CAROUSEL.SETTINGS.AlwaysOnTopN": "Всегда поверх остальных окон",
+  "COMBAT_CAROUSEL.SETTINGS.AlwaysOnTopH": "Всегда показывает карусель поверх остальных элементов интерфейса.",
+  "COMBAT_CAROUSEL.SETTINGS.OpenOnCombatCreateN": "Открывать карусель при начале боя",
+  "COMBAT_CAROUSEL.SETTINGS.OpenOnCombatCreateH": "Открывает карусель при создании боя.",
+  "COMBAT_CAROUSEL.CAROUSEL.BeginCombat": "Начать бой"
 }
