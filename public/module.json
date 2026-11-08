@@ -1126,6 +1126,11 @@
       "module": "tokenprofile",
       "path": "i18n/modules/tokenprofile.json",
       "lang": "ru"
+    },
+    {
+      "module": "monks-little-details",
+      "path": "i18n/modules/monks-little-details.json",
+      "lang": "ru"
     }
   ],
   "media": [
