@@ -25,43 +25,31 @@
   "TIDY5E.ShowItemImage": "ПКМ: просмотр изображения",
   "TIDY5E.ShowItemArt": "Просмотр изображения",
   "TIDY5E.Tidy5eSettings": "Настройки бланка Tidy 5e",
-
   "TIDY5E.AddSpecific": "Добавить {name}",
-
   "TIDY5E.SheetPin": {
     "Label": "Закрепление бланка",
     "LabelPl": "Закрепления бланка"
   },
-
   "TIDY5E.Show": "Показать",
   "TIDY5E.Hide": "Скрыть",
-
   "TIDY5E.LegendaryLairToolbar": "Панель логова",
   "TIDY5E.SpellbookSections": "Разделы заклинаний",
-
   "TIDY5E.ExhaustionLevelTooltip": "{level}-я степень утомления",
-
   "TIDY5E.UserDefaultPrefix": "По умолчанию: {value}",
-
   "TIDY5E.AbbrInitiative": "Ини",
-
   "TIDY5E.NoSpecialSenses": "Нет особого восприятия",
-
   "TIDY5E.Group.NamePlaceholder": "Название группы",
   "TIDY5E.Group.ShowMemberTabInfoPanel": "Просмотр панели информации",
   "TIDY5E.Group.HideMemberTabInfoPanel": "Скрытие панели информации",
   "TIDY5E.Group.EmptyMembersTabHint": "В группе нет участников. Перетащите актёров, чтобы добавить.",
   "TIDY5E.Group.PrimaryParty.Label": "Основная группа",
-
   "TIDY5E.RestHint": "Отдохнуть",
   "TIDY5E.ShortRest": "Короткий отдых",
   "TIDY5E.LongRest": "Долгий отдых",
   "TIDY5E.HitDiceRollAverage": "ПКМ: средний",
-
   "TIDY5E.JournalTabName": "Дневник",
   "TIDY5E.StatblockTabName": "Параметры",
   "TIDY5E.CombatTabName": "Бой",
-
   "TIDY5E.Actions": {
     "TabName": "Действия",
     "OverriddenSetOverrideFalse": "Удалить из списка действий (Shift для очистки перезаписи)",
@@ -70,11 +58,8 @@
     "SetOverrideTrue": "Добавить в список действий",
     "ResetActionDefault": "Сбросить список действий"
   },
-
   "TIDY5E.HitDC": "Попадание / СЛ",
-
   "TIDY5E.RestoreOnRest": "Восстанавливать при отдыхе",
-
   "TIDY5E.JournalPersonsOfInterest": "Примечательные личности",
   "TIDY5E.JournalLocationsOfInterest": "Интересные места",
   "TIDY5E.JournalQuests": "Задания",
@@ -82,19 +67,15 @@
   "TIDY5E.JournalEntries": "Личные записи",
   "TIDY5E.JournalEntry.NewTitle": "Журнал {number}",
   "TIDY5E.TogglePersonalityInfo": "Переключить подробности личности",
-
   "TIDY5E.SheetEdit.Enable.Hint": "Включить редактирование - {description}",
   "TIDY5E.SheetEdit.Disable.Hint": "Выключить редактирование - {description}",
   "TIDY5E.SheetEdit.Description": "Переключить видимость кнопок добавления/удаления и пустых разделов",
-
   "TIDY5E.SheetLock.Unlock.Hint": "Разблокировать - {description}",
   "TIDY5E.SheetLock.Lock.Hint": "Заблокировать - {description}",
   "TIDY5E.SheetLock.Description": "Переключить блокировку для чувствительных полей ввода, которые не должны изменяться часто",
   "TIDY5E.SheetLock.Empty.Hint": "Начните с добавления класса и предметов. Затем используйте меню предмета или ПКМ и выберите  \"Добавить на вкладку бланка\".",
-
   "TIDY5E.Inventory.Weight.Tooltip": "Вес: {weight} {weightUnit}",
   "TIDY5E.Inventory.Weight.Text": "{weight} {weightUnit}",
-
   "TIDY5E.ContextMenuActionEquip": "Надеть",
   "TIDY5E.ContextMenuActionUnequip": "Снять",
   "TIDY5E.ContextMenuActionAttune": "Настроиться",
@@ -114,49 +95,35 @@
   "TIDY5E.ContextMenuActionRemoveAsInspirationSource": "Убрать источник Вдохновения",
   "TIDY5E.ContextMenuActionAddToSheetTab": "Добавить на вкладку бланка",
   "TIDY5E.ContextMenuActionRemoveFromSheetTab": "Убрать из вкладки бланка",
-
   "TIDY5E.InspirationSource.ItemIsSourceTooltip": "Источник Вдохновения",
   "TIDY5E.InspirationAdd": "Добавить вдохновение",
   "TIDY5E.InspirationRemove": "Отнять вдохновение",
-
   "TIDY5E.EmptyContainer": "Этот контейнер пуст.",
   "TIDY5E.EmptySection": "Этот раздел пуст. Разблокируйте бланк для редактирования.",
   "TIDY5E.GMOnlyEdit": "Только Мастер может изменять этот раздел.",
-
   "TIDY5E.AttunementWarning": "Предупреждение настройки: Вы не можете настроиться на более чем {number} предметов!",
   "TIDY5E.AttunementItems": "Настроенные предметы",
   "TIDY5E.AttunementMax": "Максимум настроек",
-
   "TIDY5E.GridLayout": "Режим сетки",
   "TIDY5E.ListLayout": "Режим списка",
   "TIDY5E.LayoutNotSupported": "Режим не поддерживается",
-
   "TIDY5E.Encumbrance": "Нагрузка",
-
   "TIDY5E.AddFavorite": "Добавить в избранное",
   "TIDY5E.Favorite": "Избранное",
   "TIDY5E.RemoveFavorite": "Удалить из избранного",
   "TIDY5E.EmptyFavorites": "ПКМ: Избранное или перетащите сюда, чтобы добавить в быстрый доступ.",
-
   "TIDY5E.ShowNotProficientSkills": "Показать навыки без умения",
   "TIDY5E.HideNotProficientSkills": "Скрыть навыки без умения",
-
   "TIDY5E.Abilities": "Характеристики",
   "TIDY5E.Ability.EditScore.label": "Изменить значение",
-
   "TIDY5E.EmptyTools": "Нет умений в инструментах.",
-
   "TIDY5E.Environment": "Окружение",
   "TIDY5E.EnvironmentTooltip": "Окружение: {environment}",
-
   "TIDY5E.Search": "Поиск",
   "TIDY5E.SearchClear": "Очистить поиск",
   "TIDY5E.SearchHint": "Начните ввода для поиска нужного элемента.",
-
   "TIDY5E.InfoCardInspectHint": "{inspectKey} Осмотр",
-
   "TIDY5E.ItemCardsMouseHint": "средняя кнопка мыши для просмотра/изменения",
-
   "TIDY5E.AbbrMod": "Мод.",
   "TIDY5E.AbbrSavingThrow": "Испытание",
   "TIDY5E.AttackMod": "Модификатор атаки",
@@ -170,13 +137,10 @@
   "TIDY5E.MeleeSpellAttackMod": "Мод. атаки заклинанием в ближнем бою",
   "TIDY5E.RangedSpellAttackMod": "Мод. дистанционной атаки заклинанием",
   "TIDY5E.PreparedSpells": "Подготовленные заклинания",
-
   "TIDY5E.TokenLinked": "Токен связан с актёром",
   "TIDY5E.TokenUnlinked": "Токен не связан с актёром",
-
   "TIDY5E.SpellSourceIdentifierSelectText": "Идентификатор класса: {identifier}",
   "TIDY5E.SpellSourceIdentifierLabelHint": "Актёр с этим заклинанием не имеет класс, указанный здесь.",
-
   "TIDY5E.Class.Artificer": "Артефактор",
   "TIDY5E.Class.Barbarian": "Варвар",
   "TIDY5E.Class.Bard": "Бард",
@@ -191,21 +155,17 @@
   "TIDY5E.Class.Warlock": "Колдун",
   "TIDY5E.Class.Wizard": "Волшебник",
   "TIDY5E.Class.Custom": "Особый класс",
-
   "TIDY5E.OriginSummaryConfig": "Настройка описания происхождения: {actorName}",
-
   "TIDY5E.MaxPreparedSpellsConfig": {
     "Title": "Настройка макс. подготовленных заклинаний: {documentName}",
     "ExamplesHeader": "Примеры формул ",
     "ButtonTooltip": "Настроить максимум подготовленных заклинаний",
     "MoreFormulas": "Больше формул"
   },
-
   "TIDY5E.HeaderControlConfiguration": {
     "LocationMenu": "Меню",
     "LocationHeader": "Заголовок"
   },
-
   "TIDY5E.TabConfiguration": {
     "Title": "Настройки вкладки: {documentName}",
     "MenuOptionText": "Настройки вкладки",
@@ -217,9 +177,7 @@
     "AtLeastOneRequiredErrorMessage": "Требуется хотя бы одна вкладка.",
     "Explanation": "Любые вкладки, на которые участник/бланк настроены так, чтобы их не видеть (например, отключение журнала в настройках), все равно не будут отображаться в бланке."
   },
-
   "TIDY5E.ButtonConfirm.Text": "Подтвердить",
-
   "TIDY5E.Listbox": {
     "MoveUp": "Двигать вверх (Alt + вверх)",
     "MoveDown": "Двигать вниз (Alt + вниз)",
@@ -228,7 +186,6 @@
     "MoveAllLeft": "Передвинуть всё влево",
     "MoveAllRight": "Передвинуть всё вправо"
   },
-
   "TIDY5E.WorldSettings.TabCharacter": {
     "tabLabel": "Персонаж"
   },
@@ -296,31 +253,26 @@
     "LimitToSpecificSheetsLabel": "Ограничение отображения разделов конкретных бланков",
     "LimitToSpecificTabsLabel": "Ограничение отображения разделов конкретных вкладок"
   },
-
   "TIDY5E.SettingsMenu.WorldThemeSettings": {
     "name": "Настройки темы",
     "label": "Настройки внешнего вида бланков",
     "hint": "Новые бланки Tidy: Настройте тему по умолчанию для вашего мира. Применяется ко всем типам бланков."
   },
-
   "TIDY5E.SettingsMenu.Homebrew": {
     "name": "Домашние правила",
     "label": "Настройки домашних правил",
     "hint": "Настройки опциональных вариантов правил системы."
   },
-
   "TIDY5E.SettingsMenu.HeaderControlConfiguration": {
-    "name": "Header Controls",
-    "label": "Configure Header Controls",
-    "hint": "New Tidy Sheets Only: Configure the location of sheet header controls."
+    "name": "Элементы управления заголовка",
+    "label": "Настроить элементы заголовка",
+    "hint": "Только новые листы Tidy: настройте расположение элементов управления в заголовке листа."
   },
-
   "TIDY5E.SettingsMenu.TabConfiguration": {
     "name": "Вкладки бланка",
     "label": "Настройки вкладов бланков",
     "hint": "Новые бланки Tidy: Выберите какие вкладки будут видны в бланках актёров и предметов."
   },
-
   "TIDY5E.Settings.BankedInspiration.title": "Накопление Вдохновения",
   "TIDY5E.Settings.EnableBankedInspiration": {
     "name": "Включить накопление Вдохновения",
@@ -330,16 +282,13 @@
     "name": "Управление накоплением Вдохновения - Только Мастер",
     "hint": "Включите, чтобы позволить управлять источниками Вдохновения только Мастеру."
   },
-
   "TIDY5E.Settings.MulticlassSpellbookFilterLabel": "Фильтр мультикласса заклинаний",
-
   "TIDY5E.WorldSettings.Menu": {
     "name": "Настройки мира",
     "hint": "Эти настройки общие для всех бланков Tidy 5e в этом мире.",
     "label": "Настройки мира",
     "title": "Настройки мира (только для Мастера)"
   },
-
   "TIDY5E.UserSettings.Menu": {
     "name": "Пользовательские настройки",
     "hint": "Настройте бланки Tidy 5e под себя. Эти настройки сохраняются в вашем браузере и применяются только к вашим бланкам.",
@@ -382,15 +331,15 @@
   },
   "TIDY5E.Settings.UseAccessibleKeyboardSupport": {
     "name": "Поддержка экранной клавиатуры",
-    "hint": "Enables users to tab through most of the buttons/commands on Tidy 5e Sheets and execute them with conventional button-based keyboard hotkeys. Note: when focused on a button in Foundry, keybindings from \"Configure Controls\" do not respond. If a module uses this Foundry feature for controls on the sheets, such as using items while holding a special key, then enabling this Tidy 5e Sheets option will interfere with those keybindings."
+    "hint": "Позволяет переходить между кнопками листа клавишей Tab и активировать их с клавиатуры. При фокусе на кнопке стандартные сочетания управления Foundry могут не работать. Это может мешать некоторым модулям."
   },
   "TIDY5E.Settings.UseDefaultSheetAttributeTabbing": {
-    "name": "Use default sheet attribute keyboard tabbing",
-    "hint": "The default 5e sheet allows keyboard tabbing from one attribute input to the next by hiding the controls around them from the tab order. Enabling this replicates that behaviour. This setting is ignored if \"Use Accessible Keyboard Support\" is turned off."
+    "name": "Стандартный переход между характеристиками клавишей Tab",
+    "hint": "Повторяет переход между полями характеристик стандартного листа D&D 5e, пропуская окружающие кнопки. Не действует при выключенной поддержке клавиатуры."
   },
   "TIDY5E.Settings.UseDefaultSheetHpTabbing": {
-    "name": "Use default sheet HP keyboard tabbing",
-    "hint": "The default 5e sheet allows keyboard tabbing from the current HP input to the current temp HP input. Enabling this replicates that behaviour. This setting is ignored if \"Use Accessible Keyboard Support\" is turned off."
+    "name": "Стандартный переход между полями хитов клавишей Tab",
+    "hint": "Позволяет переходить клавишей Tab от текущих хитов к временным, как в стандартном листе D&D 5e. Не действует при выключенной поддержке клавиатуры."
   },
   "TIDY5E.Settings.InfoCardsInspectKey": {
     "name": "Клавиша просмотра карточки информации",
@@ -572,8 +521,8 @@
     "hint": "Блокирует ввод количества предметов в инвентаре на бланке игрока и на бланке предмета. Все прочие модули, которые используют эти поля, будут работать исправно."
   },
   "TIDY5E.Settings.UseGroupSheetMemberSecurity": {
-    "name": "Use Group Sheet Member Security",
-    "hint": "Enables GM control of what group member information a user can see on the group sheet. When the player has no permission to a group member, the group sheet does not show that member or its aggregate information. With Limited permission, the user can see the member's name but no other information. With Observer or greater, the user can see all group sheet information about the member."
+    "name": "Права доступа к участникам группы",
+    "hint": "Мастер определяет видимость информации о членах группы. Без доступа участник скрыт, при ограниченном доступе видно только имя, наблюдатель и выше видят все сведения."
   },
   "TIDY5E.Settings.ActionList.Header": "Список действий",
   "TIDY5E.Settings.ActionListLimitActionsToCantrips": {
@@ -680,7 +629,7 @@
   },
   "TIDY5E.Settings.UseTidySpellSchoolIcons": {
     "name": "Иконки школ заклинаний Tidy 5e",
-    "hint": "Use Tidy's handpicked icons for spell schools. To customize spell school icons through CONFIG.DND5E or through other modules, disable this option. To extend Tidy's custom spell school icons, refer to the Tidy API documentation."
+    "hint": "Использовать значки школ магии Tidy. Для настройки значков через CONFIG.DND5E или сторонние модули отключите эту функцию. Для расширения набора см. документацию API Tidy."
   },
   "TIDY5E.Settings.InlineActivitiesPosition": {
     "name": "Расположение функций",
@@ -716,9 +665,9 @@
     "migrateConfirmButtonNo": "Отмена",
     "OptionsHeader": "Настройки миграции",
     "OptionOverwrite.Text": "Перезапись",
-    "OptionOverwrite.Tooltip": "Enable to overwrite existing sheet data. If unchecked, only empty system fields will receive migrated Tidy data.",
-    "OptionDeleteFlags.Text": "Delete Affected Tidy Flags",
-    "OptionDeleteFlags.Tooltip": "When migrating from custom Tidy flag data to official system data, the flags remain in place by default. Check this option to remove those flags.",
+    "OptionOverwrite.Tooltip": "Перезаписывать существующие данные листа. Если не включено, заполнять только пустые системные поля.",
+    "OptionDeleteFlags.Text": "Удалить затронутые флаги Tidy",
+    "OptionDeleteFlags.Tooltip": "При переносе пользовательских флагов Tidy в систему они по умолчанию сохраняются. Включите, чтобы удалить их.",
     "ButtonMigration.Text": "Миграция",
     "MigrateCompendia.CompendiumLabel": "Библиотека",
     "MigrateCompendia.Title": "Миграция библиотеки",
@@ -729,16 +678,16 @@
       "selectionDialogTitle": "Миграция: CCSS на Tidy 5e",
       "ccss": "CCSS",
       "section": "Раздел",
-      "explanation1": "Tidy 5e now natively supports custom sections and provides additional features around custom sections. This migration will copy Custom Character Sheet Sections (CCSS) section names into Tidy's section setup.",
-      "overwrite": "Overwrite",
-      "overwriteTooltip": "Enable to overwrite existing Tidy section flag. If unchecked, only empty Tidy flags will receive migrated CCSS data.",
-      "deleteFlags": "Delete Affected CCSS Flags",
-      "deleteFlagsTooltip": "When migrating from CCSS to Tidy custom sections, the CCSS flags remain in place by default. Check this option to remove those flags."
+      "explanation1": "Tidy 5e теперь поддерживает пользовательские разделы. Этот перенос копирует названия разделов Custom Character Sheet Sections (CCSS) в настройки Tidy.",
+      "overwrite": "Перезаписать",
+      "overwriteTooltip": "Перезаписать флаги разделов Tidy. Если не включено, заполнять только пустые флаги.",
+      "deleteFlags": "Удалить затронутые флаги CCSS",
+      "deleteFlagsTooltip": "При переносе разделов CCSS в Tidy прежние флаги по умолчанию сохраняются. Включите для их удаления."
     },
     "Journal": {
-      "explanation1": "The UI Overhaul of Tidy 5e Sheets has revamped the Journal to be as many entries as you want. To accommodate this, a migration from the old Journal structure to the new extensible journal structure is needed. Old Journal data will not be visible in the overhauled Tidy 5e Sheets."
+      "explanation1": "Обновлённый журнал Tidy 5e допускает любое число записей. Чтобы старые записи отображались в новой структуре, необходим перенос данных."
     },
-    "UnlinkedExplanation": "This migration gives the option to migrate unlinked token documents in the current scene. You can run the migration on additional scenes as needed.",
+    "UnlinkedExplanation": "Позволяет перенести данные несвязанных токенов на текущей сцене. При необходимости запустите перенос для других сцен.",
     "Selection": {
       "TotalSelectedLabel": "Выбрано всего: {total}",
       "ToMigrate": "К миграции",
@@ -781,7 +730,7 @@
     "SheetMenu": {
       "name": "Настройки темы Tidy",
       "buttonLabel": "Настройки темы",
-      "hint": "Classic Tidy Sheets Only: Customize the colors of Tidy 5e Sheets."
+      "hint": "Только классические листы Tidy: настройте цвета оформления листов."
     },
     "Sheet": {
       "title": "Настройка темы: {userName}",
@@ -790,27 +739,27 @@
       "useDefaultDarkColors": "Стандартная тёмная",
       "export": "Экспорт",
       "import": "Импорт",
-      "importDropHint": "Hint: You can drag a \".tidy5e-theme\" file onto this form to import it.",
+      "importDropHint": "Для импорта перетащите файл «.tidy5e-theme» в это окно.",
       "importError": "Импорт темы не удался. Смотрите консоль для подробностей.",
       "importSuccess": "Тема успешно импортирована",
       "menuLabel": "Меню",
       "explanation": "Выберите, какой цвет вы хотите использовать для каждой опции. Значение #00000000 равносильно отключению цвета."
     },
-    "hint": "Customize your sheet to create an immersive experience that complements your game.",
-    "AccentColor.title": "Accent Color",
-    "ActorHeaderBackground.title": "Actor Header Background",
-    "ItemSidebarBackground.title": "Item Sidebar Background",
+    "hint": "Настройте оформление листа в соответствии с атмосферой игры.",
+    "AccentColor.title": "Акцентный цвет",
+    "ActorHeaderBackground.title": "Фон заголовка актёра",
+    "ItemSidebarBackground.title": "Фон боковой панели предмета",
     "PortraitShape": {
       "title": "{type} Portrait Shape",
-      "option.round": "Round",
-      "option.transparent": "Transparent",
-      "option.square": "Square",
-      "option.token": "Token"
+      "option.round": "Круглый",
+      "option.transparent": "Прозрачный",
+      "option.square": "Квадратный",
+      "option.token": "Токен"
     },
-    "RarityColors.title": "Rarity Colors",
-    "SheetTheme.title": "Sheet Theme",
-    "SheetTheme.hint": "For best results, choose a color near the center of the color palette.",
-    "SpellcastingMethodColors.title": "Spellcasting Method Colors"
+    "RarityColors.title": "Цвета редкости",
+    "SheetTheme.title": "Тема листа",
+    "SheetTheme.hint": "Для лучшего результата выберите цвет ближе к середине палитры.",
+    "SpellcastingMethodColors.title": "Цвета способов сотворения заклинаний"
   },
   "TIDY5E.FavoriteSpellLevelLabel": "Круг заклинания {number}",
   "TIDY5E.ApplyChanges": "Применить изменения",
@@ -840,7 +789,7 @@
   "TIDY5E.ItemFilters.ClearAll": "Очистить все",
   "TIDY5E.ItemFilters.Category.Miscellaneous": "Прочее",
   "TIDY5E.ItemFilters.Filter.Other": "Другое",
-  "TIDY5E.GMOnly.Title": "GM Only",
+  "TIDY5E.GMOnly.Title": "Только мастер",
   "TIDY5E.GMOnly.Message": "Только Мастер: {message}",
   "TIDY5E.ReminderToBackUp": "Всегда создавайте резервную копию мира.",
   "TIDY5E.Utilities.Tools": "Инструменты",
@@ -850,15 +799,15 @@
   "TIDY5E.GenericErrorNotification": "При совершении этого действия произошла ошибка. Смотрите консоль для подробностей.",
   "TIDY5E.Utilities.MarkAllAsUnidentified": "Пометить все предметы как неопознанные",
   "TIDY5E.Utilities.ConfigureSections": "Настроить разделы",
-  "TIDY5E.Utilities.SpellSlotTrackingModeTitle": "Spell Slot Tracking",
+  "TIDY5E.Utilities.SpellSlotTrackingModeTitle": "Учёт ячеек заклинаний",
   "TIDY5E.Utilities.SpellPips": "Метки заклинаний",
   "TIDY5E.Utilities.SpellValueMax": "Текущее/макс. заклинания",
-  "TIDY5E.Utilities.CastActivitySpellGroupingTitle": "Cast Activity Spell Grouping",
-  "TIDY5E.Utilities.CastActivitySpellGroupingOptionAdditional": "Additional Spells section",
-  "TIDY5E.Utilities.CastActivitySpellGroupingOptionPerItem": "Section Per Item",
-  "TIDY5E.Utilities.ShowSheetPins": "Show Sheet Pins",
-  "TIDY5E.Utilities.ShowLegendaryTrackersOnNpcStatblock": "Show Legendary/Lair trackers in the Statblock tab",
-  "TIDY5E.Utilities.IncludeSpellbookInNpcStatblockTab": "Include Spellbook sections in the Statblock tab",
+  "TIDY5E.Utilities.CastActivitySpellGroupingTitle": "Группировка заклинаний по активности",
+  "TIDY5E.Utilities.CastActivitySpellGroupingOptionAdditional": "Раздел дополнительных заклинаний",
+  "TIDY5E.Utilities.CastActivitySpellGroupingOptionPerItem": "Отдельный раздел для каждого предмета",
+  "TIDY5E.Utilities.ShowSheetPins": "Показывать закрепления на листе",
+  "TIDY5E.Utilities.ShowLegendaryTrackersOnNpcStatblock": "Показывать счётчики легендарных действий и логова в характеристиках",
+  "TIDY5E.Utilities.IncludeSpellbookInNpcStatblockTab": "Показывать книгу заклинаний в характеристиках NPC",
   "TIDY5E.Section": {
     "Default": "Стандартный раздел",
     "Label": "Раздел",
@@ -894,9 +843,9 @@
   "TIDY5E.Keybindings.ToggleHeaderMenu.Name": "Открыть меню заголовка",
   "TIDY5E.Keybindings.ToggleHeaderMenu.Hint": "Если бланк Tidy 5e является текущим активным окном, это сочетание переключает меню в заголовке.",
   "TIDY5E.Facilities": {
-    "Hirelings.Label": "Hirelings",
-    "Defenders.Label": "Defenders",
-    "Creatures.Label": "Creatures",
+    "Hirelings.Label": "Наёмники",
+    "Defenders.Label": "Защитники",
+    "Creatures.Label": "Существа",
     "RosterMember.Label": "{actorName} - {facilityName}",
     "ContextMenuActionRemove": "Remove from {facilityName}",
     "Progress.OrderAndCraftLabel": "{orderName} - {craftingItemName}"
@@ -906,10 +855,10 @@
   "TIDY5E.ExpandCollapseMenu.OptionTopLevel": "Разделы верхнего уровня",
   "TIDY5E.ExpandCollapseMenu.OptionAllSections": "Все разделы",
   "TIDY5E.SortMenu.OptionAlphabetical": "По алфавиту",
-  "TIDY5E.SortMethod.AlphabeticalAscending.Label": "Ascending",
-  "TIDY5E.SortMethod.AlphabeticalAscending.Tooltip": "Sort Alphabetically Ascending",
-  "TIDY5E.SortMethod.AlphabeticalDescending.Label": "Descending",
-  "TIDY5E.SortMethod.AlphabeticalDescending.Tooltip": "Sort Alphabetically Descending",
+  "TIDY5E.SortMethod.AlphabeticalAscending.Label": "По возрастанию",
+  "TIDY5E.SortMethod.AlphabeticalAscending.Tooltip": "Сортировать по алфавиту от А до Я",
+  "TIDY5E.SortMethod.AlphabeticalDescending.Label": "По убыванию",
+  "TIDY5E.SortMethod.AlphabeticalDescending.Tooltip": "Сортировать по алфавиту от Я до А",
   "TIDY5E.SortMenu.OptionManual": "Вручную",
   "TIDY5E.SortMenu.OptionPriority": "Приоритет",
   "TIDY5E.Activities.Cast.SourceHintText": "От {itemName}",
@@ -920,10 +869,10 @@
   "TIDY5E.Options.Title": "Настройки",
   "TIDY5E.ConfigureTab.Title": "Настройка {tabName}",
   "TIDY5E.DisplayOptions.Title": "Настройки отображения",
-  "TIDY5E.DisplayOptionsGlobalDefault.Title": "Global Default Display Options",
+  "TIDY5E.DisplayOptionsGlobalDefault.Title": "Общие настройки отображения по умолчанию",
   "TIDY5E.DisplayOptions.ShowContainerRow.Label": "Отображение ряда контейнеров",
   "TIDY5E.ItemSheet.PactLevelCastLabel": "Сотворить на {ordinal}",
-  "TIDY5E.ItemSheet.FeatureOriginLabel": "Feature Origin",
+  "TIDY5E.ItemSheet.FeatureOriginLabel": "Источник умения",
   "TIDY5E.HitDice.Abbreviation": "КЗ",
   "TIDY5E.HitDice.Current.Label": "Текущие КЗ",
   "TIDY5E.HitDice.Max.Label": "Макс. КЗ",
@@ -932,24 +881,24 @@
   "TIDY5E.Notifications.FirstTimeWelcome1": "Спасибо за использование Tidy 5e Sheets! Для начала вы должны изменить {sheetLinkStart}бланк{sheetLinkEnd} (или {allSheetsLinkStart}все ваши бланки{allSheetsLinkEnd}!) на Tidy версии. Вы можете узнать больше о модуле на {wikiLinkStart}странице wiki{wikiLinkEnd}.",
   "TIDY5E.AggregateSkill.HighMeasure": "High",
   "TIDY5E.AggregateSkill.LowMeasure": "Low",
-  "TIDY5E.Difficulty": "Difficulty",
-  "TIDY5E.Character.Sidebar.Title": "Player Character Sidebar",
+  "TIDY5E.Difficulty": "Сложность",
+  "TIDY5E.Character.Sidebar.Title": "Боковая панель персонажа",
   "TIDY5E.Encounter": {
-    "CombatantsSection.Title": "Combatants",
-    "Combat.IncludeInCombat.Tooltip": "Include in combat activities",
-    "Combat.ExcludeFromCombat.Tooltip": "Exclude from combat activities",
-    "AddMember.Label": "Add Member",
-    "AddPlaceholderToCombatTracker.Label": "Add to Current Encounter as Placeholder",
-    "AddPlaceholder.Label": "Create Combat Placeholder",
-    "DeletePlaceholder.Label": "Delete Placeholder",
-    "DifficultyTarget.Label": "Difficulty Target",
-    "AddAllPlaceholders.Label": "Add All as Placeholders",
-    "PrerollInitiative": "Preroll Initiative",
-    "NewPlaceholder.Name": "New Placeholder",
-    "NewPlaceholder.SubtitlePlaceholderText": "Note about this placeholder",
-    "AddCombatants.MustHaveEncounter.Message": "Must have an encounter selected to add to encounter tracker",
-    "CombatVisibility.Hidden.Label": "Hidden from players when added to tracker",
-    "CombatVisibility.Visible.Label": "Visible to players when added to tracker",
+    "CombatantsSection.Title": "Участники боя",
+    "Combat.IncludeInCombat.Tooltip": "Включить в действия боя",
+    "Combat.ExcludeFromCombat.Tooltip": "Исключить из действий боя",
+    "AddMember.Label": "Добавить участника",
+    "AddPlaceholderToCombatTracker.Label": "Добавить в текущий бой как заполнителя",
+    "AddPlaceholder.Label": "Создать заполнитель боя",
+    "DeletePlaceholder.Label": "Удалить заполнитель",
+    "DifficultyTarget.Label": "Целевая сложность",
+    "AddAllPlaceholders.Label": "Добавить всех как заполнителей",
+    "PrerollInitiative": "Заранее бросить инициативу",
+    "NewPlaceholder.Name": "Новый заполнитель",
+    "NewPlaceholder.SubtitlePlaceholderText": "Примечание к заполнителю",
+    "AddCombatants.MustHaveEncounter.Message": "Чтобы добавить участников в отслеживание боя, выберите столкновение.",
+    "CombatVisibility.Hidden.Label": "Скрыть от игроков при добавлении в бой",
+    "CombatVisibility.Visible.Label": "Показать игрокам при добавлении в бой",
     "InitiativeCount.Label": "Добавить инициативу {count}",
     "PlaceholderNameField.PlaceholderText": "Шаблонное название",
     "PlaceholderNotesField.PlaceholderText": "Заметки"
