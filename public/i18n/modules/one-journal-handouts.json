@@ -16,5 +16,10 @@
     "no-players-journal": "Журнал игроков не существует.",
     "no-duplicated-journal": "Журнал для копий не существует.",
     "successful": "Страница журнала успешно опубликована для игроков."
-  }
+  },
+  "one-journal-handouts.base.validate": "Проверить",
+  "one-journal-handouts.settings.blacklist.label": "Список исключённых пользователей",
+  "one-journal-handouts.settings.blacklist.name": "Настроить список исключений",
+  "one-journal-handouts.settings.blacklist.hint": "Исключить выбранных пользователей из автоматического открытия журнала.",
+  "one-journal-handouts.settings.blacklist.description": "Отметьте пользователей, которым не нужно автоматически открывать журнал."
 }
