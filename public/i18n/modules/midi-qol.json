@@ -1375,1767 +1375,1767 @@
       "description": "Преобразует полученный урон звуком в лечение."
     },
     "flags.midi-qol.advantage.ability.all": {
-      "name": "Advantage All Ability",
+      "name": "Преимущество ко всем характеристикам",
       "description": "Advantage on all saves, ability checks and skills."
     },
     "flags.midi-qol.advantage.ability.check.all": {
-      "name": "Advantage All Ability Checks",
+      "name": "Преимущество ко всем проверкам характеристик",
       "description": "Advantage on all ability checks and skills."
     },
     "flags.midi-qol.advantage.ability.check.cha": {
-      "name": "Advantage Charisma Checks",
+      "name": "Преимущество к проверкам Харизмы",
       "description": "Advantage on Charisma checks."
     },
     "flags.midi-qol.advantage.ability.check.con": {
-      "name": "Advantage Constitution Checks",
+      "name": "Преимущество к проверкам Телосложения",
       "description": "Advantage on Constitution checks."
     },
     "flags.midi-qol.advantage.ability.check.dex": {
-      "name": "Advantage Dexterity Checks",
+      "name": "Преимущество к проверкам Ловкости",
       "description": "Advantage on Dexterity checks."
     },
     "flags.midi-qol.advantage.ability.check.int": {
-      "name": "Advantage Intelligence Checks",
+      "name": "Преимущество к проверкам Интеллекта",
       "description": "Advantage on Intelligence checks."
     },
     "flags.midi-qol.advantage.ability.check.str": {
-      "name": "Advantage Strength Checks",
+      "name": "Преимущество к проверкам Силы",
       "description": "Advantage on Strength checks."
     },
     "flags.midi-qol.advantage.ability.check.wis": {
-      "name": "Advantage Wisdom Checks",
+      "name": "Преимущество к проверкам Мудрости",
       "description": "Advantage on Wisdom checks."
     },
     "flags.midi-qol.advantage.ability.save.all": {
-      "name": "Advantage All Saves",
+      "name": "Преимущество ко всем спасброскам",
       "description": "Advantage on all saves."
     },
     "flags.midi-qol.advantage.ability.save.cha": {
-      "name": "Advantage Charisma Saves",
+      "name": "Преимущество к спасброскам Харизмы",
       "description": "Advantage on Charisma saves."
     },
     "flags.midi-qol.advantage.ability.save.con": {
-      "name": "Advantage Constitution Saves",
+      "name": "Преимущество к спасброскам Телосложения",
       "description": "Advantage on Constitution saves."
     },
     "flags.midi-qol.advantage.ability.save.dex": {
-      "name": "Advantage Dexterity Saves",
+      "name": "Преимущество к спасброскам Ловкости",
       "description": "Advantage on Dexterity saves."
     },
     "flags.midi-qol.advantage.ability.save.int": {
-      "name": "Advantage Intelligence Saves",
+      "name": "Преимущество к спасброскам Интеллекта",
       "description": "Advantage on Intelligence saves."
     },
     "flags.midi-qol.advantage.ability.save.str": {
-      "name": "Advantage Strength Saves",
+      "name": "Преимущество к спасброскам Силы",
       "description": "Advantage on Strength saves."
     },
     "flags.midi-qol.advantage.ability.save.wis": {
-      "name": "Advantage Wisdom Saves",
+      "name": "Преимущество к спасброскам Мудрости",
       "description": "Advantage on Wisdom saves."
     },
     "flags.midi-qol.advantage.all": {
-      "name": "Advantage All",
+      "name": "Преимущество ко всем броскам",
       "description": "Advantage on all d20 checks."
     },
     "flags.midi-qol.advantage.attack.all": {
-      "name": "Advantage All Attacks",
+      "name": "Преимущество ко всем атакам",
       "description": "Advantage on all attack types (melee, ranged, and spell)."
     },
     "flags.midi-qol.advantage.attack.cha": {
-      "name": "Advantage Charisma Attacks",
+      "name": "Преимущество к атакам Харизмы",
       "description": "Advantage on attacks using Charisma."
     },
     "flags.midi-qol.advantage.attack.con": {
-      "name": "Advantage Constitution Attacks",
+      "name": "Преимущество к атакам Телосложения",
       "description": "Advantage on attacks using Constitution."
     },
     "flags.midi-qol.advantage.attack.dex": {
-      "name": "Advantage Dexterity Attacks",
+      "name": "Преимущество к атакам Ловкости",
       "description": "Advantage on attacks using Dexterity."
     },
     "flags.midi-qol.advantage.attack.heal": {
-      "name": "Advantage Heal Attacks",
+      "name": "Преимущество к атакам лечения",
       "description": ""
     },
     "flags.midi-qol.advantage.attack.int": {
-      "name": "Advantage Intelligence Attacks",
+      "name": "Преимущество к атакам Интеллекта",
       "description": "Advantage on attacks using Intelligence."
     },
     "flags.midi-qol.advantage.attack.msak": {
-      "name": "Advantage Melee Spell Attacks",
+      "name": "Преимущество к атакам заклинаниями в ближнем бою",
       "description": "Advantage on melee spell attacks."
     },
     "flags.midi-qol.advantage.attack.mwak": {
-      "name": "Advantage Melee Weapon Attacks",
+      "name": "Преимущество к атакам оружием в ближнем бою",
       "description": "Advantage on melee weapon attacks."
     },
     "flags.midi-qol.advantage.attack.other": {
-      "name": "Advantage Other Attacks",
+      "name": "Преимущество к прочим атакам",
       "description": ""
     },
     "flags.midi-qol.advantage.attack.rsak": {
-      "name": "Advantage Ranged Spell Attacks",
+      "name": "Преимущество к дальнобойным атакам заклинаниями",
       "description": "Advantage on ranged spell attacks."
     },
     "flags.midi-qol.advantage.attack.rwak": {
-      "name": "Advantage Ranged Weapon Attacks",
+      "name": "Преимущество к дальнобойным атакам оружием",
       "description": "Advantage on ranged weapon attacks."
     },
     "flags.midi-qol.advantage.attack.save": {
-      "name": "Advantage Save Attacks",
+      "name": "Преимущество к атакам со спасброском",
       "description": "Advantage on all attacks for action type save"
     },
     "flags.midi-qol.advantage.attack.str": {
-      "name": "Advantage Strength Attacks",
+      "name": "Преимущество к атакам Силы",
       "description": "Advantage on attacks using Strength."
     },
     "flags.midi-qol.advantage.attack.util": {
-      "name": "Advantage Utility Attacks",
+      "name": "Преимущество к вспомогательным атакам",
       "description": "Advantage on all attacks of item type util"
     },
     "flags.midi-qol.advantage.attack.wis": {
-      "name": "Advantage Wisdom Attacks",
+      "name": "Преимущество к атакам Мудрости",
       "description": "Advantage on attacks using Wisdom."
     },
     "flags.midi-qol.fail.disadvantage.heavy": {
-      "name": "Fail Disadvantage Heavy",
+      "name": "Помеха к скрытности из-за тяжёлого доспеха",
       "description": "Disadvantage on stealth because of heavy armor"
     },
     "flags.midi-qol.": {
-      "name": "MIDI-QOL Flags",
+      "name": "Флаги Midi-QOL",
       "description": ""
     },
     "flags.midi-qol.DR.msak": {
-      "name": "Damage Reduction (msak) (Deprecated)",
+      "name": "Снижение урона (атака заклинанием в ближнем бою) (устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.mwak": {
-      "name": "Damage Reduction (mwak) (Deprecated)",
+      "name": "Снижение урона (атака оружием в ближнем бою) (устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.non-adamant": {
-      "name": "Damage Reduction (non-adamant) (Deprecated)",
+      "name": "Снижение урона (неадамантина) (устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.non-magical": {
-      "name": "Damage Reduction (non-magical) (Deprecated)",
+      "name": "Снижение урона (немагического урона) (устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.non-magical-physical": {
-      "name": "Damage Reduction (non-magical physical) (Deprecated)",
+      "name": "Снижение урона (немагического физического урона) (устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.non-physical": {
-      "name": "Damage Reduction (non-physical) (Deprecated)",
+      "name": "Снижение урона (нефизического урона) (устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.non-silver": {
-      "name": "Damage Reduction (non-silver) (Deprecated)",
+      "name": "Снижение урона (несеребряного оружия) (устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.other": {
-      "name": "Damage Reduction (other) (Deprecated)",
+      "name": "Снижение урона (прочее) (устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.rsak": {
-      "name": "Damage Reduction (rsak) (Deprecated)",
+      "name": "Снижение урона (дальнобойная атака заклинанием) (устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.rwak": {
-      "name": "Damage Reduction (rwak) (Deprecated)",
+      "name": "Снижение урона (дальнобойная атака оружием) (устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.save": {
-      "name": "Damage Reduction (save) (Deprecated)",
+      "name": "Снижение урона (спасбросок) (устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.util": {
-      "name": "Damage Reduction (util) (Deprecated)",
+      "name": "Снижение урона (вспомогательное действие) (устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.acid": {
-      "name": "Damage Reduction Acid (Deprecated)",
+      "name": "Снижение урона (кислота; устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.all": {
-      "name": "Damage Reduction All (Deprecated)",
+      "name": "Снижение урона (все; устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.bludgeoning": {
-      "name": "Damage Reduction Bludgeoning (Deprecated)",
+      "name": "Снижение урона (дробящий урон; устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.cold": {
-      "name": "Damage Reduction Cold (Deprecated)",
+      "name": "Снижение урона (холод; устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.final": {
-      "name": "Damage Reduction Final (Deprecated)",
+      "name": "Снижение урона (итоговое; устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.fire": {
-      "name": "Damage Reduction Fire (Deprecated)",
+      "name": "Снижение урона (огонь; устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.force": {
-      "name": "Damage Reduction Force (Deprecated)",
+      "name": "Снижение урона (силовой урон; устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.healing": {
-      "name": "Damage Reduction Healing (Deprecated)",
+      "name": "Снижение урона (лечение; устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.lightning": {
-      "name": "Damage Reduction Lightning (Deprecated)",
+      "name": "Снижение урона (электричество; устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.midi-none": {
-      "name": "Damage Reduction None (Deprecated)",
+      "name": "Снижение урона (нет; устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.necrotic": {
-      "name": "Damage Reduction Necrotic (Deprecated)",
+      "name": "Снижение урона (некротический урон; устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.none": {
-      "name": "No Damage Reduction (Deprecated)",
+      "name": "Без снижения урона (устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.piercing": {
-      "name": "Damage Reduction Piercing (Deprecated)",
+      "name": "Снижение урона (колющий урон; устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.poison": {
-      "name": "Damage Reduction Poison (Deprecated)",
+      "name": "Снижение урона (яд; устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.psychic": {
-      "name": "Damage Reduction Psychic (Deprecated)",
+      "name": "Снижение урона (психический урон; устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.radiant": {
-      "name": "Damage Reduction Radiant (Deprecated)",
+      "name": "Снижение урона (излучение; устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.slashing": {
-      "name": "Damage Reduction Slashing (Deprecated)",
+      "name": "Снижение урона (рубящий урон; устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.temphp": {
-      "name": "Damage Reduction Temp HP (Deprecated)",
+      "name": "Снижение урона (временные ОЗ; устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.DR.thunder": {
-      "name": "Damage Reduction Thunder (Deprecated)",
+      "name": "Снижение урона (звук; устарело)",
       "description": "Use the system.traits.dm fields (with a negative value) instead."
     },
     "flags.midi-qol.OverTime": {
-      "name": "Over Time Effects",
+      "name": "Периодические эффекты",
       "description": ""
     },
     "flags.midi-qol.advantage.concentration": {
-      "name": "Advantage (Concentration)",
+      "name": "Преимущество (концентрация)",
       "description": "Advantage on concentration checks."
     },
     "flags.midi-qol.advantage.deathSave": {
-      "name": "Advantage (Death Save)",
+      "name": "Преимущество (спасбросок от смерти)",
       "description": "Advantage on death saving throws."
     },
     "flags.midi-qol.advantage.skill.acr": {
-      "name": "Advantage (Acrobatics)",
+      "name": "Преимущество (Акробатика)",
       "description": "Advantage on Acrobatics checks."
     },
     "flags.midi-qol.advantage.skill.all": {
-      "name": "Advantage (All Skills)",
+      "name": "Преимущество (все навыки)",
       "description": "Advantage on all skill checks."
     },
     "flags.midi-qol.advantage.skill.ani": {
-      "name": "Advantage (Animal Handling)",
+      "name": "Преимущество (Уход за животными)",
       "description": "Advantage on Animal Handling checks."
     },
     "flags.midi-qol.advantage.skill.arc": {
-      "name": "Advantage (Arcana)",
+      "name": "Преимущество (Магия)",
       "description": "Advantage on Arcana checks."
     },
     "flags.midi-qol.advantage.skill.ath": {
-      "name": "Advantage (Athletics)",
+      "name": "Преимущество (Атлетика)",
       "description": "Advantage on Athletics checks."
     },
     "flags.midi-qol.advantage.skill.dec": {
-      "name": "Advantage (Deception)",
+      "name": "Преимущество (Обман)",
       "description": "Advantage on Deception checks."
     },
     "flags.midi-qol.advantage.skill.his": {
-      "name": "Advantage (History)",
+      "name": "Преимущество (История)",
       "description": "Advantage on History checks."
     },
     "flags.midi-qol.advantage.skill.ins": {
-      "name": "Advantage (Insight)",
+      "name": "Преимущество (Проницательность)",
       "description": "Advantage on Insight checks."
     },
     "flags.midi-qol.advantage.skill.inv": {
-      "name": "Advantage (Investigation)",
+      "name": "Преимущество (Анализ)",
       "description": "Advantage on Investigation checks."
     },
     "flags.midi-qol.advantage.skill.itm": {
-      "name": "Advantage (Intimidation)",
+      "name": "Преимущество (Запугивание)",
       "description": "Advantage on Intimidation checks."
     },
     "flags.midi-qol.advantage.skill.med": {
-      "name": "Advantage (Medicine)",
+      "name": "Преимущество (Медицина)",
       "description": "Advantage on Medicine checks."
     },
     "flags.midi-qol.advantage.skill.nat": {
-      "name": "Advantage (Nature)",
+      "name": "Преимущество (Природа)",
       "description": "Advantage on Nature checks."
     },
     "flags.midi-qol.advantage.skill.per": {
-      "name": "Advantage (Persuasion)",
+      "name": "Преимущество (Убеждение)",
       "description": "Advantage on Persuasion checks."
     },
     "flags.midi-qol.advantage.skill.prc": {
-      "name": "Advantage (Perception)",
+      "name": "Преимущество (Внимательность)",
       "description": "Advantage on Perception checks."
     },
     "flags.midi-qol.advantage.skill.prf": {
-      "name": "Advantage (Performance)",
+      "name": "Преимущество (Выступление)",
       "description": "Advantage on Performance checks."
     },
     "flags.midi-qol.advantage.skill.rel": {
-      "name": "Advantage (Religion)",
+      "name": "Преимущество (Религия)",
       "description": "Advantage on Religion checks."
     },
     "flags.midi-qol.advantage.skill.slt": {
-      "name": "Advantage (Sleight of Hand)",
+      "name": "Преимущество (Ловкость рук)",
       "description": "Advantage on Sleight of Hand checks."
     },
     "flags.midi-qol.advantage.skill.ste": {
-      "name": "Advantage (Stealth)",
+      "name": "Преимущество (Скрытность)",
       "description": "Advantage on Stealth checks."
     },
     "flags.midi-qol.advantage.skill.sur": {
-      "name": "Advantage (Survival)",
+      "name": "Преимущество (Выживание)",
       "description": "Advantage on Survival checks."
     },
     "flags.midi-qol.carefulSpells": {
-      "name": "Careful Spells",
+      "name": "Осторожные заклинания",
       "description": "Pre-selected targets of save spells automatically succeed."
     },
     "flags.midi-qol.concentrationSaveBonus": {
-      "name": "Concentration Save Bonus",
+      "name": "Бонус к спасброску концентрации",
       "description": ""
     },
     "flags.midi-qol.critical.all": {
-      "name": "Critical Hit (All)",
+      "name": "Критическое попадание (все)",
       "description": ""
     },
     "flags.midi-qol.critical.heal": {
-      "name": "Critical Hit (Heal)",
+      "name": "Критическое попадание (лечение)",
       "description": ""
     },
     "flags.midi-qol.critical.msak": {
-      "name": "Critical Hit (Melee Spell Attack)",
+      "name": "Критическое попадание (атака заклинанием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.critical.mwak": {
-      "name": "Critical Hit (Melee Weapon Attack)",
+      "name": "Критическое попадание (атака оружием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.critical.other": {
-      "name": "Critical Hit (Other)",
+      "name": "Критическое попадание (прочее)",
       "description": ""
     },
     "flags.midi-qol.critical.rsak": {
-      "name": "Critical Hit (Ranged Spell Attack)",
+      "name": "Критическое попадание (дальнобойная атака заклинанием)",
       "description": ""
     },
     "flags.midi-qol.critical.rwak": {
-      "name": "Critical Hit (Ranged Weapon Attack)",
+      "name": "Критическое попадание (дальнобойная атака оружием)",
       "description": ""
     },
     "flags.midi-qol.critical.save": {
-      "name": "Critical Hit (Save)",
+      "name": "Критическое попадание (спасбросок)",
       "description": ""
     },
     "flags.midi-qol.critical.util": {
-      "name": "Critical Hit (Utility)",
+      "name": "Критическое попадание (вспомогательное действие)",
       "description": ""
     },
     "flags.midi-qol.damage.reroll-kh": {
-      "name": "Damage Reroll (Keep Highest)",
+      "name": "Переброс урона (оставить наибольший)",
       "description": ""
     },
     "flags.midi-qol.damage.reroll-kl": {
-      "name": "Damage Reroll (Keep Lowest)",
+      "name": "Переброс урона (оставить наименьший)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.ability.all": {
-      "name": "Disadvantage (All Abilities)",
+      "name": "Помеха (все характеристики)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.ability.check.all": {
-      "name": "Disadvantage (All Ability Checks)",
+      "name": "Помеха (все проверки характеристик)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.ability.check.cha": {
-      "name": "Disadvantage (Charisma Checks)",
+      "name": "Помеха (проверки Харизмы)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.ability.check.con": {
-      "name": "Disadvantage (Constitution Checks)",
+      "name": "Помеха (проверки Телосложения)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.ability.check.dex": {
-      "name": "Disadvantage (Dexterity Checks)",
+      "name": "Помеха (проверки Ловкости)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.ability.check.int": {
-      "name": "Disadvantage (Intelligence Checks)",
+      "name": "Помеха (проверки Интеллекта)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.ability.check.str": {
-      "name": "Disadvantage (Strength Checks)",
+      "name": "Помеха (проверки Силы)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.ability.check.wis": {
-      "name": "Disadvantage (Wisdom Checks)",
+      "name": "Помеха (проверки Мудрости)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.ability.save.all": {
-      "name": "Disadvantage (All Saves)",
+      "name": "Помеха (все спасброски)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.ability.save.cha": {
-      "name": "Disadvantage (Charisma Saves)",
+      "name": "Помеха (спасброски Харизмы)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.ability.save.con": {
-      "name": "Disadvantage (Constitution Saves)",
+      "name": "Помеха (спасброски Телосложения)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.ability.save.dex": {
-      "name": "Disadvantage (Dexterity Saves)",
+      "name": "Помеха (спасброски Ловкости)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.ability.save.int": {
-      "name": "Disadvantage (Intelligence Saves)",
+      "name": "Помеха (спасброски Интеллекта)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.ability.save.str": {
-      "name": "Disadvantage (Strength Saves)",
+      "name": "Помеха (спасброски Силы)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.ability.save.wis": {
-      "name": "Disadvantage (Wisdom Saves)",
+      "name": "Помеха (спасброски Мудрости)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.all": {
-      "name": "Disadvantage All",
+      "name": "Помеха ко всем броскам",
       "description": "Disadvantage on all d20 checks."
     },
     "flags.midi-qol.disadvantage.attack.all": {
-      "name": "Disadvantage (All Attacks)",
+      "name": "Помеха (все атаки)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.attack.cha": {
-      "name": "Disadvantage (Charisma Attacks)",
+      "name": "Помеха (атаки Харизмы)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.attack.con": {
-      "name": "Disadvantage (Constitution Attacks)",
+      "name": "Помеха (атаки Телосложения)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.attack.dex": {
-      "name": "Disadvantage (Dexterity Attacks)",
+      "name": "Помеха (атаки Ловкости)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.attack.heal": {
-      "name": "Disadvantage (Heal)",
+      "name": "Помеха (лечение)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.attack.int": {
-      "name": "Disadvantage (Intelligence Attacks)",
+      "name": "Помеха (атаки Интеллекта)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.attack.msak": {
-      "name": "Disadvantage (Melee Spell Attack)",
+      "name": "Помеха (атака заклинанием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.attack.mwak": {
-      "name": "Disadvantage (Melee Weapon Attack)",
+      "name": "Помеха (атака оружием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.attack.other": {
-      "name": "Disadvantage (Other Attacks)",
+      "name": "Помеха (прочие атаки)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.attack.rsak": {
-      "name": "Disadvantage (Ranged Spell Attack)",
+      "name": "Помеха (дальнобойная атака заклинанием)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.attack.rwak": {
-      "name": "Disadvantage (Ranged Weapon Attack)",
+      "name": "Помеха (дальнобойная атака оружием)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.attack.save": {
-      "name": "Disadvantage (Save)",
+      "name": "Помеха (спасбросок)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.attack.util": {
-      "name": "Disadvantage (Utility)",
+      "name": "Помеха (вспомогательное действие)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.attack.wis": {
-      "name": "Disadvantage (Wisdom Attacks)",
+      "name": "Помеха (атаки Мудрости)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.concentration": {
-      "name": "Disadvantage (Concentration)",
+      "name": "Помеха (концентрация)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.deathSave": {
-      "name": "Disadvantage (Death Save)",
+      "name": "Помеха (спасбросок от смерти)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.skill.acr": {
-      "name": "Disadvantage (Acrobatics)",
+      "name": "Помеха (Акробатика)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.skill.all": {
-      "name": "Disadvantage (All Skills)",
+      "name": "Помеха (все навыки)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.skill.ani": {
-      "name": "Disadvantage (Animal Handling)",
+      "name": "Помеха (Уход за животными)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.skill.arc": {
-      "name": "Disadvantage (Arcana)",
+      "name": "Помеха (Магия)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.skill.ath": {
-      "name": "Disadvantage (Athletics)",
+      "name": "Помеха (Атлетика)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.skill.dec": {
-      "name": "Disadvantage (Deception)",
+      "name": "Помеха (Обман)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.skill.his": {
-      "name": "Disadvantage (History)",
+      "name": "Помеха (История)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.skill.ins": {
-      "name": "Disadvantage (Insight)",
+      "name": "Помеха (Проницательность)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.skill.inv": {
-      "name": "Disadvantage (Investigation)",
+      "name": "Помеха (Анализ)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.skill.itm": {
-      "name": "Disadvantage (Intimidation)",
+      "name": "Помеха (Запугивание)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.skill.med": {
-      "name": "Disadvantage (Medicine)",
+      "name": "Помеха (Медицина)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.skill.nat": {
-      "name": "Disadvantage (Nature)",
+      "name": "Помеха (Природа)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.skill.per": {
-      "name": "Disadvantage (Persuasion)",
+      "name": "Помеха (Убеждение)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.skill.prc": {
-      "name": "Disadvantage (Perception)",
+      "name": "Помеха (Внимательность)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.skill.prf": {
-      "name": "Disadvantage (Performance)",
+      "name": "Помеха (Выступление)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.skill.rel": {
-      "name": "Disadvantage (Religion)",
+      "name": "Помеха (Религия)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.skill.slt": {
-      "name": "Disadvantage (Sleight of Hand)",
+      "name": "Помеха (Ловкость рук)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.skill.ste": {
-      "name": "Disadvantage (Stealth)",
+      "name": "Помеха (Скрытность)",
       "description": ""
     },
     "flags.midi-qol.disadvantage.skill.sur": {
-      "name": "Disadvantage (Survival)",
+      "name": "Помеха (Выживание)",
       "description": ""
     },
     "flags.midi-qol.fail.ability.all": {
-      "name": "Fail (All Abilities)",
+      "name": "Провал (все характеристики)",
       "description": ""
     },
     "flags.midi-qol.fail.ability.check.all": {
-      "name": "Fail (All Ability Checks)",
+      "name": "Провал (все проверки характеристик)",
       "description": ""
     },
     "flags.midi-qol.fail.ability.check.cha": {
-      "name": "Fail (Charisma Checks)",
+      "name": "Провал (проверки Харизмы)",
       "description": ""
     },
     "flags.midi-qol.fail.ability.check.con": {
-      "name": "Fail (Constitution Checks)",
+      "name": "Провал (проверки Телосложения)",
       "description": ""
     },
     "flags.midi-qol.fail.ability.check.dex": {
-      "name": "Fail (Dexterity Checks)",
+      "name": "Провал (проверки Ловкости)",
       "description": ""
     },
     "flags.midi-qol.fail.ability.check.int": {
-      "name": "Fail (Intelligence Checks)",
+      "name": "Провал (проверки Интеллекта)",
       "description": ""
     },
     "flags.midi-qol.fail.ability.check.str": {
-      "name": "Fail (Strength Checks)",
+      "name": "Провал (проверки Силы)",
       "description": ""
     },
     "flags.midi-qol.fail.ability.check.wis": {
-      "name": "Fail (Wisdom Checks)",
+      "name": "Провал (проверки Мудрости)",
       "description": ""
     },
     "flags.midi-qol.fail.ability.save.all": {
-      "name": "Fail (All Saves)",
+      "name": "Провал (все спасброски)",
       "description": ""
     },
     "flags.midi-qol.fail.ability.save.cha": {
-      "name": "Fail (Charisma Saves)",
+      "name": "Провал (спасброски Харизмы)",
       "description": ""
     },
     "flags.midi-qol.fail.ability.save.con": {
-      "name": "Fail (Constitution Saves)",
+      "name": "Провал (спасброски Телосложения)",
       "description": ""
     },
     "flags.midi-qol.fail.ability.save.dex": {
-      "name": "Fail (Dexterity Saves)",
+      "name": "Провал (спасброски Ловкости)",
       "description": ""
     },
     "flags.midi-qol.fail.ability.save.int": {
-      "name": "Fail (Intelligence Saves)",
+      "name": "Провал (спасброски Интеллекта)",
       "description": ""
     },
     "flags.midi-qol.fail.ability.save.str": {
-      "name": "Fail (Strength Saves)",
+      "name": "Провал (спасброски Силы)",
       "description": ""
     },
     "flags.midi-qol.fail.ability.save.wis": {
-      "name": "Fail (Wisdom Saves)",
+      "name": "Провал (спасброски Мудрости)",
       "description": ""
     },
     "flags.midi-qol.fail.all": {
-      "name": "Fail (All Actions)",
+      "name": "Провал (все действия)",
       "description": ""
     },
     "flags.midi-qol.fail.attack.all": {
-      "name": "Fail (All Attacks)",
+      "name": "Провал (все атаки)",
       "description": ""
     },
     "flags.midi-qol.fail.attack.heal": {
-      "name": "Fail (Heal)",
+      "name": "Провал (лечение)",
       "description": ""
     },
     "flags.midi-qol.fail.attack.msak": {
-      "name": "Fail (Melee Spell Attack)",
+      "name": "Провал (атака заклинанием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.fail.attack.mwak": {
-      "name": "Fail (Melee Weapon Attack)",
+      "name": "Провал (атака оружием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.fail.attack.other": {
-      "name": "Fail (Other Attacks)",
+      "name": "Провал (прочие атаки)",
       "description": ""
     },
     "flags.midi-qol.fail.attack.rsak": {
-      "name": "Fail (Ranged Spell Attack)",
+      "name": "Провал (дальнобойная атака заклинанием)",
       "description": ""
     },
     "flags.midi-qol.fail.attack.rwak": {
-      "name": "Fail (Ranged Weapon Attack)",
+      "name": "Провал (дальнобойная атака оружием)",
       "description": ""
     },
     "flags.midi-qol.fail.attack.save": {
-      "name": "Fail (Save)",
+      "name": "Провал (спасбросок)",
       "description": ""
     },
     "flags.midi-qol.fail.attack.util": {
-      "name": "Fail (Utility)",
+      "name": "Провал (вспомогательное действие)",
       "description": ""
     },
     "flags.midi-qol.fail.critical.all": {
-      "name": "Critical Fail (All)",
+      "name": "Критический провал (все)",
       "description": ""
     },
     "flags.midi-qol.fail.critical.heal": {
-      "name": "Critical Fail (Heal)",
+      "name": "Критический провал (лечение)",
       "description": ""
     },
     "flags.midi-qol.fail.critical.msak": {
-      "name": "Critical Fail (Melee Spell Attack)",
+      "name": "Критический провал (атака заклинанием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.fail.critical.mwak": {
-      "name": "Critical Fail (Melee Weapon Attack)",
+      "name": "Критический провал (атака оружием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.fail.critical.other": {
-      "name": "Critical Fail (Other)",
+      "name": "Критический провал (прочее)",
       "description": ""
     },
     "flags.midi-qol.fail.critical.rsak": {
-      "name": "Critical Fail (Ranged Spell Attack)",
+      "name": "Критический провал (дальнобойная атака заклинанием)",
       "description": ""
     },
     "flags.midi-qol.fail.critical.rwak": {
-      "name": "Critical Fail (Ranged Weapon Attack)",
+      "name": "Критический провал (дальнобойная атака оружием)",
       "description": ""
     },
     "flags.midi-qol.fail.critical.save": {
-      "name": "Critical Fail (Save)",
+      "name": "Критический провал (спасбросок)",
       "description": ""
     },
     "flags.midi-qol.fail.critical.util": {
-      "name": "Critical Fail (Utility)",
+      "name": "Критический провал (вспомогательное действие)",
       "description": ""
     },
     "flags.midi-qol.fail.skill.acr": {
-      "name": "Fail (Acrobatics)",
+      "name": "Провал (Акробатика)",
       "description": ""
     },
     "flags.midi-qol.fail.skill.all": {
-      "name": "Fail (All Skills)",
+      "name": "Провал (все навыки)",
       "description": ""
     },
     "flags.midi-qol.fail.skill.ani": {
-      "name": "Fail (Animal Handling)",
+      "name": "Провал (Уход за животными)",
       "description": ""
     },
     "flags.midi-qol.fail.skill.arc": {
-      "name": "Fail (Arcana)",
+      "name": "Провал (Магия)",
       "description": ""
     },
     "flags.midi-qol.fail.skill.ath": {
-      "name": "Fail (Athletics)",
+      "name": "Провал (Атлетика)",
       "description": ""
     },
     "flags.midi-qol.fail.skill.dec": {
-      "name": "Fail (Deception)",
+      "name": "Провал (Обман)",
       "description": ""
     },
     "flags.midi-qol.fail.skill.his": {
-      "name": "Fail (History)",
+      "name": "Провал (История)",
       "description": ""
     },
     "flags.midi-qol.fail.skill.ins": {
-      "name": "Fail (Insight)",
+      "name": "Провал (Проницательность)",
       "description": ""
     },
     "flags.midi-qol.fail.skill.inv": {
-      "name": "Fail (Investigation)",
+      "name": "Провал (Анализ)",
       "description": ""
     },
     "flags.midi-qol.fail.skill.itm": {
-      "name": "Fail (Intimidation)",
+      "name": "Провал (Запугивание)",
       "description": ""
     },
     "flags.midi-qol.fail.skill.med": {
-      "name": "Fail (Medicine)",
+      "name": "Провал (Медицина)",
       "description": ""
     },
     "flags.midi-qol.fail.skill.nat": {
-      "name": "Fail (Nature)",
+      "name": "Провал (Природа)",
       "description": ""
     },
     "flags.midi-qol.fail.skill.per": {
-      "name": "Fail (Persuasion)",
+      "name": "Провал (Убеждение)",
       "description": ""
     },
     "flags.midi-qol.fail.skill.prc": {
-      "name": "Fail (Perception)",
+      "name": "Провал (Внимательность)",
       "description": ""
     },
     "flags.midi-qol.fail.skill.prf": {
-      "name": "Fail (Performance)",
+      "name": "Провал (Выступление)",
       "description": ""
     },
     "flags.midi-qol.fail.skill.rel": {
-      "name": "Fail (Religion)",
+      "name": "Провал (Религия)",
       "description": ""
     },
     "flags.midi-qol.fail.skill.slt": {
-      "name": "Fail (Sleight of Hand)",
+      "name": "Провал (Ловкость рук)",
       "description": ""
     },
     "flags.midi-qol.fail.skill.ste": {
-      "name": "Fail (Stealth)",
+      "name": "Провал (Скрытность)",
       "description": ""
     },
     "flags.midi-qol.fail.skill.sur": {
-      "name": "Fail (Survival)",
+      "name": "Провал (Выживание)",
       "description": ""
     },
     "flags.midi-qol.fail.spell.material": {
-      "name": "Fail (Material Component)",
+      "name": "Провал (материальный компонент)",
       "description": ""
     },
     "flags.midi-qol.fail.spell.somatic": {
-      "name": "Fail (Somatic Component)",
+      "name": "Провал (соматический компонент)",
       "description": ""
     },
     "flags.midi-qol.fail.spell.vocal": {
-      "name": "Fail (Vocal Component)",
+      "name": "Провал (вербальный компонент)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.attack.all": {
-      "name": "Grants Advantage (All Attacks)",
+      "name": "Даёт преимущество (все атаки)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.attack.heal": {
-      "name": "Grants Advantage (Heal)",
+      "name": "Даёт преимущество (лечение)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.attack.msak": {
-      "name": "Grants Advantage (Melee Spell Attack)",
+      "name": "Даёт преимущество (атака заклинанием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.attack.mwak": {
-      "name": "Grants Advantage (Melee Weapon Attack)",
+      "name": "Даёт преимущество (атака оружием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.attack.other": {
-      "name": "Grants Advantage (Other Attacks)",
+      "name": "Даёт преимущество (прочие атаки)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.attack.rsak": {
-      "name": "Grants Advantage (Ranged Spell Attack)",
+      "name": "Даёт преимущество (дальнобойная атака заклинанием)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.attack.rwak": {
-      "name": "Grants Advantage (Ranged Weapon Attack)",
+      "name": "Даёт преимущество (дальнобойная атака оружием)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.attack.save": {
-      "name": "Grants Advantage (Save)",
+      "name": "Даёт преимущество (спасбросок)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.attack.util": {
-      "name": "Grants Advantage (Utility)",
+      "name": "Даёт преимущество (вспомогательное действие)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.check.all": {
-      "name": "Grants Advantage (All Checks)",
+      "name": "Даёт преимущество (все проверки)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.check.cha": {
-      "name": "Grants Advantage (Charisma Checks)",
+      "name": "Даёт преимущество (проверки Харизмы)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.check.con": {
-      "name": "Grants Advantage (Constitution Checks)",
+      "name": "Даёт преимущество (проверки Телосложения)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.check.dex": {
-      "name": "Grants Advantage (Dexterity Checks)",
+      "name": "Даёт преимущество (проверки Ловкости)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.check.int": {
-      "name": "Grants Advantage (Intelligence Checks)",
+      "name": "Даёт преимущество (проверки Интеллекта)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.check.str": {
-      "name": "Grants Advantage (Strength Checks)",
+      "name": "Даёт преимущество (проверки Силы)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.check.wis": {
-      "name": "Grants Advantage (Wisdom Checks)",
+      "name": "Даёт преимущество (проверки Мудрости)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.save.all": {
-      "name": "Grants Advantage (All Saves)",
+      "name": "Даёт преимущество (все спасброски)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.save.cha": {
-      "name": "Grants Advantage (Charisma Saves)",
+      "name": "Даёт преимущество (спасброски Харизмы)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.save.con": {
-      "name": "Grants Advantage (Constitution Saves)",
+      "name": "Даёт преимущество (спасброски Телосложения)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.save.dex": {
-      "name": "Grants Advantage (Dexterity Saves)",
+      "name": "Даёт преимущество (спасброски Ловкости)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.save.int": {
-      "name": "Grants Advantage (Intelligence Saves)",
+      "name": "Даёт преимущество (спасброски Интеллекта)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.save.str": {
-      "name": "Grants Advantage (Strength Saves)",
+      "name": "Даёт преимущество (спасброски Силы)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.save.wis": {
-      "name": "Grants Advantage (Wisdom Saves)",
+      "name": "Даёт преимущество (спасброски Мудрости)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.skill.all": {
-      "name": "Grants Advantage (All Skills)",
+      "name": "Даёт преимущество (все навыки)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.skill.cha": {
-      "name": "Grants Advantage (Charisma Skills)",
+      "name": "Даёт преимущество (навыки Харизмы)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.skill.con": {
-      "name": "Grants Advantage (Constitution Skills)",
+      "name": "Даёт преимущество (навыки Телосложения)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.skill.dex": {
-      "name": "Grants Advantage (Dexterity Skills)",
+      "name": "Даёт преимущество (навыки Ловкости)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.skill.int": {
-      "name": "Grants Advantage (Intelligence Skills)",
+      "name": "Даёт преимущество (навыки Интеллекта)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.skill.str": {
-      "name": "Grants Advantage (Strength Skills)",
+      "name": "Даёт преимущество (навыки Силы)",
       "description": ""
     },
     "flags.midi-qol.grants.advantage.skill.wis": {
-      "name": "Grants Advantage (Wisdom Skills)",
+      "name": "Даёт преимущество (навыки Мудрости)",
       "description": ""
     },
     "flags.midi-qol.grants.attack.bonus.all": {
-      "name": "Grants Attack Bonus (All)",
+      "name": "Даёт бонус к атаке (все)",
       "description": ""
     },
     "flags.midi-qol.grants.attack.bonus.heal": {
-      "name": "Grants Attack Bonus (Heal)",
+      "name": "Даёт бонус к атаке (лечение)",
       "description": ""
     },
     "flags.midi-qol.grants.attack.bonus.msak": {
-      "name": "Grants Attack Bonus (Melee Spell Attack)",
+      "name": "Даёт бонус к атаке (атака заклинанием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.grants.attack.bonus.mwak": {
-      "name": "Grants Attack Bonus (Melee Weapon Attack)",
+      "name": "Даёт бонус к атаке (атака оружием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.grants.attack.bonus.other": {
-      "name": "Grants Attack Bonus (Other)",
+      "name": "Даёт бонус к атаке (прочее)",
       "description": ""
     },
     "flags.midi-qol.grants.attack.bonus.rsak": {
-      "name": "Grants Attack Bonus (Ranged Spell Attack)",
+      "name": "Даёт бонус к атаке (дальнобойная атака заклинанием)",
       "description": ""
     },
     "flags.midi-qol.grants.attack.bonus.rwak": {
-      "name": "Grants Attack Bonus (Ranged Weapon Attack)",
+      "name": "Даёт бонус к атаке (дальнобойная атака оружием)",
       "description": ""
     },
     "flags.midi-qol.grants.attack.bonus.save": {
-      "name": "Grants Attack Bonus (Save)",
+      "name": "Даёт бонус к атаке (спасбросок)",
       "description": ""
     },
     "flags.midi-qol.grants.attack.bonus.util": {
-      "name": "Grants Attack Bonus (Utility)",
+      "name": "Даёт бонус к атаке (вспомогательное действие)",
       "description": ""
     },
     "flags.midi-qol.grants.attack.fail.all": {
-      "name": "Grants Attack Fail (All)",
+      "name": "Вызывает провал атаки (все)",
       "description": ""
     },
     "flags.midi-qol.grants.attack.success.all": {
-      "name": "Grants Attack Success (All)",
+      "name": "Даёт успешную атаку (все)",
       "description": ""
     },
     "flags.midi-qol.grants.attack.success.heal": {
-      "name": "Grants Attack Success (Heal)",
+      "name": "Даёт успешную атаку (лечение)",
       "description": ""
     },
     "flags.midi-qol.grants.attack.success.msak": {
-      "name": "Grants Attack Success (Melee Spell Attack)",
+      "name": "Даёт успешную атаку (атака заклинанием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.grants.attack.success.mwak": {
-      "name": "Grants Attack Success (Melee Weapon Attack)",
+      "name": "Даёт успешную атаку (атака оружием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.grants.attack.success.other": {
-      "name": "Grants Attack Success (Other)",
+      "name": "Даёт успешную атаку (прочее)",
       "description": ""
     },
     "flags.midi-qol.grants.attack.success.rsak": {
-      "name": "Grants Attack Success (Ranged Spell Attack)",
+      "name": "Даёт успешную атаку (дальнобойная атака заклинанием)",
       "description": ""
     },
     "flags.midi-qol.grants.attack.success.rwak": {
-      "name": "Grants Attack Success (Ranged Weapon Attack)",
+      "name": "Даёт успешную атаку (дальнобойная атака оружием)",
       "description": ""
     },
     "flags.midi-qol.grants.attack.success.save": {
-      "name": "Grants Attack Success (Save)",
+      "name": "Даёт успешную атаку (спасбросок)",
       "description": ""
     },
     "flags.midi-qol.grants.attack.success.util": {
-      "name": "Grants Attack Success (Utility)",
+      "name": "Даёт успешную атаку (вспомогательное действие)",
       "description": ""
     },
     "flags.midi-qol.grants.critical.all": {
-      "name": "Grants Critical Hit (All)",
+      "name": "Даёт критическое попадание (все)",
       "description": ""
     },
     "flags.midi-qol.grants.critical.heal": {
-      "name": "Grants Critical Hit (Heal)",
+      "name": "Даёт критическое попадание (лечение)",
       "description": ""
     },
     "flags.midi-qol.grants.critical.msak": {
-      "name": "Grants Critical Hit (Melee Spell Attack)",
+      "name": "Даёт критическое попадание (атака заклинанием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.grants.critical.mwak": {
-      "name": "Grants Critical Hit (Melee Weapon Attack)",
+      "name": "Даёт критическое попадание (атака оружием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.grants.critical.other": {
-      "name": "Grants Critical Hit (Other)",
+      "name": "Даёт критическое попадание (прочее)",
       "description": ""
     },
     "flags.midi-qol.grants.critical.range": {
-      "name": "Grants Critical Hit (Range)",
+      "name": "Даёт критическое попадание (дистанция)",
       "description": ""
     },
     "flags.midi-qol.grants.critical.rsak": {
-      "name": "Grants Critical Hit (Ranged Spell Attack)",
+      "name": "Даёт критическое попадание (дальнобойная атака заклинанием)",
       "description": ""
     },
     "flags.midi-qol.grants.critical.rwak": {
-      "name": "Grants Critical Hit (Ranged Weapon Attack)",
+      "name": "Даёт критическое попадание (дальнобойная атака оружием)",
       "description": ""
     },
     "flags.midi-qol.grants.critical.save": {
-      "name": "Grants Critical Hit (Save)",
+      "name": "Даёт критическое попадание (спасбросок)",
       "description": ""
     },
     "flags.midi-qol.grants.critical.util": {
-      "name": "Grants Critical Hit (Utility)",
+      "name": "Даёт критическое попадание (вспомогательное действие)",
       "description": ""
     },
     "flags.midi-qol.grants.criticalThreshold": {
-      "name": "Critical Hit Threshold",
+      "name": "Порог критического попадания",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.attack.all": {
-      "name": "Grants Disadvantage (All Attacks)",
+      "name": "Даёт помеху (все атаки)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.attack.heal": {
-      "name": "Grants Disadvantage (Heal)",
+      "name": "Даёт помеху (лечение)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.attack.msak": {
-      "name": "Grants Disadvantage (Melee Spell Attack)",
+      "name": "Даёт помеху (атака заклинанием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.attack.mwak": {
-      "name": "Grants Disadvantage (Melee Weapon Attack)",
+      "name": "Даёт помеху (атака оружием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.attack.other": {
-      "name": "Grants Disadvantage (Other Attacks)",
+      "name": "Даёт помеху (прочие атаки)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.attack.rsak": {
-      "name": "Grants Disadvantage (Ranged Spell Attack)",
+      "name": "Даёт помеху (дальнобойная атака заклинанием)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.attack.rwak": {
-      "name": "Grants Disadvantage (Ranged Weapon Attack)",
+      "name": "Даёт помеху (дальнобойная атака оружием)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.attack.save": {
-      "name": "Grants Disadvantage (Save)",
+      "name": "Даёт помеху (спасбросок)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.attack.util": {
-      "name": "Grants Disadvantage (Utility)",
+      "name": "Даёт помеху (вспомогательное действие)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.check.all": {
-      "name": "Grants Disadvantage (All Checks)",
+      "name": "Даёт помеху (все проверки)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.check.cha": {
-      "name": "Grants Disadvantage (Charisma Checks)",
+      "name": "Даёт помеху (проверки Харизмы)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.check.con": {
-      "name": "Grants Disadvantage (Constitution Checks)",
+      "name": "Даёт помеху (проверки Телосложения)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.check.dex": {
-      "name": "Grants Disadvantage (Dexterity Checks)",
+      "name": "Даёт помеху (проверки Ловкости)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.check.int": {
-      "name": "Grants Disadvantage (Intelligence Checks)",
+      "name": "Даёт помеху (проверки Интеллекта)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.check.str": {
-      "name": "Grants Disadvantage (Strength Checks)",
+      "name": "Даёт помеху (проверки Силы)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.check.wis": {
-      "name": "Grants Disadvantage (Wisdom Checks)",
+      "name": "Даёт помеху (проверки Мудрости)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.save.all": {
-      "name": "Grants Disadvantage (All Saves)",
+      "name": "Даёт помеху (все спасброски)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.save.cha": {
-      "name": "Grants Disadvantage (Charisma Saves)",
+      "name": "Даёт помеху (спасброски Харизмы)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.save.con": {
-      "name": "Grants Disadvantage (Constitution Saves)",
+      "name": "Даёт помеху (спасброски Телосложения)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.save.dex": {
-      "name": "Grants Disadvantage (Dexterity Saves)",
+      "name": "Даёт помеху (спасброски Ловкости)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.save.int": {
-      "name": "Grants Disadvantage (Intelligence Saves)",
+      "name": "Даёт помеху (спасброски Интеллекта)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.save.str": {
-      "name": "Grants Disadvantage (Strength Saves)",
+      "name": "Даёт помеху (спасброски Силы)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.save.wis": {
-      "name": "Grants Disadvantage (Wisdom Saves)",
+      "name": "Даёт помеху (спасброски Мудрости)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.skill.all": {
-      "name": "Grants Disadvantage (All Skills)",
+      "name": "Даёт помеху (все навыки)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.skill.cha": {
-      "name": "Grants Disadvantage (Charisma Skills)",
+      "name": "Даёт помеху (навыки Харизмы)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.skill.con": {
-      "name": "Grants Disadvantage (Constitution Skills)",
+      "name": "Даёт помеху (навыки Телосложения)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.skill.dex": {
-      "name": "Grants Disadvantage (Dexterity Skills)",
+      "name": "Даёт помеху (навыки Ловкости)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.skill.int": {
-      "name": "Grants Disadvantage (Intelligence Skills)",
+      "name": "Даёт помеху (навыки Интеллекта)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.skill.str": {
-      "name": "Grants Disadvantage (Strength Skills)",
+      "name": "Даёт помеху (навыки Силы)",
       "description": ""
     },
     "flags.midi-qol.grants.disadvantage.skill.wis": {
-      "name": "Grants Disadvantage (Wisdom Skills)",
+      "name": "Даёт помеху (навыки Мудрости)",
       "description": ""
     },
     "flags.midi-qol.grants.fail.advantage.attack.all": {
-      "name": "Grants Fail Advantage (All Attacks)",
+      "name": "Запрещает преимущество (все атаки)",
       "description": ""
     },
     "flags.midi-qol.noAdvantage.attack.all": {
-      "name": "Grants No Advantage (All Attacks)",
+      "name": "Запрещает преимущество (все атаки)",
       "description": "Any attack against the target will not have advantage"
     },
     "flags.midi-qol.grants.noAdvantage.attack.heal": {
-      "name": "Grants No Advantage (Heal)",
+      "name": "Запрещает преимущество (лечение)",
       "description": "Any healing attack against the target will not have advantage"
     },
     "flags.midi-qol.grants.noAdvantage.attack.msak": {
-      "name": "Grants No Advantage (Melee Spell Attack)",
+      "name": "Запрещает преимущество (атака заклинанием в ближнем бою)",
       "description": "Any Melee Spell Attack against the target will not have advantage"
     },
     "flags.midi-qol.grants.noAdvantage.attack.mwak": {
-      "name": "Grants No Advantage (Melee Weapon Attack)",
+      "name": "Запрещает преимущество (атака оружием в ближнем бою)",
       "description": "Any Melee Weapon Attack against the target will not have advantage"
     },
     "flags.midi-qol.grants.noAdvantage.attack.rsak": {
-      "name": "Grants No Advantage (Ranged Spell Attack)",
+      "name": "Запрещает преимущество (дальнобойная атака заклинанием)",
       "description": "Any Ranged Spell attack against the target will not have advantage"
     },
     "flags.midi-qol.grants.noAdvantage.attack.rwak": {
-      "name": "Grants No Advantage (Ranged Weapon Attack)",
+      "name": "Запрещает преимущество (дальнобойная атака оружием)",
       "description": "Any Ranged Weapon attack against the target will not have advantage"
     },
     "flags.midi-qol.grants.noAdvantage.attack.save": {
-      "name": "Grants No Advantage (Save)",
+      "name": "Запрещает преимущество (спасбросок)",
       "description": "No saving throw forced by the actor will have advantage"
     },
     "flags.midi-qol.grants.noAdvantage.attack.check": {
-      "name": "Grants No Advantage (Check)",
+      "name": "Запрещает преимущество (проверка)",
       "description": "No ability check forced by the actor will have advantage"
     },
     "flags.midi-qol.grants.noAdvantage.attack.skill": {
-      "name": "Grants No Advantage (Skill)",
+      "name": "Запрещает преимущество (навык)",
       "description": "No Skill roll forced by the actor will have advantage"
     },
     "flags.midi-qol.grants.fail.advantage.attack.msak": {
-      "name": "Grants No Advantage (Melee Spell Attack)",
+      "name": "Запрещает преимущество (атака заклинанием в ближнем бою)",
       "description": "Any Melee Spell Attack against the target will not have advantage"
     },
     "flags.midi-qol.grants.fail.advantage.attack.mwak": {
-      "name": "Grants No Advantage (Melee Weapon Attack)",
+      "name": "Запрещает преимущество (атака оружием в ближнем бою)",
       "description": "Any Melee Weapon Attack against the target will not have advantage"
     },
     "flags.midi-qol.grants.fail.advantage.attack.rsak": {
-      "name": "Grants No Advantage (Ranged Spell Attack)",
+      "name": "Запрещает преимущество (дальнобойная атака заклинанием)",
       "description": "Any Ranged Spell attack against the target will not have advantage"
     },
     "flags.midi-qol.grants.fail.advantage.attack.rwak": {
-      "name": "Grants No Advantage (Ranged Weapon Attack)",
+      "name": "Запрещает преимущество (дальнобойная атака оружием)",
       "description": "Any Ranged Weapon attack against the target will not have advantage"
     },
     "flags.midi-qol.grants.fail.advantage.attack.save": {
-      "name": "Grants No Advantage (Save)",
+      "name": "Запрещает преимущество (спасбросок)",
       "description": "Any saving throw forced by actor will not have advantage"
     },
     "flags.midi-qol.grants.fail.advantage.attack.check": {
-      "name": "Grants No Advantage (Check)",
+      "name": "Запрещает преимущество (проверка)",
       "description": "Any ability check forced by the attacker will not have advantage"
     },
     "flags.midi-qol.grants.fail.advantage.attack.skill": {
-      "name": "Grants No Advantage (Skill)",
+      "name": "Запрещает преимущество (навык)",
       "description": "Any skill roll forced by the attacker will not have sadvantage"
     },
     "flags.midi-qol.grants.fail.disadvantage.attack.all": {
-      "name": "Grants No Disadvantage (All Attacks)",
+      "name": "Запрещает помеху (все атаки)",
       "description": "Any Attack against the target will not have disadvantage"
     },
     "flags.midi-qol.grants.noDisadvantage.attack.all": {
-      "name": "Grants No Disadvantage (All Attacks)",
+      "name": "Запрещает помеху (все атаки)",
       "description": "Any Attack against the target will not have disadvantage"
     },
     "flags.midi-qol.grants.fail.disadvantage.attack.msak": {
-      "name": "Grants No Disadvantage (Melee Spell Attack)",
+      "name": "Запрещает помеху (атака заклинанием в ближнем бою)",
       "description": "Any Melee Spell Attack against the target will not have disadvantage"
     },
     "flags.midi-qol.grants.noDisadvantage.attack.msak": {
-      "name": "Grants No Disadvantage (Melee Spell Attack)",
+      "name": "Запрещает помеху (атака заклинанием в ближнем бою)",
       "description": "Any Melee Spell Attack against the target will not have disadvantage"
     },
     "flags.midi-qol.grants.fail.disadvantage.attack.mwak": {
-      "name": "Grants Fail Disadvantage (Melee Weapon Attack)",
+      "name": "Запрещает помеху (атака оружием в ближнем бою)",
       "description": "Any Melee Weapon attack against the target will not have disadvantage"
     },
     "flags.midi-qol.grants.NoDisadvantage.attack.mwak": {
-      "name": "Grants No Disadvantage (Melee Weapon Attack)",
+      "name": "Запрещает помеху (атака оружием в ближнем бою)",
       "description": "Any Melee Weapon attack against the target will not have disadvantage"
     },
     "flags.midi-qol.grants.fail.disadvantage.attack.rsak": {
-      "name": "Grants No Disadvantage (Ranged Spell Attack)",
+      "name": "Запрещает помеху (дальнобойная атака заклинанием)",
       "description": "Any Ranged Spell attack against the target will not have disadvantage"
     },
     "flags.midi-qol.grants.NoDisadvantage.attack.rsak": {
-      "name": "Grants No Disadvantage (Ranged Spell Attack)",
+      "name": "Запрещает помеху (дальнобойная атака заклинанием)",
       "description": "Any Ranged Spell attack against the target will not have disadvantage"
     },
     "flags.midi-qol.grants.fail.disadvantage.attack.rwak": {
-      "name": "Grants No Disadvantage (Ranged Weapon Attack)",
+      "name": "Запрещает помеху (дальнобойная атака оружием)",
       "description": "Any Ranged Weapon attack against the target will not have disadvantage"
     },
     "flags.midi-qol.grants.noDisadvantage.attack.rwak": {
-      "name": "Grants No Disadvantage (Ranged Weapon Attack)",
+      "name": "Запрещает помеху (дальнобойная атака оружием)",
       "description": "Any Ranged Weapon attack against the target will not have disadvantage"
     },
     "flags.midi-qol.grants.fail.disadvantage.attack.save": {
-      "name": "Grants No Disadvantage (Save)",
+      "name": "Запрещает помеху (спасбросок)",
       "description": "Any save forced by the actor will not have disadvantage"
     },
     "flags.midi-qol.grants.noDisadvantage.attack.save": {
-      "name": "Grants No Disadvantage (Save)",
+      "name": "Запрещает помеху (спасбросок)",
       "description": "Any save forced by the actor will not have disadvantage"
     },
     "flags.midi-qol.grants.fail.disadvantage.attack.check": {
-      "name": "Grants No Disadvantage (Check)",
+      "name": "Запрещает помеху (проверка)",
       "description": "Any ability check forced by the actor will not have disadvantage"
     },
     "flags.midi-qol.grants.noDisadvantage.attack.check": {
-      "name": "Grants Fail Disadvantage (Utility)",
+      "name": "Запрещает помеху (вспомогательное действие)",
       "description": "Any ability check forced by the actor will not have disadvantage"
     },
     "flags.midi-qol.grants.fail.disadvantage.attack.skill": {
-      "name": "Grants No Disadvantage (skill)",
+      "name": "Запрещает помеху (навык)",
       "description": ""
     },
     "flags.midi-qol.grants.noDisadvantage.attack.skill": {
-      "name": "Grants No Disadvantage (skill)",
+      "name": "Запрещает помеху (навык)",
       "description": "Any skill roll forced by the attacker will not have disadvantage"
     },
     "flags.midi-qol.grants.max.damage.all": {
-      "name": "Grants Max Damage (All)",
+      "name": "Даёт максимальный урон (все)",
       "description": "All damage rolls will do maximum damage"
     },
     "flags.midi-qol.grants.max.damage.heal": {
-      "name": "Grants Max Damage (Heal)",
+      "name": "Даёт максимальный урон (лечение)",
       "description": "All healing rolls will do maximum healing"
     },
     "flags.midi-qol.grants.max.damage.msak": {
-      "name": "Grants Max Damage (Melee Spell Attack)",
+      "name": "Даёт максимальный урон (атака заклинанием в ближнем бою)",
       "description": "All spell attacks will do maximum damage"
     },
     "flags.midi-qol.grants.max.damage.mwak": {
-      "name": "Grants Max Damage (Melee Weapon Attack)",
+      "name": "Даёт максимальный урон (атака оружием в ближнем бою)",
       "description": "All melee weapon attacks will do maximum damage"
     },
     "flags.midi-qol.grants.max.damage.rsak": {
-      "name": "Grants Max Damage (Ranged Spell Attack)",
+      "name": "Даёт максимальный урон (дальнобойная атака заклинанием)",
       "description": "All ranged spell attacks will do maximum damage"
     },
     "flags.midi-qol.grants.max.damage.rwak": {
-      "name": "Grants Max Damage (Ranged Weapon Attack)",
+      "name": "Даёт максимальный урон (дальнобойная атака оружием)",
       "description": "All ranged weapon attacks will do maximum damage"
     },
     "flags.midi-qol.grants.max.damage.save": {
-      "name": "Grants Max Damage (Save)",
+      "name": "Даёт максимальный урон (спасбросок)",
       "description": "All save activities will do maximum damage"
     },
     "flags.midi-qol.grants.min.damage.all": {
-      "name": "Grants Min Damage (All)",
+      "name": "Даёт минимальный урон (все)",
       "description": "All damage rolls will do minimum damage"
     },
     "flags.midi-qol.grants.min.damage.heal": {
-      "name": "Grants Min Damage (Heal)",
+      "name": "Даёт минимальный урон (лечение)",
       "description": "All healing rolls will do minimum healing"
     },
     "flags.midi-qol.grants.min.damage.msak": {
-      "name": "Grants Min Damage (Melee Spell Attack)",
+      "name": "Даёт минимальный урон (атака заклинанием в ближнем бою)",
       "description": "All melee spell attacks will do minimum damage"
     },
     "flags.midi-qol.grants.min.damage.mwak": {
-      "name": "Grants Min Damage (Melee Weapon Attack)",
+      "name": "Даёт минимальный урон (атака оружием в ближнем бою)",
       "description": "All weapon attacks will do minimum damage"
     },
     "flags.midi-qol.grants.min.damage.other": {
-      "name": "Grants Min Damage (Other)",
+      "name": "Даёт минимальный урон (прочее)",
       "description": ""
     },
     "flags.midi-qol.grants.min.damage.rsak": {
-      "name": "Grants Min Damage (Ranged Spell Attack)",
+      "name": "Даёт минимальный урон (дальнобойная атака заклинанием)",
       "description": ""
     },
     "flags.midi-qol.grants.min.damage.rwak": {
-      "name": "Grants Min Damage (Ranged Weapon Attack)",
+      "name": "Даёт минимальный урон (дальнобойная атака оружием)",
       "description": ""
     },
     "flags.midi-qol.grants.min.damage.save": {
-      "name": "Grants Min Damage (Save)",
+      "name": "Даёт минимальный урон (спасбросок)",
       "description": ""
     },
     "flags.midi-qol.grants.min.damage.util": {
-      "name": "Grants Min Damage (Utility)",
+      "name": "Даёт минимальный урон (вспомогательное действие)",
       "description": ""
     },
     "flags.midi-qol.grants.noCritical.all": {
-      "name": "Grants no Critical Hit (All)",
+      "name": "Запрещает критическое попадание (все)",
       "description": ""
     },
     "flags.midi-qol.grants.noCritical.heal": {
-      "name": "Grants no Critical Hit (Heal)",
+      "name": "Запрещает критическое попадание (лечение)",
       "description": ""
     },
     "flags.midi-qol.grants.noCritical.msak": {
-      "name": "Grants no Critical Hit (Melee Spell Attack)",
+      "name": "Запрещает критическое попадание (атака заклинанием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.grants.noCritical.mwak": {
-      "name": "Grants no Critical Hit (Melee Weapon Attack)",
+      "name": "Запрещает критическое попадание (атака оружием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.grants.noCritical.other": {
-      "name": "Grants no Critical Hit (Other)",
+      "name": "Запрещает критическое попадание (прочее)",
       "description": ""
     },
     "flags.midi-qol.grants.noCritical.rsak": {
-      "name": "Grants no Critical Hit (Ranged Spell Attack)",
+      "name": "Запрещает критическое попадание (дальнобойная атака заклинанием)",
       "description": ""
     },
     "flags.midi-qol.grants.noCritical.rwak": {
-      "name": "Grants no Critical Hit (Ranged Weapon Attack)",
+      "name": "Запрещает критическое попадание (дальнобойная атака оружием)",
       "description": ""
     },
     "flags.midi-qol.grants.noCritical.save": {
-      "name": "Grants no Critical Hit (Save)",
+      "name": "Запрещает критическое попадание (спасбросок)",
       "description": ""
     },
     "flags.midi-qol.grants.noCritical.util": {
-      "name": "Grants no Critical Hit (Utility)",
+      "name": "Запрещает критическое попадание (вспомогательное действие)",
       "description": ""
     },
     "flags.midi-qol.ignoreNearbyFoes": {
-      "name": "Ignore Nearby Foes",
+      "name": "Игнорировать врагов поблизости",
       "description": "Ignore disadvantage imposed on ranged attacks by nearby enemies."
     },
     "flags.midi-qol.inMotion": {
-      "name": "In Motion",
+      "name": "В движении",
       "description": ""
     },
     "flags.midi-qol.long.all": {
-      "name": "Long Range (All)",
+      "name": "Дальняя дистанция (все)",
       "description": ""
     },
     "flags.midi-qol.long.heal": {
-      "name": "Long Range (Heal)",
+      "name": "Дальняя дистанция (лечение)",
       "description": ""
     },
     "flags.midi-qol.long.msak": {
-      "name": "Long Range (Melee Spell Attack)",
+      "name": "Дальняя дистанция (атака заклинанием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.long.mwak": {
-      "name": "Long Range (Melee Weapon Attack)",
+      "name": "Дальняя дистанция (атака оружием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.long.other": {
-      "name": "Long Range (Other)",
+      "name": "Дальняя дистанция (прочее)",
       "description": ""
     },
     "flags.midi-qol.long.rsak": {
-      "name": "Long Range (Ranged Spell Attack)",
+      "name": "Дальняя дистанция (дальнобойная атака заклинанием)",
       "description": ""
     },
     "flags.midi-qol.long.rwak": {
-      "name": "Long Range (Ranged Weapon Attack)",
+      "name": "Дальняя дистанция (дальнобойная атака оружием)",
       "description": ""
     },
     "flags.midi-qol.long.save": {
-      "name": "Long Range (Save)",
+      "name": "Дальняя дистанция (спасбросок)",
       "description": ""
     },
     "flags.midi-qol.long.util": {
-      "name": "Long Range (Utility)",
+      "name": "Дальняя дистанция (вспомогательное действие)",
       "description": ""
     },
     "flags.midi-qol.magicResistance.all": {
-      "name": "Magic Resistance (All)",
+      "name": "Сопротивление магии (все)",
       "description": ""
     },
     "flags.midi-qol.magicResistance.cha": {
-      "name": "Magic Resistance (Charisma)",
+      "name": "Сопротивление магии (Харизма)",
       "description": ""
     },
     "flags.midi-qol.magicResistance.check.all": {
-      "name": "Magic Resistance (Checks)",
+      "name": "Сопротивление магии (проверки)",
       "description": ""
     },
     "flags.midi-qol.magicResistance.con": {
-      "name": "Magic Resistance (Constitution)",
+      "name": "Сопротивление магии (Телосложение)",
       "description": ""
     },
     "flags.midi-qol.magicResistance.dex": {
-      "name": "Magic Resistance (Dexterity)",
+      "name": "Сопротивление магии (Ловкость)",
       "description": ""
     },
     "flags.midi-qol.magicResistance.int": {
-      "name": "Magic Resistance (Intelligence)",
+      "name": "Сопротивление магии (Интеллект)",
       "description": ""
     },
     "flags.midi-qol.magicResistance.save.all": {
-      "name": "Magic Resistance (Saves)",
+      "name": "Сопротивление магии (спасброски)",
       "description": ""
     },
     "flags.midi-qol.magicResistance.skill.all": {
-      "name": "Magic Resistance (Skills)",
+      "name": "Сопротивление магии (навыки)",
       "description": ""
     },
     "flags.midi-qol.magicResistance.str": {
-      "name": "Magic Resistance (Strength)",
+      "name": "Сопротивление магии (Сила)",
       "description": ""
     },
     "flags.midi-qol.magicResistance.wis": {
-      "name": "Magic Resistance (Wisdom)",
+      "name": "Сопротивление магии (Мудрость)",
       "description": ""
     },
     "flags.midi-qol.magicVulnerability.all": {
-      "name": "Magic Vulnerability (All)",
+      "name": "Уязвимость к магии (все)",
       "description": ""
     },
     "flags.midi-qol.magicVulnerability.all.cha": {
-      "name": "Magic Vulnerability (Charisma)",
+      "name": "Уязвимость к магии (Харизма)",
       "description": ""
     },
     "flags.midi-qol.magicVulnerability.all.con": {
-      "name": "Magic Vulnerability (Constitution)",
+      "name": "Уязвимость к магии (Телосложение)",
       "description": ""
     },
     "flags.midi-qol.magicVulnerability.all.dex": {
-      "name": "Magic Vulnerability (Dexterity)",
+      "name": "Уязвимость к магии (Ловкость)",
       "description": ""
     },
     "flags.midi-qol.magicVulnerability.all.int": {
-      "name": "Magic Vulnerability (Intelligence)",
+      "name": "Уязвимость к магии (Интеллект)",
       "description": ""
     },
     "flags.midi-qol.magicVulnerability.all.str": {
-      "name": "Magic Vulnerability (Strength)",
+      "name": "Уязвимость к магии (Сила)",
       "description": ""
     },
     "flags.midi-qol.magicVulnerability.all.wis": {
-      "name": "Magic Vulnerability (Wisdom)",
+      "name": "Уязвимость к магии (Мудрость)",
       "description": ""
     },
     "flags.midi-qol.max.ability.check.all": {
-      "name": "Max Ability Check (All)",
+      "name": "Максимум проверки характеристики (все)",
       "description": "Maximum rollable number on the main d20 for all ability checks."
     },
     "flags.midi-qol.max.ability.check.cha": {
-      "name": "Max Ability Check (Charisma)",
+      "name": "Максимум проверки характеристики (Харизма)",
       "description": "Maximum rollable number on the main d20 for Charisma ability checks."
     },
     "flags.midi-qol.max.ability.check.con": {
-      "name": "Max Ability Check (Constitution)",
+      "name": "Максимум проверки характеристики (Телосложение)",
       "description": "Maximum rollable number on the main d20 for Constitution ability checks."
     },
     "flags.midi-qol.max.ability.check.dex": {
-      "name": "Max Ability Check (Dexterity)",
+      "name": "Максимум проверки характеристики (Ловкость)",
       "description": "Maximum rollable number on the main d20 for Dexterity ability checks."
     },
     "flags.midi-qol.max.ability.check.int": {
-      "name": "Max Ability Check (Intelligence)",
+      "name": "Максимум проверки характеристики (Интеллект)",
       "description": "Maximum rollable number on the main d20 for Intelligence ability checks."
     },
     "flags.midi-qol.max.ability.check.str": {
-      "name": "Max Ability Check (Strength)",
+      "name": "Максимум проверки характеристики (Сила)",
       "description": "Maximum rollable number on the main d20 for Strength ability checks."
     },
     "flags.midi-qol.max.ability.check.wis": {
-      "name": "Max Ability Check (Wisdom)",
+      "name": "Максимум проверки характеристики (Мудрость)",
       "description": "Maximum rollable number on the main d20 for Wisdom ability checks."
     },
     "flags.midi-qol.max.ability.save.all": {
-      "name": "Max Save (All)",
+      "name": "Максимум спасброска (все)",
       "description": "Maximum rollable number on the main d20 for all saving throws."
     },
     "flags.midi-qol.max.ability.save.cha": {
-      "name": "Max Save (Charisma)",
+      "name": "Максимум спасброска (Харизма)",
       "description": "Maximum rollable number on the main d20 for Charisma saving throws."
     },
     "flags.midi-qol.max.ability.save.con": {
-      "name": "Max Save (Constitution)",
+      "name": "Максимум спасброска (Телосложение)",
       "description": "Maximum rollable number on the main d20 for Constitution saving throws."
     },
     "flags.midi-qol.max.ability.save.concentration": {
-      "name": "Max Concentration",
+      "name": "Максимум броска концентрации",
       "description": "Maximum rollable number on the main d20 for Concentration saving throws."
     },
     "flags.midi-qol.max.ability.save.dex": {
-      "name": "Max Save (Dexterity)",
+      "name": "Максимум спасброска (Ловкость)",
       "description": "Maximum rollable number on the main d20 for Dexterity saving throws."
     },
     "flags.midi-qol.max.ability.save.int": {
-      "name": "Max Save (Intelligence)",
+      "name": "Максимум спасброска (Интеллект)",
       "description": "Maximum rollable number on the main d20 for Intelligence saving throws."
     },
     "flags.midi-qol.max.ability.save.str": {
-      "name": "Max Save (Strength)",
+      "name": "Максимум спасброска (Сила)",
       "description": "Maximum rollable number on the main d20 for Strength saving throws."
     },
     "flags.midi-qol.max.ability.save.wis": {
-      "name": "Max Save (Wisdom)",
+      "name": "Максимум спасброска (Мудрость)",
       "description": "Maximum rollable number on the main d20 for Wisdom saving throws."
     },
     "flags.midi-qol.max.damage.all": {
-      "name": "Max Damage (All)",
+      "name": "Максимальный урон (все)",
       "description": ""
     },
     "flags.midi-qol.max.damage.heal": {
-      "name": "Max Damage (Heal)",
+      "name": "Максимальный урон (лечение)",
       "description": ""
     },
     "flags.midi-qol.max.damage.msak": {
-      "name": "Max Damage (Melee Spell Attack)",
+      "name": "Максимальный урон (атака заклинанием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.max.damage.mwak": {
-      "name": "Max Damage (Melee Weapon Attack)",
+      "name": "Максимальный урон (атака оружием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.max.damage.other": {
-      "name": "Max Damage (Other)",
+      "name": "Максимальный урон (прочее)",
       "description": ""
     },
     "flags.midi-qol.max.damage.rsak": {
-      "name": "Max Damage (Ranged Spell Attack)",
+      "name": "Максимальный урон (дальнобойная атака заклинанием)",
       "description": ""
     },
     "flags.midi-qol.max.damage.rwak": {
-      "name": "Max Damage (Ranged Weapon Attack)",
+      "name": "Максимальный урон (дальнобойная атака оружием)",
       "description": ""
     },
     "flags.midi-qol.max.damage.save": {
-      "name": "Max Damage (Save)",
+      "name": "Максимальный урон (спасбросок)",
       "description": ""
     },
     "flags.midi-qol.max.damage.util": {
-      "name": "Max Damage (Utility)",
+      "name": "Максимальный урон (вспомогательное действие)",
       "description": ""
     },
     "flags.midi-qol.max.skill.all": {
-      "name": "Max Skill (All)",
+      "name": "Максимум проверки навыка (все)",
       "description": "Maximum rollable number on the main d20 for all skill checks."
     },
     "flags.midi-qol.min.ability.check.all": {
-      "name": "Min Ability Check (All)",
+      "name": "Минимум проверки характеристики (все)",
       "description": "Minimum rollable number on the main d20 for all ability checks."
     },
     "flags.midi-qol.min.ability.check.cha": {
-      "name": "Min Ability Check (Charisma)",
+      "name": "Минимум проверки характеристики (Харизма)",
       "description": "Minimum rollable number on the main d20 for Charisma ability checks."
     },
     "flags.midi-qol.min.ability.check.con": {
-      "name": "Min Ability Check (Constitution)",
+      "name": "Минимум проверки характеристики (Телосложение)",
       "description": "Minimum rollable number on the main d20 for Constitution ability checks."
     },
     "flags.midi-qol.min.ability.check.dex": {
-      "name": "Min Ability Check (Dexterity)",
+      "name": "Минимум проверки характеристики (Ловкость)",
       "description": "Minimum rollable number on the main d20 for Dexterity ability checks."
     },
     "flags.midi-qol.min.ability.check.int": {
-      "name": "Min Ability Check (Intelligence)",
+      "name": "Минимум проверки характеристики (Интеллект)",
       "description": "Minimum rollable number on the main d20 for Intelligence ability checks."
     },
     "flags.midi-qol.min.ability.check.str": {
-      "name": "Min Ability Check (Strength)",
+      "name": "Минимум проверки характеристики (Сила)",
       "description": "Minimum rollable number on the main d20 for Strength ability checks."
     },
     "flags.midi-qol.min.ability.check.wis": {
-      "name": "Min Ability Check (Wisdom)",
+      "name": "Минимум проверки характеристики (Мудрость)",
       "description": "Minimum rollable number on the main d20 for Wisdom ability checks."
     },
     "flags.midi-qol.min.ability.save.all": {
-      "name": "Min Save (All)",
+      "name": "Минимум спасброска (все)",
       "description": "Minimum rollable number on the main d20 for all saving throws."
     },
     "flags.midi-qol.min.ability.save.cha": {
-      "name": "Min Save (Charisma)",
+      "name": "Минимум спасброска (Харизма)",
       "description": "Minimum rollable number on the main d20 for Charisma saving throws."
     },
     "flags.midi-qol.min.ability.save.con": {
-      "name": "Min Save (Constitution)",
+      "name": "Минимум спасброска (Телосложение)",
       "description": "Minimum rollable number on the main d20 for Constitution saving throws."
     },
     "flags.midi-qol.min.ability.save.concentration": {
-      "name": "Min Concentration",
+      "name": "Минимум броска концентрации",
       "description": "Minimum rollable number on the main d20 for Concentration saving throws."
     },
     "flags.midi-qol.min.ability.save.dex": {
-      "name": "Min Save (Dexterity)",
+      "name": "Минимум спасброска (Ловкость)",
       "description": "Minimum rollable number on the main d20 for Dexterity saving throws."
     },
     "flags.midi-qol.min.ability.save.int": {
-      "name": "Min Save (Intelligence)",
+      "name": "Минимум спасброска (Интеллект)",
       "description": "Minimum rollable number on the main d20 for Intelligence saving throws."
     },
     "flags.midi-qol.min.ability.save.str": {
-      "name": "Min Save (Strength)",
+      "name": "Минимум спасброска (Сила)",
       "description": "Minimum rollable number on the main d20 for Strength saving throws."
     },
     "flags.midi-qol.min.ability.save.wis": {
-      "name": "Min Save (Wisdom)",
+      "name": "Минимум спасброска (Мудрость)",
       "description": "Minimum rollable number on the main d20 for Wisdom saving throws."
     },
     "flags.midi-qol.min.damage.all": {
-      "name": "Min Damage (All)",
+      "name": "Минимальный урон (все)",
       "description": ""
     },
     "flags.midi-qol.min.damage.heal": {
-      "name": "Min Damage (Heal)",
+      "name": "Минимальный урон (лечение)",
       "description": ""
     },
     "flags.midi-qol.min.damage.msak": {
-      "name": "Min Damage (Melee Spell Attack)",
+      "name": "Минимальный урон (атака заклинанием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.min.damage.mwak": {
-      "name": "Min Damage (Melee Weapon Attack)",
+      "name": "Минимальный урон (атака оружием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.min.damage.other": {
-      "name": "Min Damage (Other)",
+      "name": "Минимальный урон (прочее)",
       "description": ""
     },
     "flags.midi-qol.min.damage.rsak": {
-      "name": "Min Damage (Ranged Spell Attack)",
+      "name": "Минимальный урон (дальнобойная атака заклинанием)",
       "description": ""
     },
     "flags.midi-qol.min.damage.rwak": {
-      "name": "Min Damage (Ranged Weapon Attack)",
+      "name": "Минимальный урон (дальнобойная атака оружием)",
       "description": ""
     },
     "flags.midi-qol.min.damage.save": {
-      "name": "Min Damage (Save)",
+      "name": "Минимальный урон (спасбросок)",
       "description": ""
     },
     "flags.midi-qol.min.damage.util": {
-      "name": "Min Damage (Utility)",
+      "name": "Минимальный урон (вспомогательное действие)",
       "description": ""
     },
     "flags.midi-qol.neverTarget": {
-      "name": "Never Target",
+      "name": "Никогда не выбирать целью",
       "description": ""
     },
     "flags.midi-qol.noCritical.all": {
-      "name": "No Critical Hit (All)",
+      "name": "Запрещает критические попадания (все)",
       "description": ""
     },
     "flags.midi-qol.noCritical.heal": {
-      "name": "No Critical Hit (Heal)",
+      "name": "Запрещает критические попадания (лечение)",
       "description": ""
     },
     "flags.midi-qol.noCritical.msak": {
-      "name": "No Critical Hit (Melee Spell Attack)",
+      "name": "Запрещает критические попадания (атака заклинанием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.noCritical.mwak": {
-      "name": "No Critical Hit (Melee Weapon Attack)",
+      "name": "Запрещает критические попадания (атака оружием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.noCritical.other": {
-      "name": "No Critical Hit (Other)",
+      "name": "Запрещает критические попадания (прочее)",
       "description": ""
     },
     "flags.midi-qol.noCritical.rsak": {
-      "name": "No Critical Hit (Ranged Spell Attack)",
+      "name": "Запрещает критические попадания (дальнобойная атака заклинанием)",
       "description": ""
     },
     "flags.midi-qol.noCritical.rwak": {
-      "name": "No Critical Hit (Ranged Weapon Attack)",
+      "name": "Запрещает критические попадания (дальнобойная атака оружием)",
       "description": ""
     },
     "flags.midi-qol.noCritical.save": {
-      "name": "No Critical Hit (Save)",
+      "name": "Запрещает критические попадания (спасбросок)",
       "description": ""
     },
     "flags.midi-qol.noCritical.util": {
-      "name": "No Critical Hit (Utility)",
+      "name": "Запрещает критические попадания (вспомогательное действие)",
       "description": ""
     },
     "flags.midi-qol.onUseMacroName": {
@@ -3147,507 +3147,507 @@
       "description": ""
     },
     "flags.midi-qol.optional.NAME.ac": {
-      "name": "Optional AC",
+      "name": "Дополнительная КД",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.activation": {
-      "name": "Optional Activation",
+      "name": "Условие необязательной активации",
       "description": "Activation condition for optional bonus."
     },
     "flags.midi-qol.optional.NAME.attack.all": {
-      "name": "Optional Attack Bonus (All)",
+      "name": "Необязательный бонус к атаке (все)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.attack.fail.all": {
-      "name": "Optional Attack Fail (All)",
+      "name": "Необязательный провал атаки (все)",
       "description": "Only prompts on miss."
     },
     "flags.midi-qol.optional.NAME.attack.fail.heal": {
-      "name": "Optional Attack Fail (Heal)",
+      "name": "Необязательный провал атаки (лечение)",
       "description": "Only prompts on miss."
     },
     "flags.midi-qol.optional.NAME.attack.fail.msak": {
-      "name": "Optional Attack Fail (Melee Spell Attack)",
+      "name": "Необязательный провал атаки (атака заклинанием в ближнем бою)",
       "description": "Only prompts on miss."
     },
     "flags.midi-qol.optional.NAME.attack.fail.mwak": {
-      "name": "Optional Attack Fail (Melee Weapon Attack)",
+      "name": "Необязательный провал атаки (атака оружием в ближнем бою)",
       "description": "Only prompts on miss."
     },
     "flags.midi-qol.optional.NAME.attack.fail.other": {
-      "name": "Optional Attack Fail (Other)",
+      "name": "Необязательный провал атаки (прочее)",
       "description": "Only prompts on miss."
     },
     "flags.midi-qol.optional.NAME.attack.fail.rsak": {
-      "name": "Optional Attack Fail (Ranged Spell Attack)",
+      "name": "Необязательный провал атаки (дальнобойная атака заклинанием)",
       "description": "Only prompts on miss."
     },
     "flags.midi-qol.optional.NAME.attack.fail.rwak": {
-      "name": "Optional Attack Fail (Ranged Weapon Attack)",
+      "name": "Необязательный провал атаки (дальнобойная атака оружием)",
       "description": "Only prompts on miss."
     },
     "flags.midi-qol.optional.NAME.attack.fail.save": {
-      "name": "Optional Attack Fail (Save)",
+      "name": "Необязательный провал атаки (спасбросок)",
       "description": "Only prompts on miss."
     },
     "flags.midi-qol.optional.NAME.attack.fail.util": {
-      "name": "Optional Attack Fail (Utility)",
+      "name": "Необязательный провал атаки (вспомогательное действие)",
       "description": "Only prompts on miss."
     },
     "flags.midi-qol.optional.NAME.attack.heal": {
-      "name": "Optional Attack Bonus (Heal)",
+      "name": "Необязательный бонус к атаке (лечение)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.attack.msak": {
-      "name": "Optional Attack Bonus (Melee Spell Attack)",
+      "name": "Необязательный бонус к атаке (атака заклинанием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.attack.mwak": {
-      "name": "Optional Attack Bonus (Melee Weapon Attack)",
+      "name": "Необязательный бонус к атаке (атака оружием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.attack.other": {
-      "name": "Optional Attack Bonus (Other)",
+      "name": "Необязательный бонус к атаке (прочее)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.attack.rsak": {
-      "name": "Optional Attack Bonus (Ranged Spell Attack)",
+      "name": "Необязательный бонус к атаке (дальнобойная атака заклинанием)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.attack.rwak": {
-      "name": "Optional Attack Bonus (Ranged Weapon Attack)",
+      "name": "Необязательный бонус к атаке (дальнобойная атака оружием)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.attack.save": {
-      "name": "Optional Attack Bonus (Save)",
+      "name": "Необязательный бонус к атаке (спасбросок)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.attack.util": {
-      "name": "Optional Attack Bonus (Utility)",
+      "name": "Необязательный бонус к атаке (вспомогательное действие)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.check.all": {
-      "name": "Optional Check Bonus (All)",
+      "name": "Необязательный бонус к проверке (все)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.check.cha": {
-      "name": "Optional Check Bonus (Charisma)",
+      "name": "Необязательный бонус к проверке (Харизма)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.check.con": {
-      "name": "Optional Check Bonus (Constitution)",
+      "name": "Необязательный бонус к проверке (Телосложение)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.check.dex": {
-      "name": "Optional Check Bonus (Dexterity)",
+      "name": "Необязательный бонус к проверке (Ловкость)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.check.fail.all": {
-      "name": "Optional Check Fail (All)",
+      "name": "Необязательный провал проверки (все)",
       "description": "Only prompts on fail."
     },
     "flags.midi-qol.optional.NAME.check.fail.cha": {
-      "name": "Optional Check Fail (Charisma)",
+      "name": "Необязательный провал проверки (Харизма)",
       "description": "Only prompts on fail."
     },
     "flags.midi-qol.optional.NAME.check.fail.con": {
-      "name": "Optional Check Fail (Constitution)",
+      "name": "Необязательный провал проверки (Телосложение)",
       "description": "Only prompts on fail."
     },
     "flags.midi-qol.optional.NAME.check.fail.dex": {
-      "name": "Optional Check Fail (Dexterity)",
+      "name": "Необязательный провал проверки (Ловкость)",
       "description": "Only prompts on fail."
     },
     "flags.midi-qol.optional.NAME.check.fail.int": {
-      "name": "Optional Check Fail (Intelligence)",
+      "name": "Необязательный провал проверки (Интеллект)",
       "description": "Only prompts on fail."
     },
     "flags.midi-qol.optional.NAME.check.fail.str": {
-      "name": "Optional Check Fail (Strength)",
+      "name": "Необязательный провал проверки (Сила)",
       "description": "Only prompts on fail."
     },
     "flags.midi-qol.optional.NAME.check.fail.wis": {
-      "name": "Optional Check Fail (Wisdom)",
+      "name": "Необязательный провал проверки (Мудрость)",
       "description": "Only prompts on fail."
     },
     "flags.midi-qol.optional.NAME.check.int": {
-      "name": "Optional Check Bonus (Intelligence)",
+      "name": "Необязательный бонус к проверке (Интеллект)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.check.str": {
-      "name": "Optional Check Bonus (Strength)",
+      "name": "Необязательный бонус к проверке (Сила)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.check.wis": {
-      "name": "Optional Check Bonus (Wisdom)",
+      "name": "Необязательный бонус к проверке (Мудрость)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.count": {
-      "name": "Optional Count",
+      "name": "Количество применений бонуса",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.countAlt": {
-      "name": "Optional Count Alternative",
+      "name": "Альтернативное количество применений бонуса",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.criticalDamage": {
-      "name": "Optional Critical Damage",
+      "name": "Необязательный критический урон",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.damage.all": {
-      "name": "Optional Damage (All)",
+      "name": "Необязательный урон (все)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.damage.heal": {
-      "name": "Optional Damage (Heal)",
+      "name": "Необязательный урон (лечение)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.damage.msak": {
-      "name": "Optional Damage (Melee Spell Attack)",
+      "name": "Необязательный урон (атака заклинанием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.damage.mwak": {
-      "name": "Optional Damage (Melee Weapon Attack)",
+      "name": "Необязательный урон (атака оружием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.damage.other": {
-      "name": "Optional Damage (Other)",
+      "name": "Необязательный урон (прочее)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.damage.rsak": {
-      "name": "Optional Damage (Ranged Spell Attack)",
+      "name": "Необязательный урон (дальнобойная атака заклинанием)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.damage.rwak": {
-      "name": "Optional Damage (Ranged Weapon Attack)",
+      "name": "Необязательный урон (дальнобойная атака оружием)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.damage.save": {
-      "name": "Optional Damage (Save)",
+      "name": "Необязательный урон (спасбросок)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.damage.util": {
-      "name": "Optional Damage (Utility)",
+      "name": "Необязательный урон (вспомогательное действие)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.force": {
-      "name": "Optional Force",
+      "name": "Принудительная активация бонуса",
       "description": "Condition to force activation of bonus."
     },
     "flags.midi-qol.optional.NAME.label": {
-      "name": "Optional Label",
+      "name": "Подпись необязательного бонуса",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.save.all": {
-      "name": "Optional Save Bonus (All)",
+      "name": "Необязательный бонус к спасброску (все)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.save.cha": {
-      "name": "Optional Save Bonus (Charisma)",
+      "name": "Необязательный бонус к спасброску (Харизма)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.save.con": {
-      "name": "Optional Save Bonus (Constitution)",
+      "name": "Необязательный бонус к спасброску (Телосложение)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.save.dex": {
-      "name": "Optional Save Bonus (Dexterity)",
+      "name": "Необязательный бонус к спасброску (Ловкость)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.save.fail.all": {
-      "name": "Optional Save Fail (All)",
+      "name": "Необязательный провал спасброска (все)",
       "description": "Only prompts on fail."
     },
     "flags.midi-qol.optional.NAME.save.fail.cha": {
-      "name": "Optional Save Fail (Charisma)",
+      "name": "Необязательный провал спасброска (Харизма)",
       "description": "Only prompts on fail."
     },
     "flags.midi-qol.optional.NAME.save.fail.con": {
-      "name": "Optional Save Fail (Constitution)",
+      "name": "Необязательный провал спасброска (Телосложение)",
       "description": "Only prompts on fail."
     },
     "flags.midi-qol.optional.NAME.save.fail.dex": {
-      "name": "Optional Save Fail (Dexterity)",
+      "name": "Необязательный провал спасброска (Ловкость)",
       "description": "Only prompts on fail."
     },
     "flags.midi-qol.optional.NAME.save.fail.int": {
-      "name": "Optional Save Fail (Intelligence)",
+      "name": "Необязательный провал спасброска (Интеллект)",
       "description": "Only prompts on fail."
     },
     "flags.midi-qol.optional.NAME.save.fail.str": {
-      "name": "Optional Save Fail (Strength)",
+      "name": "Необязательный провал спасброска (Сила)",
       "description": "Only prompts on fail."
     },
     "flags.midi-qol.optional.NAME.save.fail.wis": {
-      "name": "Optional Save Fail (Wisdom)",
+      "name": "Необязательный провал спасброска (Мудрость)",
       "description": "Only prompts on fail."
     },
     "flags.midi-qol.optional.NAME.save.int": {
-      "name": "Optional Save Bonus (Intelligence)",
+      "name": "Необязательный бонус к спасброску (Интеллект)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.save.str": {
-      "name": "Optional Save Bonus (Strength)",
+      "name": "Необязательный бонус к спасброску (Сила)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.save.wis": {
-      "name": "Optional Save Bonus (Wisdom)",
+      "name": "Необязательный бонус к спасброску (Мудрость)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.skill.acr": {
-      "name": "Optional Skill Bonus (Acrobatics)",
+      "name": "Необязательный бонус к навыку (Акробатика)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.skill.all": {
-      "name": "Optional Skill Bonus (All)",
+      "name": "Необязательный бонус к навыку (все)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.skill.ani": {
-      "name": "Optional Skill Bonus (Animal Handling)",
+      "name": "Необязательный бонус к навыку (Уход за животными)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.skill.arc": {
-      "name": "Optional Skill Bonus (Arcana)",
+      "name": "Необязательный бонус к навыку (Магия)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.skill.ath": {
-      "name": "Optional Skill Bonus (Athletics)",
+      "name": "Необязательный бонус к навыку (Атлетика)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.skill.fail.all": {
-      "name": "Optional Skill Fail (All)",
+      "name": "Необязательный провал навыка (все)",
       "description": "Only prompts on fail."
     },
     "flags.midi-qol.optional.NAME.skill.his": {
-      "name": "Optional Skill Bonus (History)",
+      "name": "Необязательный бонус к навыку (История)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.skill.ins": {
-      "name": "Optional Skill Bonus (Insight)",
+      "name": "Необязательный бонус к навыку (Проницательность)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.skill.inv": {
-      "name": "Optional Skill Bonus (Investigation)",
+      "name": "Необязательный бонус к навыку (Анализ)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.skill.itm": {
-      "name": "Optional Skill Bonus (Intimidation)",
+      "name": "Необязательный бонус к навыку (Запугивание)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.skill.med": {
-      "name": "Optional Skill Bonus (Medicine)",
+      "name": "Необязательный бонус к навыку (Медицина)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.skill.nat": {
-      "name": "Optional Skill Bonus (Nature)",
+      "name": "Необязательный бонус к навыку (Природа)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.skill.per": {
-      "name": "Optional Skill Bonus (Persuasion)",
+      "name": "Необязательный бонус к навыку (Убеждение)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.skill.prc": {
-      "name": "Optional Skill Bonus (Perception)",
+      "name": "Необязательный бонус к навыку (Внимательность)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.skill.prf": {
-      "name": "Optional Skill Bonus (Performance)",
+      "name": "Необязательный бонус к навыку (Выступление)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.skill.rel": {
-      "name": "Optional Skill Bonus (Religion)",
+      "name": "Необязательный бонус к навыку (Религия)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.skill.slt": {
-      "name": "Optional Skill Bonus (Sleight of Hand)",
+      "name": "Необязательный бонус к навыку (Ловкость рук)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.skill.ste": {
-      "name": "Optional Skill Bonus (Stealth)",
+      "name": "Необязательный бонус к навыку (Скрытность)",
       "description": ""
     },
     "flags.midi-qol.optional.NAME.skill.sur": {
-      "name": "Optional Skill Bonus (Survival)",
+      "name": "Необязательный бонус к навыку (Выживание)",
       "description": ""
     },
     "flags.midi-qol.potentCantrip": {
-      "name": "Potent Cantrip",
+      "name": "Мощный заговор",
       "description": ""
     },
     "flags.midi-qol.range.all": {
-      "name": "Range (All)",
+      "name": "Дистанция (все)",
       "description": ""
     },
     "flags.midi-qol.range.heal": {
-      "name": "Range (Heal)",
+      "name": "Дистанция (лечение)",
       "description": ""
     },
     "flags.midi-qol.range.msak": {
-      "name": "Range (Melee Spell Attack)",
+      "name": "Дистанция (атака заклинанием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.range.mwak": {
-      "name": "Range (Melee Weapon Attack)",
+      "name": "Дистанция (атака оружием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.range.other": {
-      "name": "Range (Other)",
+      "name": "Дистанция (прочее)",
       "description": ""
     },
     "flags.midi-qol.range.rsak": {
-      "name": "Range (Ranged Spell Attack)",
+      "name": "Дистанция (дальнобойная атака заклинанием)",
       "description": ""
     },
     "flags.midi-qol.range.rwak": {
-      "name": "Range (Ranged Weapon Attack)",
+      "name": "Дистанция (дальнобойная атака оружием)",
       "description": ""
     },
     "flags.midi-qol.range.save": {
-      "name": "Range (Save)",
+      "name": "Дистанция (спасбросок)",
       "description": ""
     },
     "flags.midi-qol.range.util": {
-      "name": "Range (Utility)",
+      "name": "Дистанция (вспомогательное действие)",
       "description": ""
     },
     "flags.midi-qol.rangeOverride.attack.all": {
-      "name": "Range Override (All Attacks)",
+      "name": "Переопределение дистанции (все атаки)",
       "description": ""
     },
     "flags.midi-qol.rangeOverride.attack.heal": {
-      "name": "Range Override (Heal)",
+      "name": "Переопределение дистанции (лечение)",
       "description": ""
     },
     "flags.midi-qol.rangeOverride.attack.msak": {
-      "name": "Range Override (Melee Spell Attack)",
+      "name": "Переопределение дистанции (атака заклинанием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.rangeOverride.attack.mwak": {
-      "name": "Range Override (Melee Weapon Attack)",
+      "name": "Переопределение дистанции (атака оружием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.rangeOverride.attack.other": {
-      "name": "Range Override (Other)",
+      "name": "Переопределение дистанции (прочее)",
       "description": ""
     },
     "flags.midi-qol.rangeOverride.attack.rsak": {
-      "name": "Range Override (Ranged Spell Attack)",
+      "name": "Переопределение дистанции (дальнобойная атака заклинанием)",
       "description": ""
     },
     "flags.midi-qol.rangeOverride.attack.rwak": {
-      "name": "Range Override (Ranged Weapon Attack)",
+      "name": "Переопределение дистанции (дальнобойная атака оружием)",
       "description": ""
     },
     "flags.midi-qol.rangeOverride.attack.save": {
-      "name": "Range Override (Save)",
+      "name": "Переопределение дистанции (спасбросок)",
       "description": ""
     },
     "flags.midi-qol.rangeOverride.attack.util": {
-      "name": "Range Override (Utility)",
+      "name": "Переопределение дистанции (вспомогательное действие)",
       "description": ""
     },
     "flags.midi-qol.sculptSpells": {
-      "name": "Sculpt Spells",
+      "name": "Избирательные заклинания",
       "description": "Pre-selected targets of save spells automatically succeed and receive \"super-saver\" status."
     },
     "flags.midi-qol.semiSuperSaver.all": {
-      "name": "Semi Super Saver (All)",
+      "name": "Особый спасбросок без урона (все)",
       "description": "No damage on save."
     },
     "flags.midi-qol.semiSuperSaver.cha": {
-      "name": "Semi Super Saver (Charisma)",
+      "name": "Особый спасбросок без урона (Харизма)",
       "description": "No damage on save."
     },
     "flags.midi-qol.semiSuperSaver.con": {
-      "name": "Semi Super Saver (Constitution)",
+      "name": "Особый спасбросок без урона (Телосложение)",
       "description": "No damage on save."
     },
     "flags.midi-qol.semiSuperSaver.dex": {
-      "name": "Semi Super Saver (Dexterity)",
+      "name": "Особый спасбросок без урона (Ловкость)",
       "description": "No damage on save."
     },
     "flags.midi-qol.semiSuperSaver.int": {
-      "name": "Semi Super Saver (Intelligence)",
+      "name": "Особый спасбросок без урона (Интеллект)",
       "description": "No damage on save."
     },
     "flags.midi-qol.semiSuperSaver.str": {
-      "name": "Semi Super Saver (Strength)",
+      "name": "Особый спасбросок без урона (Сила)",
       "description": "No damage on save."
     },
     "flags.midi-qol.semiSuperSaver.wis": {
-      "name": "Semi Super Saver (Wisdom)",
+      "name": "Особый спасбросок без урона (Мудрость)",
       "description": "No damage on save."
     },
     "flags.midi-qol.sharpShooter": {
-      "name": "Sharp Shooter",
+      "name": "Меткий стрелок",
       "description": ""
     },
     "flags.midi-qol.success.attack.all": {
-      "name": "Success (All Attacks)",
+      "name": "Успех (все атаки)",
       "description": ""
     },
     "flags.midi-qol.success.attack.heal": {
-      "name": "Success (Heal)",
+      "name": "Успех (лечение)",
       "description": ""
     },
     "flags.midi-qol.success.attack.msak": {
-      "name": "Success (Melee Spell Attack)",
+      "name": "Успех (атака заклинанием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.success.attack.mwak": {
-      "name": "Success (Melee Weapon Attack)",
+      "name": "Успех (атака оружием в ближнем бою)",
       "description": ""
     },
     "flags.midi-qol.success.attack.other": {
-      "name": "Success (Other)",
+      "name": "Успех (прочее)",
       "description": ""
     },
     "flags.midi-qol.success.attack.rsak": {
-      "name": "Success (Ranged Spell Attack)",
+      "name": "Успех (дальнобойная атака заклинанием)",
       "description": ""
     },
     "flags.midi-qol.success.attack.rwak": {
-      "name": "Success (Ranged Weapon Attack)",
+      "name": "Успех (дальнобойная атака оружием)",
       "description": ""
     },
     "flags.midi-qol.success.attack.save": {
-      "name": "Success (Save)",
+      "name": "Успех (спасбросок)",
       "description": ""
     },
     "flags.midi-qol.success.attack.util": {
-      "name": "Success (Utility)",
+      "name": "Успех (вспомогательное действие)",
       "description": ""
     },
     "flags.midi-qol.superSaver.all": {
-      "name": "Super Saver (All)",
+      "name": "Усиленный спасбросок (все)",
       "description": "No damage on save, half damage on fail."
     },
     "flags.midi-qol.superSaver.cha": {
-      "name": "Super Saver (Charisma)",
+      "name": "Усиленный спасбросок (Харизма)",
       "description": "No damage on save, half damage on fail."
     },
     "flags.midi-qol.superSaver.con": {
-      "name": "Super Saver (Constitution)",
+      "name": "Усиленный спасбросок (Телосложение)",
       "description": "No damage on save, half damage on fail."
     },
     "flags.midi-qol.superSaver.dex": {
-      "name": "Super Saver (Dexterity)",
+      "name": "Усиленный спасбросок (Ловкость)",
       "description": "No damage on save, half damage on fail."
     },
     "flags.midi-qol.superSaver.int": {
-      "name": "Super Saver (Intelligence)",
+      "name": "Усиленный спасбросок (Интеллект)",
       "description": "No damage on save, half damage on fail."
     },
     "flags.midi-qol.superSaver.str": {
-      "name": "Super Saver (Strength)",
+      "name": "Усиленный спасбросок (Сила)",
       "description": "No damage on save, half damage on fail."
     },
     "flags.midi-qol.superSaver.wis": {
-      "name": "Super Saver (Wisdom)",
+      "name": "Усиленный спасбросок (Мудрость)",
       "description": "No damage on save, half damage on fail."
     },
     "flags.midi-qol.uncanny-dodge": {
-      "name": "Uncanny Dodge",
+      "name": "Невероятное уклонение",
       "description": ""
     }
   }
