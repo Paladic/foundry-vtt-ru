@@ -233,5 +233,19 @@
     },
     "deleteEffectTitle": "Удалить эффект",
     "deleteEffectContent": "Вы уверены, что хотите удалить эффект?"
-  }
+  },
+  "combat-tracker-dock.combat-dock.title": "Карусель боя",
+  "combat-tracker-dock.combat-dock.close": "Закрыть",
+  "combat-tracker-dock.contextMenu.setAsCurrent": "Сделать текущим участником боя",
+  "combat-tracker-dock.settings.floatingSize.name": "Размер плавающего окна",
+  "combat-tracker-dock.settings.floatingSize.hint": "Размер плавающего окна. Чем больше значение, тем больше окно. Не влияет на режим «Горизонтально (закреплено)».",
+  "combat-tracker-dock.settings.lessButtons.name": "Меньше кнопок",
+  "combat-tracker-dock.settings.lessButtons.hint": "Скрыть дополнительные кнопки управления боем: сброс инициативы, настройки, предыдущий и следующий раунд.",
+  "combat-tracker-dock.settings.direction.choices.rowDocked": "Горизонтально (закреплено)",
+  "combat-tracker-dock.settings.direction.choices.rowFloat": "Горизонтально (плавающее окно)",
+  "combat-tracker-dock.settings.direction.choices.columnFloat": "Вертикально (плавающее окно)",
+  "combat-tracker-dock.settings.portraitThumbnails.name": "Оптимизировать изображения портретов",
+  "combat-tracker-dock.settings.portraitThumbnails.hint": "Создавать уменьшенные копии портретов подходящего для карусели размера. Значительно ускоряет работу с изображениями высокого разрешения. Отключите, чтобы всегда использовать оригиналы.",
+  "combat-tracker-dock.settings.hideConflictingUIs.name": "Скрывать конфликтующие панели",
+  "combat-tracker-dock.settings.hideConflictingUIs.hint": "Автоматически скрывать другие панели, закреплённые сверху экрана, когда видна боевая карусель, чтобы не загромождать интерфейс."
 }
