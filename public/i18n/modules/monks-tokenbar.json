@@ -113,7 +113,7 @@
   "MonksTokenBar.loot-entity.hint": "Куда должна складываться добыча при указании сущности",
   "MonksTokenBar.loot-folder.name": "Папка добычи",
   "MonksTokenBar.loot-folder.hint": "Если сущность добычи будет создана, в какую папку её разместить",
-  "MonksTokenBar.popout-tokenbar.name": "PopOut! Tokenbar",
+  "MonksTokenBar.popout-tokenbar.name": "Открывать панель токенов в отдельном окне",
   "MonksTokenBar.popout-tokenbar.hint": "Выводить Tokenbar в отдельном окне для использования с модулем PopOut!",
   "MonksTokenBar.delete-after-grab.name": "Удалять после получения",
   "MonksTokenBar.delete-after-grab.hint": "Удалять сообщение после получения результата проверка от игрока",
