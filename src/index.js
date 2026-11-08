@@ -1,3 +1,4 @@
+import { localizeJb2aSettings } from "./compatibility/jb2a.js";
 import { localizePsfxSettings } from "./compatibility/psfx.js";
 import { applySceneLabelFont, registerFonts } from "./fonts.js";
 import { initSystem, registerSystemBabele } from "./systems.js";
@@ -33,3 +34,6 @@ Hooks.once("init", () => {
 
 // PSFX does not provide localization keys for its module settings.
 Hooks.once("ready", localizePsfxSettings);
+
+// JB2A Free Content also uses literal English strings for its settings.
+Hooks.once("ready", localizeJb2aSettings);
