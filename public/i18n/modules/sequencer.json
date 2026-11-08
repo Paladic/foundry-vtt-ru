@@ -82,7 +82,12 @@
       "PlayersEffect": "Эффект {user_name}",
       "UnknownEffect": "Эффект без владельца",
       "EndAllEffects": "Завершить все эффекты",
-      "EndAllSounds": "Завершить все звуки"
+      "EndAllSounds": "Завершить все звуки",
+      "PersistentSounds": "Постоянные звуки:",
+      "TemporarySounds": "Временные звуки:",
+      "PersistentMotions": "Постоянные перемещения:",
+      "TemporaryMotions": "Временные перемещения:",
+      "EndAllMotions": "Завершить все перемещения"
     },
     "Sequences": {
       "Title": "Анимации",
