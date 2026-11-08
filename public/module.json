@@ -1141,6 +1141,11 @@
       "module": "local-media-optimizer",
       "path": "i18n/modules/local-media-optimizer.json",
       "lang": "ru"
+    },
+    {
+      "module": "batch-media-optimizer",
+      "path": "i18n/modules/batch-media-optimizer.json",
+      "lang": "ru"
     }
   ],
   "media": [
