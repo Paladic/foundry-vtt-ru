@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "bun scripts/build.js",
+    "check:translations": "bun scripts/check-translations.js",
     "format": "bun fmt",
     "lint": "bun lint",
     "fix": "bun fmt && bun lint --fix",
