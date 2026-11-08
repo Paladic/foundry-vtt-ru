@@ -2039,7 +2039,7 @@
       "description": ""
     },
     "system.details.age": {
-      "name": "Age",
+      "name": "Возраст",
       "description": ""
     },
     "system.details.alignment": {
@@ -2067,7 +2067,7 @@
       "description": ""
     },
     "system.details.eyes": {
-      "name": "Eyes",
+      "name": "Глаза",
       "description": ""
     },
     "system.details.faith": {
@@ -2083,7 +2083,7 @@
       "description": ""
     },
     "system.details.hair": {
-      "name": "Hair",
+      "name": "Волосы",
       "description": ""
     },
     "system.details.height": {
@@ -2107,7 +2107,7 @@
       "description": ""
     },
     "system.details.skin": {
-      "name": "Skin",
+      "name": "Кожа",
       "description": ""
     },
     "system.details.trait": {

@@ -205,7 +205,7 @@
   "MonksTokenBar.BlindGMRoll": "Приватная проверка, результат скрыт",
   "MonksTokenBar.SelfRoll": "Проверка только для GM",
   "MonksTokenBar.DeleteItem": "Удалить",
-  "MonksTokenBar.Vs": "vs",
+  "MonksTokenBar.Vs": "против",
   "MonksTokenBar.Request": "Запрос",
   "MonksTokenBar.RequestWithRoll": "Запрос проверки",
   "MonksTokenBar.Roll": "Бросок",
