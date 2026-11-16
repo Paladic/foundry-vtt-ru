@@ -1146,6 +1146,11 @@
       "module": "batch-media-optimizer",
       "path": "i18n/modules/batch-media-optimizer.json",
       "lang": "ru"
+    },
+    {
+      "module": "obs-utils",
+      "path": "i18n/modules/obs-utils.json",
+      "lang": "ru"
     }
   ],
   "media": [
